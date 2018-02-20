@@ -1,16 +1,17 @@
-CREATE TABLE User
-(
-  username CHAR(15) NOT NULL,
+DROP TABLE IF EXISTS image;
+DROP TABLE IF EXISTS video;
+DROP TABLE IF EXISTS account;
+
+CREATE TABLE account (
+  username CHAR(15) NOT NULL PRIMARY KEY,
   password CHAR(60) NOT NULL,
   first_name VARCHAR(20) NOT NULL,
   last_name VARCHAR(20) NOT NULL,
   last_login_date TIMESTAMP NOT NULL,
-  last_login_ip CHAR(15) NOT NULL,
-  PRIMARY KEY (username)
+  last_login_ip CHAR(15) NOT NULL
 );
 
-CREATE TABLE Video
-(
+CREATE TABLE video (
   num_frames INT NOT NULL,
   fps FLOAT NOT NULL,
   video_id INT NOT NULL,
@@ -18,10 +19,10 @@ CREATE TABLE Video
   height INT NOT NULL,
   username CHAR(15) NOT NULL,
   PRIMARY KEY (video_id),
-  FOREIGN KEY (username) REFERENCES User(username)
+  FOREIGN KEY (username) REFERENCES account(username)
 );
 
-CREATE TABLE Image
+CREATE TABLE image
 (
   frame_num INT NOT NULL,
   yaw FLOAT NOT NULL,
@@ -33,5 +34,5 @@ CREATE TABLE Image
   ft_left_pupil POINT NOT NULL,
   ft_right_pupil POINT NOT NULL,
   video_id INT NOT NULL,
-  FOREIGN KEY (video_id) REFERENCES Video(video_id)
+  FOREIGN KEY (video_id) REFERENCES video(video_id)
 );
