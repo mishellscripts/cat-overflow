@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS account;
 CREATE TABLE account
 (
   user_id INT PRIMARY KEY,
-  username CHAR(15),
+  username CHAR(15) UNIQUE,
   password CHAR(60) NOT NULL,
   first_name VARCHAR(50),
   last_name VARCHAR(50),
