@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS account;
 CREATE TABLE account
 (
   user_id INT PRIMARY KEY,
-  username CHAR(15) UNIQUE,
+  username CHAR(15) UNIQUE NOT NULL,
   password CHAR(60) NOT NULL,
   first_name VARCHAR(50),
   last_name VARCHAR(50),
@@ -18,7 +18,7 @@ CREATE TABLE account
 CREATE TABLE origin_video
 (
   video_id INT PRIMARY KEY,
-  user_id INT,
+  user_id INT NOT NULL,
   origin_video_path VARCHAR(255) NOT NULL,
   num_frames INT NOT NULL,
   fps FLOAT NOT NULL,
@@ -36,7 +36,7 @@ CREATE TABLE processed_video
 
 CREATE TABLE image
 (
-  video_id INT,
+  video_id INT NOT NULL,
   frame_num INT NOT NULL,
   image_path VARCHAR(255) NOT NULL,
   yaw FLOAT NOT NULL,
