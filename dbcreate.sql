@@ -5,20 +5,22 @@ DROP TABLE IF EXISTS account;
 
 CREATE TABLE account
 (
-  user_id INT PRIMARY KEY,
-  username CHAR(15),
-  password CHAR(60) NOT NULL,
+  user_id SERIAL PRIMARY KEY,
+  username CHAR(15) UNIQUE NOT NULL,
   first_name VARCHAR(50),
   last_name VARCHAR(50),
+  email VARCHAR(50) UNIQUE NOT NULL,
+  password CHAR(60) NOT NULL,
   last_login_date TIMESTAMP NOT NULL,
   last_login_ip CHAR(15) NOT NULL,
-  email VARCHAR(50) NOT NULL
+  api_token CHAR(60) UNIQUE,
+  remember_token CHAR(100) UNIQUE
 );
 
 CREATE TABLE origin_video
 (
-  video_id INT PRIMARY KEY,
-  user_id INT,
+  video_id SERIAL PRIMARY KEY,
+  user_id INT NOT NULL,
   origin_video_path VARCHAR(255) NOT NULL,
   num_frames INT NOT NULL,
   fps FLOAT NOT NULL,
@@ -29,14 +31,14 @@ CREATE TABLE origin_video
 
 CREATE TABLE processed_video
 (
-  video_id INT,
+  video_id SERIAL,
   processed_video_path VARCHAR(255) NOT NULL,
   FOREIGN KEY(video_id) REFERENCES origin_video(video_id)
 );
 
 CREATE TABLE image
 (
-  video_id INT,
+  video_id SERIAL NOT NULL,
   frame_num INT NOT NULL,
   image_path VARCHAR(255) NOT NULL,
   yaw FLOAT NOT NULL,
@@ -50,3 +52,5 @@ CREATE TABLE image
   PRIMARY KEY (video_id, frame_num),
   FOREIGN KEY(video_id) REFERENCES origin_video(video_id) ON DELETE CASCADE
 );
+
+SELECT * FROM account;
