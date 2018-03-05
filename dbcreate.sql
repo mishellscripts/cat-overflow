@@ -52,5 +52,3 @@ CREATE TABLE image
   PRIMARY KEY (video_id, frame_num),
   FOREIGN KEY(video_id) REFERENCES origin_video(video_id) ON DELETE CASCADE
 );
-
-SELECT * FROM account;
