@@ -15,17 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'username', 'first_name', 'last_name', 'email', 'password', 'last_login_date', 'last_login_ip', 'api_token',
-    ];
-
-    /**
-     * The attributes that cannot be mass assignable.
-     * 
-     * @var array
-     */
-
-    protected $guarded = [
-        'user_id',
+        'name', 'email', 'password', 'api_token',
     ];
 
     /**
@@ -36,13 +26,4 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token', 'api_token',
     ];
-
-    // Change default authentication users table name.
-    protected $table = 'account';
-
-    // Disable default creation of updated_at and created_at fields.
-    public $timestamps = false;
-
-    // Change default primary key name.
-    protected $primaryKey = 'user_id';
 }
