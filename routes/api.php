@@ -18,3 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 // Route::post('upload', 'NoteController@store');
+
+Route::get('originalVideos', 'OriginalVideoController@index');
+
+Route::post('uploadVideo', 'OriginalVideoController@store');
