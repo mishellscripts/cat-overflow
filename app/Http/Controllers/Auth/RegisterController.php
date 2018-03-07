@@ -63,6 +63,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        //TODO: check api_token
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
