@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\OriginalVideo;
+use App\User;
+use App\Http\Resources\OriginalVideo as OriginalVideoResource;
+use Illuminate\Support\Facades\Log;
 
 class OriginalVideoController extends Controller
 {
@@ -13,7 +17,8 @@ class OriginalVideoController extends Controller
      */
     public function index()
     {
-        //
+        $video = OriginalVideo::paginate(15);
+        return OriginalVideoResource::collection($video);
     }
 
     /**
@@ -34,7 +39,20 @@ class OriginalVideoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // $file = $request->file;
+        // Log::info($file);
+        // Log::info(filesize($file));
+        $token = $request->token;
+        $user = User::where('api_token', $token)->firstOrFail();
+        $video = new OriginalVideo;
+        $video->num_frames = 24;
+        $video->fps = 25;
+        $video->width = 300;
+        $video->height = 400;
+        $video->user_id = $user->id;
+        if ($video->save()) {
+            return new OriginalVideoResource($video);
+        }
     }
 
     /**
@@ -79,6 +97,11 @@ class OriginalVideoController extends Controller
      */
     public function destroy($id)
     {
-        //
+        // Get note
+        $video = OriginalVideo::findOrFail($id);
+
+        if ($video->delete()) {
+          return new OriginalVideoResource($video);
+        }
     }
 }
