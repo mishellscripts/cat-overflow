@@ -68,6 +68,7 @@ class RegisterController extends Controller
     {
         Session::flash('success', 'Registration Successful!');
 
+        //TODO: check api_token
         return User::create([
             'username'        => $data['username'],
             'first_name'      => $data['first_name'],
