@@ -51,7 +51,7 @@ class OriginalVideoController extends Controller
         $video->height = 400;
         $video->user_id = $user->id;
         if ($video->save()) {
-            $path = $request->file('file')->storeAs('original_videos', $video->id.'.mp4');
+            $path = $request->file('file')->storeAs('public/original_videos', $video->id.'.mp4');
             Log::info($path);
             return new OriginalVideoResource($video);
         } else {
@@ -63,12 +63,13 @@ class OriginalVideoController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int
      * @return \Illuminate\Http\Response
      */
     public function show($id)
     {
-        //
+        $video = OriginalVideo::findOrFail($id);
+        return view('video.single', compact('video'));
     }
 
     /**

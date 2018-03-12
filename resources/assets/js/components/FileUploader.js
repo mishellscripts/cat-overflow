@@ -53,6 +53,18 @@ export default class FileUploader extends Component {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-8">
+                        <div
+                          className="alert alert-success mt-2"
+                          hidden={this.state.status !== 1}
+                        >
+                          <strong>Success!</strong> Video uploaded
+                        </div>
+                        <div
+                          className="alert alert-danger mt-2"
+                          hidden={this.state.status !== 2}
+                        >
+                          <strong>Error!</strong> {this.state.error}
+                        </div>
                         <div className="card">
                             <div className="card-header">Upload Your Video</div>
 
@@ -73,18 +85,6 @@ export default class FileUploader extends Component {
                                   </button>
                                 </form>
                             </div>
-                        </div>
-                        <div
-                          className="alert alert-success mt-2"
-                          hidden={this.state.status !== 1}
-                        >
-                          <strong>Success!</strong> Video uploaded
-                        </div>
-                        <div
-                          className="alert alert-danger mt-2"
-                          hidden={this.state.status !== 2}
-                        >
-                          <strong>Error!</strong> {this.state.error}
                         </div>
                     </div>
                 </div>

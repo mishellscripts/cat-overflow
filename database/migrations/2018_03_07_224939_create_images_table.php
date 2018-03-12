@@ -16,7 +16,7 @@ class CreateImagesTable extends Migration
         Schema::create('images', function (Blueprint $table) {
             $table->timestamps();
             $table->integer('frame_num');
-            $table->string('image_path');
+            $table->string('file_path');
             $table->float('yaw');
             $table->float('pitch');
             $table->float('roll');
