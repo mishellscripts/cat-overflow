@@ -36184,148 +36184,127 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 var FileUploader = function (_Component) {
-  _inherits(FileUploader, _Component);
+    _inherits(FileUploader, _Component);
 
-  function FileUploader(props) {
-    _classCallCheck(this, FileUploader);
+    function FileUploader(props) {
+        _classCallCheck(this, FileUploader);
 
-    var _this = _possibleConstructorReturn(this, (FileUploader.__proto__ || Object.getPrototypeOf(FileUploader)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (FileUploader.__proto__ || Object.getPrototypeOf(FileUploader)).call(this, props));
 
-    _this.state = {
-      video: null,
-      status: 0, // 1 is success, 2 is fail
-      error: ''
-    };
-    _this.handleSubmit = _this.handleSubmit.bind(_this);
-    _this.fileUpload = _this.fileUpload.bind(_this);
-    _this.fileChange = _this.fileChange.bind(_this);
-    return _this;
-  }
-
-  _createClass(FileUploader, [{
-    key: 'handleSubmit',
-    value: function handleSubmit(e) {
-      var _this2 = this;
-
-      e.preventDefault();
-      console.log(this.state.video);
-      this.fileUpload(this.state.video).then(function (response) {
-        console.log(response.data);
-        _this2.setState({ status: 1 });
-      }).catch(function (error) {
-        console.log(error);
-        _this2.setState({ status: 2, error: error });
-      });
+        _this.state = {
+            video: null,
+            status: 0, // 1 is success, 2 is fail
+            error: ''
+        };
+        _this.handleSubmit = _this.handleSubmit.bind(_this);
+        _this.fileUpload = _this.fileUpload.bind(_this);
+        _this.fileChange = _this.fileChange.bind(_this);
+        return _this;
     }
-  }, {
-    key: 'fileUpload',
-    value: function fileUpload(file) {
-      var url = 'http://localhost:8000/api/uploadVideo';
-      var formData = new FormData();
-      formData.append('file', file);
-      formData.append('token', this.props.token);
-      var config = {
-        headers: {
-          'content-type': 'multipart/form-data'
+
+    _createClass(FileUploader, [{
+        key: 'handleSubmit',
+        value: function handleSubmit(e) {
+            var _this2 = this;
+
+            e.preventDefault();
+            console.log(this.state.video);
+            this.fileUpload(this.state.video).then(function (response) {
+                console.log(response.data);
+                _this2.setState({ status: 1 });
+            }).catch(function (error) {
+                console.log(error);
+                _this2.setState({ status: 2, error: error });
+            });
         }
-      };
-      return Object(__WEBPACK_IMPORTED_MODULE_2_axios__["post"])(url, formData, config);
-    }
-  }, {
-    key: 'fileChange',
-    value: function fileChange(e) {
-      //console.log(e.target.files[0]);
-      this.setState({
-        video: e.target.files[0]
-      });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { className: 'container' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'row justify-content-center' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'col-md-8' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'card' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    }, {
+        key: 'fileUpload',
+        value: function fileUpload(file) {
+            var url = 'http://localhost:8000/api/uploadVideo';
+            var formData = new FormData();
+            formData.append('file', file);
+            formData.append('token', this.props.token);
+            var config = {
+                headers: {
+                    'content-type': 'multipart/form-data'
+                }
+            };
+            return Object(__WEBPACK_IMPORTED_MODULE_2_axios__["post"])(url, formData, config);
+        }
+    }, {
+        key: 'fileChange',
+        value: function fileChange(e) {
+            //console.log(e.target.files[0]);
+            this.setState({
+                video: e.target.files[0]
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'card-header' },
-                'Upload Your Video'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'card-body' },
+                { className: 'container' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'form',
-                  { onSubmit: this.handleSubmit },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
-                    name: 'video',
-                    type: 'file',
-                    accept: '.mp4',
-                    onChange: this.fileChange,
-                    required: true
-                  }),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'button',
+                    'div',
                     {
-                      type: 'submit',
-                      value: 'Submit',
-                      className: 'btn btn-primary' },
-                    'submit'
-                  )
+                        className: 'alert alert-success mt-2',
+                        hidden: this.state.status !== 1
+                    },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'strong',
+                        null,
+                        'Success!'
+                    ),
+                    ' Video uploaded'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    {
+                        className: 'alert alert-danger mt-2',
+                        hidden: this.state.status !== 2
+                    },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'strong',
+                        null,
+                        'Error!'
+                    ),
+                    ' ',
+                    this.state.error
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'form',
+                    { onSubmit: this.handleSubmit },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
+                        name: 'video',
+                        type: 'file',
+                        accept: '.mp4',
+                        onChange: this.fileChange,
+                        required: true
+                    }),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'button',
+                        {
+                            type: 'submit',
+                            value: 'Submit',
+                            className: 'btn btn-primary' },
+                        'submit'
+                    )
                 )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              {
-                className: 'alert alert-success mt-2',
-                hidden: this.state.status !== 1
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'strong',
-                null,
-                'Success!'
-              ),
-              ' Video uploaded'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              {
-                className: 'alert alert-danger mt-2',
-                hidden: this.state.status !== 2
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'strong',
-                null,
-                'Error!'
-              ),
-              ' ',
-              this.state.error
-            )
-          )
-        )
-      );
-    }
-  }]);
+            );
+        }
+    }]);
 
-  return FileUploader;
+    return FileUploader;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (FileUploader);
 
 
 if (document.getElementById('FileUploader')) {
-  var element = document.getElementById('FileUploader');
-  var props = Object.assign({}, element.dataset);
-  __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(FileUploader, props), element);
+    var element = document.getElementById('FileUploader');
+    var props = Object.assign({}, element.dataset);
+    __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(FileUploader, props), element);
 }
 
 /***/ }),

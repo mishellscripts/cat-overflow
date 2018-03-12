@@ -51,43 +51,33 @@ export default class FileUploader extends Component {
     render() {
         return (
             <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-md-8">
-                        <div
-                          className="alert alert-success mt-2"
-                          hidden={this.state.status !== 1}
-                        >
-                          <strong>Success!</strong> Video uploaded
-                        </div>
-                        <div
-                          className="alert alert-danger mt-2"
-                          hidden={this.state.status !== 2}
-                        >
-                          <strong>Error!</strong> {this.state.error}
-                        </div>
-                        <div className="card">
-                            <div className="card-header">Upload Your Video</div>
-
-                            <div className="card-body">
-                                <form onSubmit={this.handleSubmit}>
-                                  <input
-                                    name="video"
-                                    type="file"
-                                    accept=".mp4"
-                                    onChange={this.fileChange}
-                                    required
-                                  />
-                                  <button
-                                    type="submit"
-                                    value="Submit"
-                                    className="btn btn-primary">
-                                    submit
-                                  </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                <div
+                  className="alert alert-success mt-2"
+                  hidden={this.state.status !== 1}
+                >
+                    <strong>Success!</strong> Video uploaded
                 </div>
+                <div
+                  className="alert alert-danger mt-2"
+                  hidden={this.state.status !== 2}
+                >
+                    <strong>Error!</strong> {this.state.error}
+                </div>
+                <form onSubmit={this.handleSubmit}>
+                    <input
+                      name="video"
+                      type="file"
+                      accept=".mp4"
+                      onChange={this.fileChange}
+                      required
+                    />
+                    <button
+                      type="submit"
+                      value="Submit"
+                      className="btn btn-primary">
+                      submit
+                    </button>
+                </form>
             </div>
         );
     }

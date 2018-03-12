@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\OriginalVideo;
+use App\Http\Resources\OriginalVideo as OriginalVideoResource;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 
@@ -25,7 +27,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //Log::info(Auth::user()->api_token);
-        return view('home')->with('token', Auth::user()->api_token);
+        $videos = OriginalVideo::where('user_id', Auth::user()->id)->get();
+
+        return view('home', [
+            'token' => Auth::user()->api_token,
+            'videos' => OriginalVideoResource::collection($videos),
+        ]);
     }
 }
