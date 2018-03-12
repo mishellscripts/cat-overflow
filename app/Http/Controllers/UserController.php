@@ -6,6 +6,7 @@ use Auth;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 
 class UserController extends Controller
@@ -45,7 +46,7 @@ class UserController extends Controller
         $user = User::find($id);
 
         // Load view and pass the user
-        return view('users.edit', compact('user'));
+        return view('edit', compact('user'));
     }
 
     /**
@@ -59,9 +60,8 @@ class UserController extends Controller
         return Validator::make($input, [
             'first_name'       => 'string|max:255',
             'last_name'        => 'string|max:255',
-            'email'            => 'string|email|max:255|unique:users',
-            'new_password'     => 'string|string|min:6|confirmed',
-            //'current_password' => 'required|string',
+            'email'            => 'string|email|max:255',
+            'password'         => 'nullable|string|min:6|confirmed',
         ]);
     }
 
@@ -74,16 +74,24 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $input = $request->except(['password_confirmation']);
-        $this->validator($request->all())->validate();
+        $input = $request->except(['password_confirmation', '_token', '_method']);
+        $validator = $this->validator($request->all());
 
         $user = User::find($id);
-        foreach ($input as $key => $value) {
-            $user->$key = $value;
-        }
-        $user->save();
 
-        return response()->json($user);
+        if (!$validator->fails()) {
+            foreach ($input as $key => $value) {
+                // Change filled out inputs that are different values from before
+                if ($value && $user->key != $value) {
+                    $user->$key = $value;
+                }
+            }
+            $user->save();
+            Session::flash('success', 'Settings changed successfully!');
+        }
+
+        // Load view and pass the user
+        return view('edit', compact('user'));
     }
 
     /**
