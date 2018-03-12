@@ -3,3 +3,4 @@
 2. Run composer update
 3. Run npm install
 4. To start the server: php artisan serve
+5. run php artisan storage:link

@@ -20,4 +20,6 @@ Route::get('user/{id}/edit', 'UserController@edit');
 
 Auth::routes();
 
+Route::get('/originalVideos/{id}', 'OriginalVideoController@show');
+
 Route::get('/home', 'HomeController@index')->name('home');

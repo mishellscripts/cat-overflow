@@ -26,5 +26,3 @@ Route::delete('user/{id}', 'UserController@destroy');
 Route::get('originalVideos', 'OriginalVideoController@index');
 
 Route::post('uploadVideo', 'OriginalVideoController@store');
-
-Route::get('originalVideos/{id}', 'OriginalVideoController@show');
