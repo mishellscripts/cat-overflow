@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rule;
 
 class UserController extends Controller
 {
@@ -48,13 +49,18 @@ class UserController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
-    protected function validator(array $input)
+    protected function validator(array $input, $id)
     {
         return Validator::make($input, [
-            'first_name'       => 'string|max:255',
-            'last_name'        => 'string|max:255',
-            'email'            => 'string|email|max:255',
-            'password'         => 'nullable|string|min:6|confirmed',
+            'first_name' => 'string|max:50',
+            'last_name' => 'string|max:50',
+            'email' => [
+                'string',
+                'email',
+                'max:100',
+                Rule::unique('users')->ignore($id),
+            ],
+            'password' => 'nullable|string|min:6|confirmed',
         ]);
     }
 
@@ -68,28 +74,19 @@ class UserController extends Controller
     public function update(Request $request, $id)
     {
         $input = $request->except(['password_confirmation', '_token', '_method']);
-        $validator = $this->validator($request->all());
-
+        $this->validator($request->all(), $id)->validate();
         $user = User::find($id);
 
-        if (!$validator->fails()) {
-            foreach ($input as $key => $value) {
-                // Change filled out inputs that are different values from before
-                if ($value && $user->key != $value) {
-                    $user->$key = $key=='password' ? Hash::make($value) : $value;
-                }
+        foreach ($input as $key => $value) {
+            // Change filled out inputs that are different values from before
+            if ($value && $user->key != $value) {
+                $user->$key = $key=='password' ? Hash::make($value) : $value;
             }
-            $user->save();
-            Session::flash('success', 'Settings changed successfully!');
-        } else {
-            Session::flash('error', 'Please check your input and try again');
         }
+        $user->save();
+        Session::flash('success', 'Settings changed successfully!');
 
-        // Load view and pass the user
-        //return view('edit', compact('user'));
-        // $request->session()->reflash();        
-        // return redirect()->back();
-        return redirect()->route('settings', $user->id);
+        return redirect()->back();
     }
 
     /**
