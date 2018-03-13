@@ -83,15 +83,21 @@ class UserController extends Controller
             foreach ($input as $key => $value) {
                 // Change filled out inputs that are different values from before
                 if ($value && $user->key != $value) {
-                    $user->$key = $value;
+                    $user->$key = $key=='password' ? Hash::make($value) : $value;
                 }
             }
             $user->save();
             Session::flash('success', 'Settings changed successfully!');
+        } else {
+            Session::flash('error', 'Please check your input and try again');
         }
 
         // Load view and pass the user
-        return view('edit', compact('user'));
+        //return view('edit', compact('user'));
+        //return redirect()->back();
+        //Session::save();
+        //return redirect()->route('settings', $user->id);
+
     }
 
     /**
@@ -102,11 +108,9 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        $user = User::find($id);
+        $user = User::findOrFail($id);
         
-        if ($user) {
-            $user->delete();
-        }
+        $user->delete();
 
         return response()->json(User::all());
     }

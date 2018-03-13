@@ -11,12 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'UserController@index');
 
-Route::get('user/{id}/edit', 'UserController@edit');
-
+Route::get('user/{id}/edit', 'UserController@edit')->name('settings');
 
 Auth::routes();
 
