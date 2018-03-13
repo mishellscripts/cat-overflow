@@ -97,7 +97,6 @@ class UserController extends Controller
         //return redirect()->back();
         //Session::save();
         //return redirect()->route('settings', $user->id);
-
     }
 
     /**

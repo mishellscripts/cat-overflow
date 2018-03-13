@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'UserController@index');
+Route::get('/', 'HomeController@index');
 
 Route::get('user/{id}/edit', 'UserController@edit')->name('settings');
 
