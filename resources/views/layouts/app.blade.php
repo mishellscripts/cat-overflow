@@ -43,7 +43,7 @@
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ url('user/' . Auth::user()->id . '/edit') }}">
+                                    <a class="dropdown-item" href="{{ url('settings') }}">
                                         Settings
                                     </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"

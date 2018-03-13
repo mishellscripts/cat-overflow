@@ -21,18 +21,11 @@ class UserController extends Controller
     |
     */
 
-    
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
+    public function index() 
     {
-        $user = User::find($id);
+        $user = Auth::user();
 
-        return response()->json($user);
+        return view('edit', compact('user'));
     }
 
     /**
@@ -94,9 +87,9 @@ class UserController extends Controller
 
         // Load view and pass the user
         //return view('edit', compact('user'));
-        //return redirect()->back();
-        //Session::save();
-        //return redirect()->route('settings', $user->id);
+        // $request->session()->reflash();        
+        // return redirect()->back();
+        return redirect()->route('settings', $user->id);
     }
 
     /**

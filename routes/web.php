@@ -13,7 +13,9 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('user/{id}/edit', 'UserController@edit')->name('settings');
+//Route::get('user/{id}/edit', 'UserController@edit')->name('settings');
+
+Route::get('/settings', 'UserController@index')->name('settings');
 
 Auth::routes();
 
