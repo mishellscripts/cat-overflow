@@ -24,11 +24,11 @@ class CreateImagesTable extends Migration
             $table->integer('video_id')->unsigned();
             $table->foreign('video_id')->references('id')->on('original_videos');
         });
-        DB::statement('ALTER TABLE `images` ADD `of_left_pupil` POINT' );
-        DB::statement('ALTER TABLE `images` ADD `of_right_pupil` POINT' );        
-        DB::statement('ALTER TABLE `images` ADD `ft_left_pupil` POINT' );
-        DB::statement('ALTER TABLE `images` ADD `ft_right_pupil` POINT' );
-        DB::statement('ALTER TABLE `images` ADD PRIMARY KEY (  `video_id` ,  `frame_num` )');        
+        DB::statement('ALTER TABLE images ADD of_left_pupil POINT' );
+        DB::statement('ALTER TABLE images ADD of_right_pupil POINT' );        
+        DB::statement('ALTER TABLE images ADD ft_left_pupil POINT' );
+        DB::statement('ALTER TABLE images ADD ft_right_pupil POINT' );
+        DB::statement('ALTER TABLE images ADD PRIMARY KEY (  video_id ,  frame_num )');        
     }
 
     /**
