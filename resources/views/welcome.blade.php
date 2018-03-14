@@ -2,22 +2,13 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Welcome</div>
-
-                <div class="card-body">
-                    Hello! This is the welcome page. We can put the description
-                    of our app here.
-                    <div>
-                      <a href="/home" class="btn btn-primary" role="button">
-                        Try Now
-                      </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <a href="/home" class="btn btn-primary" role="button">
+            Try Now
+        </a>
     </div>
 </div>
 @endsection
