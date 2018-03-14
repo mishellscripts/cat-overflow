@@ -7,6 +7,7 @@ use App\OriginalVideo;
 use App\User;
 use App\Http\Resources\OriginalVideo as OriginalVideoResource;
 use Illuminate\Support\Facades\Log;
+use FFMpeg;
 
 class OriginalVideoController extends Controller
 {
@@ -39,25 +40,39 @@ class OriginalVideoController extends Controller
      */
     public function store(Request $request)
     {
-        // $file = $request->file;
-        // Log::info($file);
-        // Log::info(filesize($file));
         $token = $request->token;
         $user = User::where('api_token', $token)->firstOrFail();
+
+        $ffprobe = \FFMpeg\FFProbe::create([
+            'ffmpeg.binaries'  => '/usr/local/bin/ffmpeg',
+            'ffprobe.binaries' => '/usr/local/bin/ffprobe',
+        ]);
+        $info = $ffprobe
+            ->streams($request->file)
+            ->videos()
+            ->first();
+        //Log::info(var_export($info, true)); // show all info
+
+        $frame_rate = $info->get('r_frame_rate');
+        // need to eval frame rate ('30000/1001') to get float
+        $fps = eval("return $frame_rate;");
+
         $video = new OriginalVideo;
-        $video->num_frames = 24;
-        $video->fps = 25;
-        $video->width = 300;
-        $video->height = 400;
+        $video->fps = $fps;
+        $video->num_frames = $info->get('nb_frames');
+        $video->width = $info->get('width');
+        $video->height = $info->get('height');
         $video->user_id = $user->id;
+
         if ($video->save()) {
-            $path = $request->file('file')->storeAs('public/original_videos', $video->id.'.mp4');
-            Log::info($path);
+            $path = $request
+                ->file('file')
+                ->storeAs('public/original_videos', $video->id.'.mp4');
             return new OriginalVideoResource($video);
         } else {
-          Log::warning('failed to save video');
+            Log::warning('failed to save video');
         }
-
+        return response('Failed to store video');
     }
 
     /**
