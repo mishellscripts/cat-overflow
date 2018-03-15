@@ -19,6 +19,7 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ url('/') }}">
+                    <img class='mr-2' src="{{ asset('icons/logo.svg') }}" width="40" height="40" alt="">
                     {{ config('app.name', 'StackUnderflow') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
