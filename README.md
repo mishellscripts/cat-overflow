@@ -7,3 +7,4 @@
 6. Install ffmpeg:
       for Mac: brew install ffmpeg
       for Windows: check  https://github.com/PHP-FFMpeg/PHP-FFMpeg
+      https://github.com/PHP-FFMpeg/PHP-FFMpeg/issues/45

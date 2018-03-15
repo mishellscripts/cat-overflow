@@ -42,10 +42,15 @@ class OriginalVideoController extends Controller
     {
         $token = $request->token;
         $user = User::where('api_token', $token)->firstOrFail();
-
+        $ffmpeg_path = '/usr/local/bin/ffmpeg';
+        $ffmprope_path = '/usr/local/bin/ffprobe';
+        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+          $ffmpeg_path = 'C:/FFMpeg/bin/ffmpeg.exe';
+          $ffmprope_path = 'C:/FFMpeg/bin/ffprobe.exe';
+        }
         $ffprobe = \FFMpeg\FFProbe::create([
-            'ffmpeg.binaries'  => '/usr/local/bin/ffmpeg',
-            'ffprobe.binaries' => '/usr/local/bin/ffprobe',
+            'ffmpeg.binaries'  => $ffmpeg_path,
+            'ffprobe.binaries' => $ffmprope_path,
         ]);
         $info = $ffprobe
             ->streams($request->file)
