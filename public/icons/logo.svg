@@ -1,18 +1,21 @@
-<svg width="350" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg width="350" height="300" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <title>logo for cs160</title>
  <defs>
-  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_16">
-   <path stroke-width="10" stroke="#ffffff" fill="#ffffff" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_16">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40l100,40z" id="svg_2"/>
   </marker>
  </defs>
  <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="352" height="302" id="canvas_background" fill="none"/>
+ </g>
+ <g>
   <title>Layer 1</title>
-  <line fill="none" stroke="#ffffff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="29.782391" y1="68.539208" x2="29.782391" y2="222.539208" id="svg_8"/>
-  <line fill="none" stroke="#ffffff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="321.282391" y1="67.039208" x2="321.282391" y2="221.039208" id="svg_9"/>
-  <line fill="none" stroke="#ffffff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="27.782391" y1="219.539208" x2="323.824621" y2="219.539208" id="svg_12"/>
-  <text stroke="#000000" transform="matrix(21.393539428710938,0,0,2.5220837593078613,-3439.8165333271027,-346.10757733136415) " xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_1" y="249" x="174" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000"/>
-  <text stroke="#ffffff" transform="matrix(4.211282730102538,0,0,2.5999999046325675,-663.2983380556107,-452.9522459506988) " xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="24" id="svg_4" y="247.650567" x="200.082936" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff">NULL</text>
-  <line marker-end="url(#se_marker_end_svg_16)" id="svg_16" y2="21.249648" x2="330.985461" y1="110.439984" x1="181.145696" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#ffffff" fill="none"/>
+  <line fill="none" stroke="#000000" stroke-width="20" stroke-linejoin="null" stroke-linecap="null" x1="29.782391" y1="65.539208" x2="29.782391" y2="219.539208" id="svg_8"/>
+  <line fill="none" stroke="#000000" stroke-width="20" stroke-linejoin="null" stroke-linecap="null" x1="321.282391" y1="67.039208" x2="321.282391" y2="221.039208" id="svg_9"/>
+  <line stroke="#000000" fill="none" stroke-width="20" stroke-linejoin="null" stroke-linecap="null" x1="19.782391" y1="228.539208" x2="330.824628" y2="228.539208" id="svg_12"/>
+  <text stroke="#000000" transform="matrix(4.211282730102538,0,0,2.5999999046325675,-663.2983380556107,-452.9522459506988) " xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="24" id="svg_4" y="247.650567" x="200.082936" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" fill="#000000">NULL</text>
+  <line marker-end="url(#se_marker_end_svg_16)" id="svg_16" y2="29.249648" x2="311.985461" y1="118.439984" x1="162.145696" stroke-linecap="null" stroke-linejoin="null" stroke-width="15" stroke="#000000" fill="none"/>
  </g>
 </svg>
