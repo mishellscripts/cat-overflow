@@ -1,4 +1,4 @@
-# Stack Overflow
+# Install/Update steps
 1. move or clone this folder under htdocs
 2. Run composer update
 3. Run npm install or npm update
@@ -8,3 +8,8 @@
       for Mac: brew install ffmpeg
       for Windows: check  https://github.com/PHP-FFMpeg/PHP-FFMpeg
       https://github.com/PHP-FFMpeg/PHP-FFMpeg/issues/45
+
+
+
+# Notes
+* Automatically compile React components: $npm run watch

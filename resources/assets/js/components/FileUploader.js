@@ -51,18 +51,6 @@ export default class FileUploader extends Component {
     render() {
         return (
             <div className="container">
-                <div
-                  className="alert alert-success mt-2"
-                  hidden={this.state.status !== 1}
-                >
-                    <strong>Success!</strong> Video uploaded
-                </div>
-                <div
-                  className="alert alert-danger mt-2"
-                  hidden={this.state.status !== 2}
-                >
-                    <strong>Error!</strong> {this.state.error}
-                </div>
                 <form onSubmit={this.handleSubmit}>
                     <input
                       name="video"
@@ -78,6 +66,18 @@ export default class FileUploader extends Component {
                       submit
                     </button>
                 </form>
+                <div
+                  className="alert alert-success mt-2"
+                  hidden={this.state.status !== 1}
+                >
+                    <strong>Success!</strong> Video uploaded
+                </div>
+                <div
+                  className="alert alert-danger mt-2"
+                  hidden={this.state.status !== 2}
+                >
+                    <strong>Error!</strong> {this.state.error}
+                </div>
             </div>
         );
     }
