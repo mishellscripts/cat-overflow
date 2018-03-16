@@ -21,7 +21,7 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img
                       class='mr-2'
-                      src="{{ asset('icons/logo.svg') }}"
+                      src="{{ asset('icons/mycat3.svg') }}"
                       width="40"
                       height="40"
                       alt=""

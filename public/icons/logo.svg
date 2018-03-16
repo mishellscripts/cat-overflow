@@ -2,20 +2,19 @@
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <title>logo for cs160</title>
  <defs>
-  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_16">
-   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40l100,40z" id="svg_2"/>
+  <marker id="se_marker_end_svg_16" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
+   <path id="svg_2" d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
   </marker>
  </defs>
  <g>
   <title>background</title>
-  <rect x="-1" y="-1" width="352" height="302" id="canvas_background" fill="none"/>
+  <rect fill="none" id="canvas_background" height="302" width="352" y="-1" x="-1"/>
  </g>
  <g>
   <title>Layer 1</title>
-  <line fill="none" stroke="#000000" stroke-width="20" stroke-linejoin="null" stroke-linecap="null" x1="29.782391" y1="65.539208" x2="29.782391" y2="219.539208" id="svg_8"/>
-  <line fill="none" stroke="#000000" stroke-width="20" stroke-linejoin="null" stroke-linecap="null" x1="321.282391" y1="67.039208" x2="321.282391" y2="221.039208" id="svg_9"/>
-  <line stroke="#000000" fill="none" stroke-width="20" stroke-linejoin="null" stroke-linecap="null" x1="19.782391" y1="228.539208" x2="330.824628" y2="228.539208" id="svg_12"/>
-  <text stroke="#000000" transform="matrix(4.211282730102538,0,0,2.5999999046325675,-663.2983380556107,-452.9522459506988) " xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="24" id="svg_4" y="247.650567" x="200.082936" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" fill="#000000">NULL</text>
-  <line marker-end="url(#se_marker_end_svg_16)" id="svg_16" y2="29.249648" x2="311.985461" y1="118.439984" x1="162.145696" stroke-linecap="null" stroke-linejoin="null" stroke-width="15" stroke="#000000" fill="none"/>
+  <line id="svg_8" y2="219.539208" x2="29.782391" y1="65.539208" x1="29.782391" stroke-linecap="null" stroke-linejoin="null" stroke-width="20" stroke="#000000" fill="none"/>
+  <line id="svg_9" y2="221.039208" x2="321.282391" y1="67.039208" x1="321.282391" stroke-linecap="null" stroke-linejoin="null" stroke-width="20" stroke="#000000" fill="none"/>
+  <line id="svg_12" y2="228.539208" x2="330.824628" y1="228.539208" x1="19.782391" stroke-linecap="null" stroke-linejoin="null" stroke-width="20" fill="none" stroke="#000000"/>
+  <line fill="none" stroke="#000000" stroke-width="15" stroke-linejoin="null" stroke-linecap="null" x1="162.145696" y1="118.439984" x2="311.985461" y2="29.249648" id="svg_16" marker-end="url(#se_marker_end_svg_16)"/>
  </g>
 </svg>
