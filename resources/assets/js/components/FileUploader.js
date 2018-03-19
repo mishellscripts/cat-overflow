@@ -25,7 +25,7 @@ export default class FileUploader extends Component {
       })
       .catch( (error) => {
         console.log(error);
-        this.setState({ status: status.FAILURE, error: error });
+        this.setState({ status: status.FAILURE, error: error.response.data });
       });
     }
 

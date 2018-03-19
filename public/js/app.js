@@ -36216,7 +36216,7 @@ var FileUploader = function (_Component) {
         _this2.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].SUCCESSFUL });
       }).catch(function (error) {
         console.log(error);
-        _this2.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FAILURE, error: error });
+        _this2.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FAILURE, error: error.response.data });
       });
     }
   }, {

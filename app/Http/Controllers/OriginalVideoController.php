@@ -58,6 +58,15 @@ class OriginalVideoController extends Controller
         $token = $request->token;
         $user = User::where('api_token', $token)->firstOrFail();
 
+        // Check file size
+        $file = $request->file('file');
+        Log::info('uploaded file size: '.$file->getClientSize());
+        Log::info('max file size: '.$file->getMaxFilesize());
+        if ($file->getClientSize() > $file->getMaxFilesize()
+            || $file->getClientSize() === 0) {
+            return response('File size too large. Max file size is 2 MB.', 400);
+        }
+
         $ffprobe = \FFMpeg\FFProbe::create([
             'ffmpeg.binaries'  => $this->ffmpeg_path,
             'ffprobe.binaries' => $this->ffmprope_path,
@@ -91,7 +100,7 @@ class OriginalVideoController extends Controller
         } else {
             Log::warning('failed to save video');
         }
-        return response('Failed to store video');
+        return response('Failed to process video.', 400);
     }
 
     private function extractImages($file, $id, $frame_rate)
