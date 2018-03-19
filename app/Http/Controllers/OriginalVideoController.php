@@ -174,7 +174,7 @@ class OriginalVideoController extends Controller
 
         if ($video->delete()) {
           Storage::disk('local')->delete('public/original_videos/'.$id.'.mp4');
-          Storage::disk('local')->delete('public/original_images/'.$id);
+          Storage::deleteDirectory('public/original_images/'.$id);
           return response('Video removed successfully.', 200);
         }
         return response('Failed to remove video', 400);

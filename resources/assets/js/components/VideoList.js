@@ -52,7 +52,7 @@ export default class VideoList extends Component {
                         </small>
                         <button
                             id={video.id}
-                            className="btn btn-danger"
+                            className="btn btn-danger btn-sm"
                             onClick={this.handleDelete.bind(this)}
                         >
                           delete
