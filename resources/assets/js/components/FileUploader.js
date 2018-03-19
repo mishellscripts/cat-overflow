@@ -18,7 +18,7 @@ export default class FileUploader extends Component {
     handleSubmit(e) {
       e.preventDefault();
       console.log(this.state.video);
-      this.fileUpload(this.state.video).then((response) => {
+      this.fileUpload(e.target.name.value, this.state.video).then((response) => {
           console.log(response.data);
           this.setState({ status: 1 });
       })
@@ -28,9 +28,10 @@ export default class FileUploader extends Component {
       });
     }
 
-    fileUpload(file) {
+    fileUpload(name, file) {
       const url = 'http://localhost:8000/api/uploadVideo';
       const formData = new FormData();
+      formData.append('name', name);
       formData.append('file', file);
       formData.append('token', this.props.token);
       const config = {
@@ -52,19 +53,39 @@ export default class FileUploader extends Component {
         return (
             <div className="container">
                 <form onSubmit={this.handleSubmit}>
-                    <input
-                      name="video"
-                      type="file"
-                      accept=".mp4"
-                      onChange={this.fileChange}
-                      required
-                    />
-                    <button
-                      type="submit"
-                      value="Submit"
-                      className="btn btn-primary">
-                      submit
-                    </button>
+                  <div className="row">
+                    <div className="form-group col-md-6">
+                      <label htmlFor="name">Video name:</label>
+                      <input
+                        id="name"
+                        className="form-control"
+                        name="name"
+                        type="text"
+                      />
+                    </div>
+                    <div className="form-group col-md-6">
+                      <label htmlFor="video">Upload video:</label>
+                      <input
+                        id="video"
+                        className="form-control-file"
+                        name="video"
+                        type="file"
+                        accept=".mp4"
+                        onChange={this.fileChange}
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="form-group col-md-6">
+                      <button
+                        type="submit"
+                        value="Submit"
+                        className="btn btn-primary">
+                        submit
+                      </button>
+                    </div>
+                  </div>
                 </form>
                 <div
                   className="alert alert-success mt-2"

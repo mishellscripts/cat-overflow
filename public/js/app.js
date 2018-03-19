@@ -681,7 +681,7 @@ module.exports = g;
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(global) {/**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
- * @version 1.13.0
+ * @version 1.12.9
  * @license
  * Copyright (c) 2016 Federico Zivolo and contributors
  *
@@ -36209,7 +36209,7 @@ var FileUploader = function (_Component) {
 
       e.preventDefault();
       console.log(this.state.video);
-      this.fileUpload(this.state.video).then(function (response) {
+      this.fileUpload(e.target.name.value, this.state.video).then(function (response) {
         console.log(response.data);
         _this2.setState({ status: 1 });
       }).catch(function (error) {
@@ -36219,9 +36219,10 @@ var FileUploader = function (_Component) {
     }
   }, {
     key: 'fileUpload',
-    value: function fileUpload(file) {
+    value: function fileUpload(name, file) {
       var url = 'http://localhost:8000/api/uploadVideo';
       var formData = new FormData();
+      formData.append('name', name);
       formData.append('file', file);
       formData.append('token', this.props.token);
       var config = {
@@ -36248,20 +36249,58 @@ var FileUploader = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'form',
           { onSubmit: this.handleSubmit },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
-            name: 'video',
-            type: 'file',
-            accept: '.mp4',
-            onChange: this.fileChange,
-            required: true
-          }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'button',
-            {
-              type: 'submit',
-              value: 'Submit',
-              className: 'btn btn-primary' },
-            'submit'
+            'div',
+            { className: 'row' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'form-group col-md-6' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'label',
+                { htmlFor: 'name' },
+                'Video name:'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
+                id: 'name',
+                className: 'form-control',
+                name: 'name',
+                type: 'text'
+              })
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'form-group col-md-6' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'label',
+                { htmlFor: 'video' },
+                'Upload video:'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
+                id: 'video',
+                className: 'form-control-file',
+                name: 'video',
+                type: 'file',
+                accept: '.mp4',
+                onChange: this.fileChange,
+                required: true
+              })
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'row' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'form-group col-md-6' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'button',
+                {
+                  type: 'submit',
+                  value: 'Submit',
+                  className: 'btn btn-primary' },
+                'submit'
+              )
+            )
           )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(

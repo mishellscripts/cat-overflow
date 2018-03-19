@@ -16,7 +16,7 @@
                 <div class="card-body">
                   <ul class="list-group text-center">
                       @foreach ($videos as $index => $video)
-                          <li class="list-group-item"><a href="/originalVideos/{{$video->id}}"> Video {{ $index+1 }}</a></li>
+                          <li class="list-group-item"><a href="/originalVideos/{{$video->id}}"> {{ $video->name }}</a></li>
                       @endforeach
                   </ul>
                 </div>

@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Video</div>
+                <div class="card-header">{{ $video->name }}</div>
 
                 <div class="card-body">
                     <video width="100%" height="{{ $video->height }}" style="background-color:#000" controls> 

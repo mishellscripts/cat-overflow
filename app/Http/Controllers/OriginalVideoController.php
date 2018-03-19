@@ -74,6 +74,7 @@ class OriginalVideoController extends Controller
 
         // Store meta data of the video
         $video = new OriginalVideo;
+        $video->name = $request->name;
         $video->fps = $fps;
         $video->num_frames = $info->get('nb_frames');
         $video->width = $info->get('width');
