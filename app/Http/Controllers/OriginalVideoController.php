@@ -170,11 +170,27 @@ class OriginalVideoController extends Controller
      */
     public function destroy($id)
     {
-        // Get note
         $video = OriginalVideo::findOrFail($id);
 
         if ($video->delete()) {
-          return new OriginalVideoResource($video);
+          Storage::disk('local')->delete('public/original_videos/'.$id.'.mp4');
+          Storage::disk('local')->delete('public/original_images/'.$id);
+          return response('Video removed successfully.', 200);
         }
+        return response('Failed to remove video', 400);
+    }
+
+    /**
+     * Delete the specified video from a user.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function delete(Request $request)
+    {
+        $user = User::where('api_token', $request->token)->firstOrFail();
+        $id = $request->id;
+        $video = OriginalVideo::where('user_id', $user->id)->findOrFail($id);
+        return OriginalVideoController::destroy($id);
     }
 }

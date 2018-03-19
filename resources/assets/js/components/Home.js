@@ -11,23 +11,31 @@ export default class Home extends Component {
         this.state = {
             videos: [],
             error: null,
+            status: status.WAITING,
         };
         this.updateVideos = this.updateVideos.bind(this);
-        this.handleSuccess = this.handleSuccess.bind(this);
+        this.updateVideoList = this.updateVideoList.bind(this);
     }
 
     componentDidMount() {
-      this.handleSuccess();
+      this.updateVideoList();
     }
 
-    handleSuccess() {
+    updateVideoList() {
+        this.setState({ status: status.FETCHING });
         this.updateVideos().then((response) => {
             console.log(response.data.data);
-            this.setState({ videos: response.data.data });
+            this.setState({
+                videos: response.data.data,
+                status: status.SUCCESSFUL,
+            });
         })
         .catch((error) => {
             console.log(error);
-            this.setState({ error: error.response.data });
+            this.setState({
+                error: error.response.data,
+                status: status.FAILURE,
+            });
         });
     }
 
@@ -49,9 +57,14 @@ export default class Home extends Component {
               <div className="row justify-content-center">
                   <FileUploader
                       token={this.props.token}
-                      handleSuccess={this.handleSuccess}
+                      handleSuccess={this.updateVideoList}
                   />
-                  <VideoList videos={this.state.videos} />
+                  <VideoList
+                      videos={this.state.videos}
+                      token={this.props.token}
+                      updateVideoList={this.updateVideoList}
+                      status={this.state.status}
+                  />
               </div>
           </div>
         );

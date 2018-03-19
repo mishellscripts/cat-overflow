@@ -53772,29 +53772,37 @@ var Home = function (_Component) {
 
         _this.state = {
             videos: [],
-            error: null
+            error: null,
+            status: __WEBPACK_IMPORTED_MODULE_5__util_status__["a" /* status */].WAITING
         };
         _this.updateVideos = _this.updateVideos.bind(_this);
-        _this.handleSuccess = _this.handleSuccess.bind(_this);
+        _this.updateVideoList = _this.updateVideoList.bind(_this);
         return _this;
     }
 
     _createClass(Home, [{
         key: 'componentDidMount',
         value: function componentDidMount() {
-            this.handleSuccess();
+            this.updateVideoList();
         }
     }, {
-        key: 'handleSuccess',
-        value: function handleSuccess() {
+        key: 'updateVideoList',
+        value: function updateVideoList() {
             var _this2 = this;
 
+            this.setState({ status: __WEBPACK_IMPORTED_MODULE_5__util_status__["a" /* status */].FETCHING });
             this.updateVideos().then(function (response) {
                 console.log(response.data.data);
-                _this2.setState({ videos: response.data.data });
+                _this2.setState({
+                    videos: response.data.data,
+                    status: __WEBPACK_IMPORTED_MODULE_5__util_status__["a" /* status */].SUCCESSFUL
+                });
             }).catch(function (error) {
                 console.log(error);
-                _this2.setState({ error: error.response.data });
+                _this2.setState({
+                    error: error.response.data,
+                    status: __WEBPACK_IMPORTED_MODULE_5__util_status__["a" /* status */].FAILURE
+                });
             });
         }
     }, {
@@ -53821,9 +53829,14 @@ var Home = function (_Component) {
                     { className: 'row justify-content-center' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__FileUploader__["a" /* default */], {
                         token: this.props.token,
-                        handleSuccess: this.handleSuccess
+                        handleSuccess: this.updateVideoList
                     }),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__VideoList__["a" /* default */], { videos: this.state.videos })
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__VideoList__["a" /* default */], {
+                        videos: this.state.videos,
+                        token: this.props.token,
+                        updateVideoList: this.updateVideoList,
+                        status: this.state.status
+                    })
                 )
             );
         }
@@ -53850,12 +53863,15 @@ if (document.getElementById('Home')) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_moment__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment_timezone__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment_timezone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_moment_timezone__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_axios__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_status__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_moment__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_moment__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react_moment__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_moment_timezone__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_moment_timezone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_moment_timezone__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -53863,6 +53879,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
 
 
 
@@ -53880,6 +53898,33 @@ var VideoList = function (_Component) {
     }
 
     _createClass(VideoList, [{
+        key: 'handleDelete',
+        value: function handleDelete(e) {
+            var _this2 = this;
+
+            e.preventDefault();
+            this.deleteVideo(e.target.id).then(function (response) {
+                console.log(response.data);
+                _this2.props.updateVideoList();
+            }).catch(function (error) {
+                console.log(error);
+            });
+        }
+    }, {
+        key: 'deleteVideo',
+        value: function deleteVideo(id) {
+            var url = 'http://localhost:8000/api/deleteOriginalVideo';
+            var formData = new FormData();
+            formData.append('id', id);
+            formData.append('token', this.props.token);
+            var config = {
+                headers: {
+                    'content-type': 'multipart/form-data'
+                }
+            };
+            return Object(__WEBPACK_IMPORTED_MODULE_2_axios__["post"])(url, formData, config);
+        }
+    }, {
         key: 'render',
         value: function render() {
             var videoList = [];
@@ -53903,17 +53948,33 @@ var VideoList = function (_Component) {
                             'small',
                             null,
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                __WEBPACK_IMPORTED_MODULE_3_react_moment___default.a,
+                                __WEBPACK_IMPORTED_MODULE_5_react_moment___default.a,
                                 {
                                     tz: 'America/Los_Angeles',
                                     format: 'YYYY-MM-DD HH:mm'
                                 },
-                                __WEBPACK_IMPORTED_MODULE_2_moment___default.a.utc(video.updated_at).format()
+                                __WEBPACK_IMPORTED_MODULE_4_moment___default.a.utc(video.updated_at).format()
                             )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'button',
+                            {
+                                id: video.id,
+                                className: 'btn btn-danger',
+                                onClick: this.handleDelete.bind(this)
+                            },
+                            'delete'
                         )
                     )
                 ));
-            });
+            }.bind(this));
+            if (videoList.length === 0) {
+                videoList.push(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { key: 0, className: 'container text-center py-5' },
+                    'Empty'
+                ));
+            }
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 { className: 'col-md-8' },
@@ -53927,12 +53988,15 @@ var VideoList = function (_Component) {
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
-                        { className: 'List-group' },
+                        { className: 'List-group', hidden: this.props.status === __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING },
                         videoList
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
-                        { className: 'card-body', hidden: videoList.length !== 0 },
+                        {
+                            className: 'card-body',
+                            hidden: this.props.status !== __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING
+                        },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'div',
                             { className: 'row justify-content-center' },

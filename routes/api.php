@@ -26,3 +26,5 @@ Route::get('originalVideos', 'OriginalVideoController@index');
 Route::post('uploadVideo', 'OriginalVideoController@store');
 
 Route::post('originalVideos', 'OriginalVideoController@index');
+
+Route::post('deleteOriginalVideo', 'OriginalVideoController@delete');

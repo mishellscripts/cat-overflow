@@ -1,10 +1,36 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import axios, { post } from 'axios';
+import { status } from '../util/status';
 import moment from 'moment';
 import Moment from 'react-moment';
 import 'moment-timezone';
 
 export default class VideoList extends Component {
+    handleDelete(e) {
+        e.preventDefault();
+        this.deleteVideo(e.target.id).then((response) => {
+            console.log(response.data);
+            this.props.updateVideoList();
+        })
+        .catch( (error) => {
+          console.log(error);
+        });
+    }
+
+    deleteVideo(id) {
+        const url = 'http://localhost:8000/api/deleteOriginalVideo';
+        const formData = new FormData();
+        formData.append('id', id);
+        formData.append('token', this.props.token);
+        const config = {
+            headers: {
+                'content-type': 'multipart/form-data'
+            }
+        }
+        return post(url, formData, config);
+    }
+
     render() {
         var videoList = [];
         this.props.videos.forEach(function(video) {
@@ -24,19 +50,36 @@ export default class VideoList extends Component {
                                 {moment.utc(video.updated_at).format()}
                             </Moment>
                         </small>
+                        <button
+                            id={video.id}
+                            className="btn btn-danger"
+                            onClick={this.handleDelete.bind(this)}
+                        >
+                          delete
+                        </button>
                     </div>
                 </a>
             )
-          }
+          }.bind(this)
         );
+        if (videoList.length === 0) {
+          videoList.push(
+            <div key={0} className="container text-center py-5">
+                Empty
+            </div>
+          );
+        }
         return (
           <div className="col-md-8">
               <div className="card">
                   <div className="card-header">Your Videos</div>
-                  <div className="List-group">
+                  <div className="List-group" hidden={this.props.status === status.FETCHING}>
                       {videoList}
                   </div>
-                  <div className="card-body" hidden={videoList.length !== 0}>
+                  <div
+                    className="card-body"
+                    hidden={this.props.status !== status.FETCHING}
+                  >
                     <div className="row justify-content-center">
                       <i className="fa fa-spinner fa-spin"></i>
                     </div>
