@@ -31,9 +31,13 @@ class OriginalVideoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $video = OriginalVideo::paginate(15);
+        $token = $request->token;
+        $user = User::where('api_token', $token)->firstOrFail();
+        $video = OriginalVideo::where('user_id', $user->id)
+            ->orderBy('updated_at', 'desc')
+            ->get();
         return OriginalVideoResource::collection($video);
     }
 

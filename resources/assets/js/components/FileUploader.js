@@ -22,6 +22,7 @@ export default class FileUploader extends Component {
       this.fileUpload(e.target.name.value, this.state.video).then((response) => {
           console.log(response.data);
           this.setState({ status: status.SUCCESSFUL });
+          this.props.handleSuccess();
       })
       .catch( (error) => {
         console.log(error);
@@ -52,60 +53,65 @@ export default class FileUploader extends Component {
 
     render() {
         return (
-            <div className="container">
-                <form onSubmit={this.handleSubmit}>
-                  <div className="row">
-                    <div className="form-group col-md-6">
-                      <label htmlFor="name">Video name:</label>
-                      <input
-                        id="name"
-                        className="form-control"
-                        name="name"
-                        type="text"
-                        required
-                      />
+          <div className="col-md-8 mb-5">
+              <div className="card">
+                  <div className="card-header">Upload Your Videos</div>
+                  <div className="card-body">
+                    <form onSubmit={this.handleSubmit}>
+                      <div className="row">
+                        <div className="form-group col-md-6">
+                          <label htmlFor="name">Video name:</label>
+                          <input
+                            id="name"
+                            className="form-control"
+                            name="name"
+                            type="text"
+                            required
+                          />
+                        </div>
+                        <div className="form-group col-md-6">
+                          <label htmlFor="video">Upload video:</label>
+                          <input
+                            id="video"
+                            className="form-control-file"
+                            name="video"
+                            type="file"
+                            accept=".mp4"
+                            onChange={this.fileChange}
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="form-group col-md-12">
+                          <button
+                            type="submit"
+                            value="Submit"
+                            className="btn btn-secondary btn-lg btn-block"
+                            disabled={this.state.status === status.FETCHING}>
+                            {this.state.status === status.FETCHING ?
+                                <i className="fa fa-spinner fa-spin"></i> :
+                                'submit'
+                            }
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                    <div
+                      className="alert alert-success mt-2"
+                      hidden={this.state.status !== status.SUCCESSFUL}
+                    >
+                        <strong>Success!</strong> Video uploaded
                     </div>
-                    <div className="form-group col-md-6">
-                      <label htmlFor="video">Upload video:</label>
-                      <input
-                        id="video"
-                        className="form-control-file"
-                        name="video"
-                        type="file"
-                        accept=".mp4"
-                        onChange={this.fileChange}
-                        required
-                      />
+                    <div
+                      className="alert alert-danger mt-2"
+                      hidden={this.state.status !== status.FAILURE}
+                    >
+                        <strong>Error!</strong> {this.state.error}
                     </div>
                   </div>
-                  <div className="row">
-                    <div className="form-group col-md-12">
-                      <button
-                        type="submit"
-                        value="Submit"
-                        className="btn btn-secondary btn-lg btn-block"
-                        disabled={this.state.status === status.FETCHING}>
-                        {this.state.status === status.FETCHING ?
-                            <i className="fa fa-spinner fa-spin"></i> :
-                            'submit'
-                        }
-                      </button>
-                    </div>
-                  </div>
-                </form>
-                <div
-                  className="alert alert-success mt-2"
-                  hidden={this.state.status !== status.SUCCESSFUL}
-                >
-                    <strong>Success!</strong> Video uploaded
-                </div>
-                <div
-                  className="alert alert-danger mt-2"
-                  hidden={this.state.status !== status.FAILURE}
-                >
-                    <strong>Error!</strong> {this.state.error}
-                </div>
-            </div>
+              </div>
+          </div>
         );
     }
 }
