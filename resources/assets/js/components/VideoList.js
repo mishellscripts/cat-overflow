@@ -33,6 +33,7 @@ export default class VideoList extends Component {
 
     render() {
         var videoList = [];
+        var isEmpty = false;
         this.props.videos.forEach(function(video) {
             videoList.push(
                 <a
@@ -40,23 +41,25 @@ export default class VideoList extends Component {
                   href={"/originalVideos/" + video.id}
                   className="list-group-item list-group-item-action flex-column align-items-center px-5"
                 >
-                    <div className="d-flex w-100 justify-content-between">
+                    <div className="d-flex justify-content-between">
                         <h5>{video.name}</h5>
-                        <small>
-                            <Moment
-                              tz="America/Los_Angeles"
-                              format="YYYY-MM-DD HH:mm"
+                        <div>
+                            <small className="mr-5">
+                                <Moment
+                                  tz="America/Los_Angeles"
+                                  format="YYYY-MM-DD HH:mm"
+                                >
+                                    {moment.utc(video.updated_at).format()}
+                                </Moment>
+                            </small>
+                            <button
+                                id={video.id}
+                                className="btn btn-danger btn-sm"
+                                onClick={this.handleDelete.bind(this)}
                             >
-                                {moment.utc(video.updated_at).format()}
-                            </Moment>
-                        </small>
-                        <button
-                            id={video.id}
-                            className="btn btn-danger btn-sm"
-                            onClick={this.handleDelete.bind(this)}
-                        >
-                          delete
-                        </button>
+                              delete
+                            </button>
+                        </div>
                     </div>
                 </a>
             )
@@ -68,17 +71,24 @@ export default class VideoList extends Component {
                 Empty
             </div>
           );
+          isEmpty = true;
         }
         return (
           <div className="col-md-8">
               <div className="card">
                   <div className="card-header">Your Videos</div>
-                  <div className="List-group" hidden={this.props.status === status.FETCHING}>
+                  <div className="List-group" hidden={
+                      this.props.status === status.FETCHING &&
+                      isEmpty
+                  }>
                       {videoList}
                   </div>
                   <div
                     className="card-body"
-                    hidden={this.props.status !== status.FETCHING}
+                    hidden={
+                      this.props.status !== status.FETCHING ||
+                      !isEmpty
+                    }
                   >
                     <div className="row justify-content-center">
                       <i className="fa fa-spinner fa-spin"></i>

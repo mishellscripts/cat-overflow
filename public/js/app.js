@@ -53928,6 +53928,7 @@ var VideoList = function (_Component) {
         key: 'render',
         value: function render() {
             var videoList = [];
+            var isEmpty = false;
             this.props.videos.forEach(function (video) {
                 videoList.push(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
@@ -53938,32 +53939,36 @@ var VideoList = function (_Component) {
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
-                        { className: 'd-flex w-100 justify-content-between' },
+                        { className: 'd-flex justify-content-between' },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'h5',
                             null,
                             video.name
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            'small',
+                            'div',
                             null,
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                __WEBPACK_IMPORTED_MODULE_5_react_moment___default.a,
+                                'small',
+                                { className: 'mr-5' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    __WEBPACK_IMPORTED_MODULE_5_react_moment___default.a,
+                                    {
+                                        tz: 'America/Los_Angeles',
+                                        format: 'YYYY-MM-DD HH:mm'
+                                    },
+                                    __WEBPACK_IMPORTED_MODULE_4_moment___default.a.utc(video.updated_at).format()
+                                )
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'button',
                                 {
-                                    tz: 'America/Los_Angeles',
-                                    format: 'YYYY-MM-DD HH:mm'
+                                    id: video.id,
+                                    className: 'btn btn-danger btn-sm',
+                                    onClick: this.handleDelete.bind(this)
                                 },
-                                __WEBPACK_IMPORTED_MODULE_4_moment___default.a.utc(video.updated_at).format()
+                                'delete'
                             )
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            'button',
-                            {
-                                id: video.id,
-                                className: 'btn btn-danger btn-sm',
-                                onClick: this.handleDelete.bind(this)
-                            },
-                            'delete'
                         )
                     )
                 ));
@@ -53974,6 +53979,7 @@ var VideoList = function (_Component) {
                     { key: 0, className: 'container text-center py-5' },
                     'Empty'
                 ));
+                isEmpty = true;
             }
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
@@ -53988,14 +53994,14 @@ var VideoList = function (_Component) {
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
-                        { className: 'List-group', hidden: this.props.status === __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING },
+                        { className: 'List-group', hidden: this.props.status === __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING && isEmpty },
                         videoList
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
                         {
                             className: 'card-body',
-                            hidden: this.props.status !== __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING
+                            hidden: this.props.status !== __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING || !isEmpty
                         },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'div',
