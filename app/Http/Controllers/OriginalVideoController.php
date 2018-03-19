@@ -85,7 +85,8 @@ class OriginalVideoController extends Controller
             $path = $request
                 ->file('file')
                 ->storeAs('public/original_videos', $video->id.'.mp4');
-            $this->extractImages($request->file, $video->id, $frame_rate);
+            //TODO choose a better frame rate
+            $this->extractImages($request->file, $video->id, '5/1');
             return new OriginalVideoResource($video);
         } else {
             Log::warning('failed to save video');

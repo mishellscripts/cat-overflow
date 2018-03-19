@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios, { post } from 'axios';
+import { status } from '../util/status';
 
 export default class FileUploader extends Component {
     constructor(props) {
       super(props);
       this.state = {
         video: null,
-        status: 0, // 1 is success, 2 is fail
+        status: status.WAITING,
         error: '',
       };
       this.handleSubmit = this.handleSubmit.bind(this);
@@ -17,14 +18,14 @@ export default class FileUploader extends Component {
 
     handleSubmit(e) {
       e.preventDefault();
-      console.log(this.state.video);
+      this.setState({ status: status.FETCHING });
       this.fileUpload(e.target.name.value, this.state.video).then((response) => {
           console.log(response.data);
-          this.setState({ status: 1 });
+          this.setState({ status: status.SUCCESSFUL });
       })
       .catch( (error) => {
         console.log(error);
-        this.setState({ status: 2, error: error });
+        this.setState({ status: status.FAILURE, error: error });
       });
     }
 
@@ -61,6 +62,7 @@ export default class FileUploader extends Component {
                         className="form-control"
                         name="name"
                         type="text"
+                        required
                       />
                     </div>
                     <div className="form-group col-md-6">
@@ -77,25 +79,29 @@ export default class FileUploader extends Component {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="form-group col-md-6">
+                    <div className="form-group col-md-12">
                       <button
                         type="submit"
                         value="Submit"
-                        className="btn btn-primary">
-                        submit
+                        className="btn btn-secondary btn-lg btn-block"
+                        disabled={this.state.status === status.FETCHING}>
+                        {this.state.status === status.FETCHING ?
+                            <i className="fa fa-spinner fa-spin"></i> :
+                            'submit'
+                        }
                       </button>
                     </div>
                   </div>
                 </form>
                 <div
                   className="alert alert-success mt-2"
-                  hidden={this.state.status !== 1}
+                  hidden={this.state.status !== status.SUCCESSFUL}
                 >
                     <strong>Success!</strong> Video uploaded
                 </div>
                 <div
                   className="alert alert-danger mt-2"
-                  hidden={this.state.status !== 2}
+                  hidden={this.state.status !== status.FAILURE}
                 >
                     <strong>Error!</strong> {this.state.error}
                 </div>

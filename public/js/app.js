@@ -681,7 +681,7 @@ module.exports = g;
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(global) {/**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
- * @version 1.12.9
+ * @version 1.13.0
  * @license
  * Copyright (c) 2016 Federico Zivolo and contributors
  *
@@ -36171,6 +36171,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_axios__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_status__ = __webpack_require__(65);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -36178,6 +36179,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -36193,7 +36195,7 @@ var FileUploader = function (_Component) {
 
     _this.state = {
       video: null,
-      status: 0, // 1 is success, 2 is fail
+      status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].WAITING,
       error: ''
     };
     _this.handleSubmit = _this.handleSubmit.bind(_this);
@@ -36208,13 +36210,13 @@ var FileUploader = function (_Component) {
       var _this2 = this;
 
       e.preventDefault();
-      console.log(this.state.video);
+      this.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING });
       this.fileUpload(e.target.name.value, this.state.video).then(function (response) {
         console.log(response.data);
-        _this2.setState({ status: 1 });
+        _this2.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].SUCCESSFUL });
       }).catch(function (error) {
         console.log(error);
-        _this2.setState({ status: 2, error: error });
+        _this2.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FAILURE, error: error });
       });
     }
   }, {
@@ -36264,7 +36266,8 @@ var FileUploader = function (_Component) {
                 id: 'name',
                 className: 'form-control',
                 name: 'name',
-                type: 'text'
+                type: 'text',
+                required: true
               })
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -36291,14 +36294,15 @@ var FileUploader = function (_Component) {
             { className: 'row' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'div',
-              { className: 'form-group col-md-6' },
+              { className: 'form-group col-md-12' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'button',
                 {
                   type: 'submit',
                   value: 'Submit',
-                  className: 'btn btn-primary' },
-                'submit'
+                  className: 'btn btn-secondary btn-lg btn-block',
+                  disabled: this.state.status === __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING },
+                this.state.status === __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-spinner fa-spin' }) : 'submit'
               )
             )
           )
@@ -36307,7 +36311,7 @@ var FileUploader = function (_Component) {
           'div',
           {
             className: 'alert alert-success mt-2',
-            hidden: this.state.status !== 1
+            hidden: this.state.status !== __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].SUCCESSFUL
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'strong',
@@ -36320,7 +36324,7 @@ var FileUploader = function (_Component) {
           'div',
           {
             className: 'alert alert-danger mt-2',
-            hidden: this.state.status !== 2
+            hidden: this.state.status !== __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FAILURE
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'strong',
@@ -53697,6 +53701,23 @@ module.exports = camelize;
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return status; });
+var status = {
+   SUCCESSFUL: "successful",
+   FAILURE: "failure",
+   FETCHING: "fetching",
+   WAITING: "waiting"
+};
 
 /***/ })
 /******/ ]);
