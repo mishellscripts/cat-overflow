@@ -112,16 +112,21 @@ void write_imgs(const std::vector<Mat> &images, const string &output_dir, const 
 
 void run(std::vector<Mat> &imgs, char *predictor)
 {
-    time_t start = time(0);
+    time_t start = time(nullptr);
 
     frontal_face_detector detector = get_frontal_face_detector();
     shape_predictor sp;
-    deserialize(predictor) >> sp;
+
+    try {
+        deserialize(predictor) >> sp;
+    } catch (Exception &e) {
+        cout << e.what() << endl;
+        return;
+    }
 
     for (unsigned int i = 0; i < imgs.size(); i++)
     {
         cv_image<bgr_pixel> cimg(imgs[i]);
-
 
         std::vector<dlib::rectangle> dets = detector(cimg);     //faces
 
@@ -144,6 +149,8 @@ void run(std::vector<Mat> &imgs, char *predictor)
         draw_eye_center(imgs[i], eyes);
         draw_head_posting(imgs[i], heads);
     }
+
+    cout << "time: " << time(nullptr) - start << endl;
 }
 
 cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect)
