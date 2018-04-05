@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: SketchAPI 5.1.285 <https://api.sketch.io/> -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketchjs="https://sketch.io/dtd/" style="" sketchjs:metadata="eyJ0aXRsZSI6IjNmMDllOGMzLTY5OTgtNGRiNi1iZjU0LTA2YmQyMDM0MDg2NSIsImRlc2NyaXB0aW9uIjoiTWFkZSB3aXRoIFNrZXRjaHBhZCAtIGh0dHBzOi8vc2tldGNoLmlvL3NrZXRjaHBhZCIsIm1ldGFkYXRhIjp7fSwiY2xpcFBhdGgiOnsiZW5hYmxlZCI6dHJ1ZSwic3R5bGUiOnsic3Ryb2tlU3R5bGUiOiJibGFjayIsImxpbmVXaWR0aCI6MX19LCJleHBvcnREUEkiOjcyLCJleHBvcnRGb3JtYXQiOiJwbmciLCJleHBvcnRRdWFsaXR5IjowLjk1LCJ1bml0cyI6InB4Iiwid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsInBhZ2VzIjp7Imxlbmd0aCI6MSwiZGF0YSI6W3sid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDB9XX19" width="300" height="300" viewBox="0 0 300 300" sketchjs:version="5.1.285">
+<defs>
+	<linearGradient id="dna_1406295603" gradientUnits="userSpaceOnUse" x1="86.55831918842499" x2="86.55831918842499" y1="0" y2="22">
+		<stop offset="0" style="stop-color:#b5bdc8;"/>
+		<stop offset="0.5" style="stop-color:#6e7881;"/>
+		<stop offset="1" style="stop-color:#28343b;"/>
+	</linearGradient>
+</defs>
+<path sketchjs:tool="rectangle" style="fill: transparent; mix-blend-mode: source-over; fill-opacity: 1; fill-rule: nonzero; vector-effect: non-scaling-stroke;" d="M0 0 L300 0 300 300 0 300 z"/>
+<path sketchjs:tool="ellipse" style="fill: #000000; stroke: #000000; mix-blend-mode: source-over; paint-order: stroke fill markers; fill-opacity: 1; fill-rule: nonzero; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 2; vector-effect: non-scaling-stroke;" d="M61.44 0 C95.37 0 122.88 27.51 122.88 61.44 122.88 95.37 95.37 122.88 61.44 122.88 27.51 122.88 0 95.37 0 61.44 0 27.51 27.51 0 61.44 0 z" transform="matrix(1,0,0,0.7017975329245546,89,54)"/>
+<path sketchjs:tool="ellipse" style="fill: #000000; stroke: #000000; mix-blend-mode: source-over; paint-order: stroke fill markers; fill-opacity: 1; fill-rule: nonzero; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 2; vector-effect: non-scaling-stroke;" d="M92.97 0 C144.31 0 185.94 41.62 185.94 92.97 185.94 144.31 144.31 185.94 92.97 185.94 41.62 185.94 0 144.31 0 92.97 0 41.62 41.62 0 92.97 0 z" transform="matrix(0.5362839056825254,0,0,1.0450301909088797,98,107)"/>
+<polyline sketchjs:tool="polyline" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 1; visibility: hidden;" points="0,0 17.01,44.01" transform="matrix(1,0,0,1,102,14)"/>
+<path sketchjs:tool="pencil" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 5; visibility: hidden;" d="M0 0 C13.52 2.52 20.17 6.6 24 10 27.09 12.74 31.09 18.92 31 19 30.97 19.03 30 18 30 18 " transform="matrix(1,0,0,1,103.99999999999997,14)"/>
+<path sketchjs:tool="pencil" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 5; visibility: hidden;" d="M0 7.99 C33.05 -0.14 34 -0.01 34.01 0 " transform="matrix(1,0,0,1,187,19.00864673486757)"/>
+<path sketchjs:tool="pencil" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 5; visibility: hidden;" d="M5.99 0 C3.97 21.71 -0.01 30 0 30.01 " transform="matrix(1,0,0,1,215.0099811991173,19)"/>
+<polyline sketchjs:tool="polyline" style="fill: none; stroke: black; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 2; visibility: hidden;" points="0,0 0.02,0.02" transform="matrix(1,0,0,1,112.995,48.995000000000005)"/>
+<polyline sketchjs:tool="polyline" style="fill: none; stroke: black; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 2; visibility: hidden;" points="20,49 17,39 12,30 8,20 4,10 0,0 9,6 19,11 28,16 38,21 45,29" transform="matrix(1,0,0,1,85,1)"/>
+<polyline sketchjs:tool="polyline" style="fill: none; stroke: black; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 2; visibility: hidden;" points="0,48 9,37 16,28 23,20 29,9 34,0 40,9 43,19 44,29 44,40 40,51 35,60 29,69" transform="matrix(1,0,0,1,185,-22)"/>
+<g sketchjs:tool="eraser" style="visibility: hidden;" transform="matrix(1,0,0,1,112.0037668526935,262.00343122811245)">
+	<filter filterUnits="userSpaceOnUse" id="77ec575c_x2d3696_x2d4a86_x2daa35_x2d3ca210b9b01f_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: none; stroke: white; mix-blend-mode: destination-out; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 1;" d="M0 0 C43.94 0.19 49.69 0.83 57 1 64.97 1.19 73.75 1 82 1 90.08 1 101.36 1 106 1 107.89 1 109.86 0.58 110 1 110.16 1.47 106.87 4.06 106 4 105.54 3.97 105 3 105 3 " filter="url(#77ec575c_x2d3696_x2d4a86_x2daa35_x2d3ca210b9b01f_blur)"/>
+</g>
+<path sketchjs:tool="pencil" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 10.49;" d="M0 129.96 C30.7 109.48 37.49 100.68 44 91.96 50.87 82.76 58.9 69.85 63 61.96 65.48 57.19 66.93 54.84 68 49.96 69.52 43.05 70.11 31.74 69 23.96 68.05 17.31 65.88 9.85 63 5.96 61.06 3.34 58.76 1.84 56 0.96 52.88 -0.04 47.32 -0.57 45 0.96 43.07 2.23 42 7.96 42 7.96 " transform="matrix(0.9961946980917455,0.08715574274765807,-0.08715574274765807,0.9961946980917455,182.45423373206452,113.50010264503642)"/>
+<path sketchjs:tool="pencil" style="fill: none; stroke: black; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 10.49;" d="M3.21 0 C-0.23 30.96 -0.25 38.06 0.21 44 0.57 48.81 1.11 56.06 2.21 57 2.51 57.26 3.21 57 3.21 57 " transform="matrix(1,0,0,1,108.18881759313922,14.000000000000227)"/>
+<path sketchjs:tool="pencil" style="fill: none; stroke: black; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 10.49;" d="M0 0 C4.56 12.77 7.19 16.35 9 21 11.31 26.94 13.9 36.42 15 42 15.71 45.59 16 51 16 51 " transform="matrix(1,0,0,1,112.39501953125009,16.000000000000227)"/>
+<path sketchjs:tool="pencil" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 10.49;" d="M0 0 C2.61 27.2 3.33 36 4 36 4.67 36 5.68 26.5 6 22 6.29 17.86 5.46 10.13 6 10 6.23 9.95 7 12 7 12 " transform="matrix(1,0,0,1,113.39501953125011,39.00000000000017)"/>
+<path sketchjs:tool="pencil" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 10.49;" d="M3.21 0 C-0.23 30.96 -0.25 38.06 0.21 44 0.57 48.81 1.11 56.06 2.21 57 2.51 57.26 3.21 57 3.21 57 " transform="matrix(0.9659258262890683,0.25881904510252046,-0.25881904510252046,0.9659258262890683,184.63766021836935,9.348469228349774)"/>
+<path sketchjs:tool="pencil" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 10.49;" d="M0 0 C4.56 12.77 7.19 16.35 9 21 11.31 26.94 13.9 36.42 15 42 15.71 45.59 16 51 16 51 " transform="matrix(0.9659258262890683,0.25881904510252046,-0.25881904510252046,0.9659258262890683,188.69083221450714,13.540341932729579)"/>
+<path sketchjs:tool="pencil" style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 10.49;" d="M0 0 C2.61 27.2 3.33 36 4 36 4.67 36 5.68 26.5 6 22 6.29 17.86 5.46 10.13 6 10 6.23 9.95 7 12 7 12 " transform="matrix(0.9659258262890683,0.25881904510252046,-0.25881904510252046,0.9659258262890683,183.96273904854084,35.049529156191625)"/>
+<g sketchjs:tool="eraser" style="" transform="matrix(0.6636753405249264,0,0,2.180835430234691,97.63675340524927,287.8083543023469)">
+	<filter filterUnits="userSpaceOnUse" id="02179235_x2dd8e6_x2d4c32_x2d9c59_x2ddb478fda77fc_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: url(#dna_1406295603); stroke: white; mix-blend-mode: destination-out; paint-order: stroke fill markers; fill-opacity: 1; fill-rule: nonzero; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 12.364271593979378;" d="M0 0 C146.09 0.25 152.02 -0.06 153 1 153.26 1.28 153 2 153 2 " filter="url(#02179235_x2dd8e6_x2d4c32_x2d9c59_x2ddb478fda77fc_blur)"/>
+</g>
+<g sketchjs:tool="paintbrush" style="" transform="matrix(1,0,0,1,9007199254740991,9007199254740991)">
+	<filter filterUnits="userSpaceOnUse" id="3d7d4554_x2da769_x2d40e4_x2d8fb4_x2d43ff3156ed69_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: #3f3f3f; stroke: #ffffff; mix-blend-mode: source-over; paint-order: stroke fill markers; fill-opacity: 1; fill-rule: nonzero; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 19.92;" filter="url(#3d7d4554_x2da769_x2d40e4_x2d8fb4_x2d43ff3156ed69_blur)"/>
+</g>
+<g sketchjs:tool="paintbrush" style="" transform="matrix(1.016122224663008,0,0,1.016122224663008,82.09673334797805,287.09673334797805)">
+	<filter filterUnits="userSpaceOnUse" id="6e01314d_x2dcd4e_x2d425b_x2d8032_x2df3615ec1e342_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 11.80734025058415;" d="M0 0 C0 0 55.66 0 79 0 97.56 0 129 0 129 0 129 0 122 0 122 0 " filter="url(#6e01314d_x2dcd4e_x2d425b_x2d8032_x2df3615ec1e342_blur)"/>
+</g>
+<g sketchjs:tool="paintbrush" style="" transform="matrix(1,0,0,1,82,244)">
+	<filter filterUnits="userSpaceOnUse" id="db70dd75_x2d5ca7_x2d4aae_x2db285_x2d4f436884906b_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 11.62;" d="M0 0 C0 0 0 25.19 0 33 0 37.3 0 43 0 43 " filter="url(#db70dd75_x2d5ca7_x2d4aae_x2db285_x2d4f436884906b_blur)"/>
+</g>
+<g sketchjs:tool="paintbrush" style="" transform="matrix(1,0,0,1,217,244)">
+	<filter filterUnits="userSpaceOnUse" id="2cec4e40_x2d5630_x2d407f_x2da0d4_x2d921b977bcf66_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 11.62;" d="M0 0 C0 0 0 25.19 0 33 0 37.3 0 43 0 43 " filter="url(#2cec4e40_x2d5630_x2d407f_x2da0d4_x2d921b977bcf66_blur)"/>
+</g>
+<g sketchjs:tool="paintbrush" style="" transform="matrix(1,0,0,1,168,98)">
+	<filter filterUnits="userSpaceOnUse" id="6d1a6670_x2de504_x2d4861_x2d9fab_x2dc543aedc6f5c_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 1;" d="M0 0 L31.01 0.01 " filter="url(#6d1a6670_x2de504_x2d4861_x2d9fab_x2dc543aedc6f5c_blur)"/>
+</g>
+<g sketchjs:tool="paintbrush" style="" transform="matrix(1,0,0,1,-65,-42)">
+	<filter filterUnits="userSpaceOnUse" id="5f6137a3_x2d2161_x2d4ff0_x2d8da8_x2dfd31fbec15dd_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: none; stroke: #000000; mix-blend-mode: source-over; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 1;" d="M0 0 L0.02 0.02 " filter="url(#5f6137a3_x2d2161_x2d4ff0_x2d8da8_x2dfd31fbec15dd_blur)"/>
+</g>
+<g sketchjs:tool="eraser" style="" transform="matrix(1,0,0,1,125,91)">
+	<filter filterUnits="userSpaceOnUse" id="9c30aa58_x2dfabf_x2d4988_x2da014_x2df40444a01a43_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: none; stroke: white; mix-blend-mode: destination-out; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 19.92;" d="M0 0 L0.02 0.02 " filter="url(#9c30aa58_x2dfabf_x2d4988_x2da014_x2df40444a01a43_blur)"/>
+</g>
+<g sketchjs:tool="eraser" style="" transform="matrix(1,0,0,1,173,91)">
+	<filter filterUnits="userSpaceOnUse" id="c80a482a_x2de971_x2d4404_x2d9e69_x2d3e897199553f_blur">
+		<feGaussianBlur/>
+	</filter>
+	<path style="fill: none; stroke: white; mix-blend-mode: destination-out; stroke-alignment: center; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 19.85;" d="M0 0 L0.02 0.02 " filter="url(#c80a482a_x2de971_x2d4404_x2d9e69_x2d3e897199553f_blur)"/>
+</g>
+</svg>
