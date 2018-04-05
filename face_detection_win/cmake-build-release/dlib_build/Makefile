@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\OneDrive\CS\CS160\face_detection_win
+CMAKE_SOURCE_DIR = D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+CMAKE_BINARY_DIR = D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,18 +81,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\CMakeFiles D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\CMakeFiles\progress.marks
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) dlib_build\all
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\CMakeFiles 0
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) dlib_build\clean
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : clean
 
 # The main clean target
@@ -102,30 +102,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) dlib_build\preinstall
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) dlib_build\preinstall
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : depend
 
 # Convenience name for target.
 dlib_build\CMakeFiles\dlib.dir\rule:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\rule
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dlib_build\CMakeFiles\dlib.dir\rule
 
 # Convenience name for target.
@@ -135,9 +135,9 @@ dlib: dlib_build\CMakeFiles\dlib.dir\rule
 
 # fast build rule for target.
 dlib\fast:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\build
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dlib\fast
 
 base64\base64_kernel_1.obj: base64\base64_kernel_1.cpp.obj
@@ -146,9 +146,9 @@ base64\base64_kernel_1.obj: base64\base64_kernel_1.cpp.obj
 
 # target to build an object file
 base64\base64_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : base64\base64_kernel_1.cpp.obj
 
 base64\base64_kernel_1.i: base64\base64_kernel_1.cpp.i
@@ -157,9 +157,9 @@ base64\base64_kernel_1.i: base64\base64_kernel_1.cpp.i
 
 # target to preprocess a source file
 base64\base64_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : base64\base64_kernel_1.cpp.i
 
 base64\base64_kernel_1.s: base64\base64_kernel_1.cpp.s
@@ -168,9 +168,9 @@ base64\base64_kernel_1.s: base64\base64_kernel_1.cpp.s
 
 # target to generate assembly for a file
 base64\base64_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : base64\base64_kernel_1.cpp.s
 
 bigint\bigint_kernel_1.obj: bigint\bigint_kernel_1.cpp.obj
@@ -179,9 +179,9 @@ bigint\bigint_kernel_1.obj: bigint\bigint_kernel_1.cpp.obj
 
 # target to build an object file
 bigint\bigint_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bigint\bigint_kernel_1.cpp.obj
 
 bigint\bigint_kernel_1.i: bigint\bigint_kernel_1.cpp.i
@@ -190,9 +190,9 @@ bigint\bigint_kernel_1.i: bigint\bigint_kernel_1.cpp.i
 
 # target to preprocess a source file
 bigint\bigint_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bigint\bigint_kernel_1.cpp.i
 
 bigint\bigint_kernel_1.s: bigint\bigint_kernel_1.cpp.s
@@ -201,9 +201,9 @@ bigint\bigint_kernel_1.s: bigint\bigint_kernel_1.cpp.s
 
 # target to generate assembly for a file
 bigint\bigint_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bigint\bigint_kernel_1.cpp.s
 
 bigint\bigint_kernel_2.obj: bigint\bigint_kernel_2.cpp.obj
@@ -212,9 +212,9 @@ bigint\bigint_kernel_2.obj: bigint\bigint_kernel_2.cpp.obj
 
 # target to build an object file
 bigint\bigint_kernel_2.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bigint\bigint_kernel_2.cpp.obj
 
 bigint\bigint_kernel_2.i: bigint\bigint_kernel_2.cpp.i
@@ -223,9 +223,9 @@ bigint\bigint_kernel_2.i: bigint\bigint_kernel_2.cpp.i
 
 # target to preprocess a source file
 bigint\bigint_kernel_2.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bigint\bigint_kernel_2.cpp.i
 
 bigint\bigint_kernel_2.s: bigint\bigint_kernel_2.cpp.s
@@ -234,9 +234,9 @@ bigint\bigint_kernel_2.s: bigint\bigint_kernel_2.cpp.s
 
 # target to generate assembly for a file
 bigint\bigint_kernel_2.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bigint\bigint_kernel_2.cpp.s
 
 bit_stream\bit_stream_kernel_1.obj: bit_stream\bit_stream_kernel_1.cpp.obj
@@ -245,9 +245,9 @@ bit_stream\bit_stream_kernel_1.obj: bit_stream\bit_stream_kernel_1.cpp.obj
 
 # target to build an object file
 bit_stream\bit_stream_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bit_stream\bit_stream_kernel_1.cpp.obj
 
 bit_stream\bit_stream_kernel_1.i: bit_stream\bit_stream_kernel_1.cpp.i
@@ -256,9 +256,9 @@ bit_stream\bit_stream_kernel_1.i: bit_stream\bit_stream_kernel_1.cpp.i
 
 # target to preprocess a source file
 bit_stream\bit_stream_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bit_stream\bit_stream_kernel_1.cpp.i
 
 bit_stream\bit_stream_kernel_1.s: bit_stream\bit_stream_kernel_1.cpp.s
@@ -267,9 +267,9 @@ bit_stream\bit_stream_kernel_1.s: bit_stream\bit_stream_kernel_1.cpp.s
 
 # target to generate assembly for a file
 bit_stream\bit_stream_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bit_stream\bit_stream_kernel_1.cpp.s
 
 bsp\bsp.obj: bsp\bsp.cpp.obj
@@ -278,9 +278,9 @@ bsp\bsp.obj: bsp\bsp.cpp.obj
 
 # target to build an object file
 bsp\bsp.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bsp\bsp.cpp.obj
 
 bsp\bsp.i: bsp\bsp.cpp.i
@@ -289,9 +289,9 @@ bsp\bsp.i: bsp\bsp.cpp.i
 
 # target to preprocess a source file
 bsp\bsp.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bsp\bsp.cpp.i
 
 bsp\bsp.s: bsp\bsp.cpp.s
@@ -300,9 +300,9 @@ bsp\bsp.s: bsp\bsp.cpp.s
 
 # target to generate assembly for a file
 bsp\bsp.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : bsp\bsp.cpp.s
 
 data_io\image_dataset_metadata.obj: data_io\image_dataset_metadata.cpp.obj
@@ -311,9 +311,9 @@ data_io\image_dataset_metadata.obj: data_io\image_dataset_metadata.cpp.obj
 
 # target to build an object file
 data_io\image_dataset_metadata.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : data_io\image_dataset_metadata.cpp.obj
 
 data_io\image_dataset_metadata.i: data_io\image_dataset_metadata.cpp.i
@@ -322,9 +322,9 @@ data_io\image_dataset_metadata.i: data_io\image_dataset_metadata.cpp.i
 
 # target to preprocess a source file
 data_io\image_dataset_metadata.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : data_io\image_dataset_metadata.cpp.i
 
 data_io\image_dataset_metadata.s: data_io\image_dataset_metadata.cpp.s
@@ -333,9 +333,9 @@ data_io\image_dataset_metadata.s: data_io\image_dataset_metadata.cpp.s
 
 # target to generate assembly for a file
 data_io\image_dataset_metadata.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : data_io\image_dataset_metadata.cpp.s
 
 data_io\mnist.obj: data_io\mnist.cpp.obj
@@ -344,9 +344,9 @@ data_io\mnist.obj: data_io\mnist.cpp.obj
 
 # target to build an object file
 data_io\mnist.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : data_io\mnist.cpp.obj
 
 data_io\mnist.i: data_io\mnist.cpp.i
@@ -355,9 +355,9 @@ data_io\mnist.i: data_io\mnist.cpp.i
 
 # target to preprocess a source file
 data_io\mnist.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : data_io\mnist.cpp.i
 
 data_io\mnist.s: data_io\mnist.cpp.s
@@ -366,9 +366,9 @@ data_io\mnist.s: data_io\mnist.cpp.s
 
 # target to generate assembly for a file
 data_io\mnist.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : data_io\mnist.cpp.s
 
 dir_nav\dir_nav_extensions.obj: dir_nav\dir_nav_extensions.cpp.obj
@@ -377,9 +377,9 @@ dir_nav\dir_nav_extensions.obj: dir_nav\dir_nav_extensions.cpp.obj
 
 # target to build an object file
 dir_nav\dir_nav_extensions.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dir_nav\dir_nav_extensions.cpp.obj
 
 dir_nav\dir_nav_extensions.i: dir_nav\dir_nav_extensions.cpp.i
@@ -388,9 +388,9 @@ dir_nav\dir_nav_extensions.i: dir_nav\dir_nav_extensions.cpp.i
 
 # target to preprocess a source file
 dir_nav\dir_nav_extensions.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dir_nav\dir_nav_extensions.cpp.i
 
 dir_nav\dir_nav_extensions.s: dir_nav\dir_nav_extensions.cpp.s
@@ -399,9 +399,9 @@ dir_nav\dir_nav_extensions.s: dir_nav\dir_nav_extensions.cpp.s
 
 # target to generate assembly for a file
 dir_nav\dir_nav_extensions.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dir_nav\dir_nav_extensions.cpp.s
 
 dir_nav\dir_nav_kernel_1.obj: dir_nav\dir_nav_kernel_1.cpp.obj
@@ -410,9 +410,9 @@ dir_nav\dir_nav_kernel_1.obj: dir_nav\dir_nav_kernel_1.cpp.obj
 
 # target to build an object file
 dir_nav\dir_nav_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dir_nav\dir_nav_kernel_1.cpp.obj
 
 dir_nav\dir_nav_kernel_1.i: dir_nav\dir_nav_kernel_1.cpp.i
@@ -421,9 +421,9 @@ dir_nav\dir_nav_kernel_1.i: dir_nav\dir_nav_kernel_1.cpp.i
 
 # target to preprocess a source file
 dir_nav\dir_nav_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dir_nav\dir_nav_kernel_1.cpp.i
 
 dir_nav\dir_nav_kernel_1.s: dir_nav\dir_nav_kernel_1.cpp.s
@@ -432,9 +432,9 @@ dir_nav\dir_nav_kernel_1.s: dir_nav\dir_nav_kernel_1.cpp.s
 
 # target to generate assembly for a file
 dir_nav\dir_nav_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dir_nav\dir_nav_kernel_1.cpp.s
 
 dir_nav\dir_nav_kernel_2.obj: dir_nav\dir_nav_kernel_2.cpp.obj
@@ -443,9 +443,9 @@ dir_nav\dir_nav_kernel_2.obj: dir_nav\dir_nav_kernel_2.cpp.obj
 
 # target to build an object file
 dir_nav\dir_nav_kernel_2.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dir_nav\dir_nav_kernel_2.cpp.obj
 
 dir_nav\dir_nav_kernel_2.i: dir_nav\dir_nav_kernel_2.cpp.i
@@ -454,9 +454,9 @@ dir_nav\dir_nav_kernel_2.i: dir_nav\dir_nav_kernel_2.cpp.i
 
 # target to preprocess a source file
 dir_nav\dir_nav_kernel_2.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dir_nav\dir_nav_kernel_2.cpp.i
 
 dir_nav\dir_nav_kernel_2.s: dir_nav\dir_nav_kernel_2.cpp.s
@@ -465,9 +465,9 @@ dir_nav\dir_nav_kernel_2.s: dir_nav\dir_nav_kernel_2.cpp.s
 
 # target to generate assembly for a file
 dir_nav\dir_nav_kernel_2.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dir_nav\dir_nav_kernel_2.cpp.s
 
 dnn\cpu_dlib.obj: dnn\cpu_dlib.cpp.obj
@@ -476,9 +476,9 @@ dnn\cpu_dlib.obj: dnn\cpu_dlib.cpp.obj
 
 # target to build an object file
 dnn\cpu_dlib.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dnn\cpu_dlib.cpp.obj
 
 dnn\cpu_dlib.i: dnn\cpu_dlib.cpp.i
@@ -487,9 +487,9 @@ dnn\cpu_dlib.i: dnn\cpu_dlib.cpp.i
 
 # target to preprocess a source file
 dnn\cpu_dlib.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dnn\cpu_dlib.cpp.i
 
 dnn\cpu_dlib.s: dnn\cpu_dlib.cpp.s
@@ -498,9 +498,9 @@ dnn\cpu_dlib.s: dnn\cpu_dlib.cpp.s
 
 # target to generate assembly for a file
 dnn\cpu_dlib.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dnn\cpu_dlib.cpp.s
 
 dnn\tensor_tools.obj: dnn\tensor_tools.cpp.obj
@@ -509,9 +509,9 @@ dnn\tensor_tools.obj: dnn\tensor_tools.cpp.obj
 
 # target to build an object file
 dnn\tensor_tools.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dnn\tensor_tools.cpp.obj
 
 dnn\tensor_tools.i: dnn\tensor_tools.cpp.i
@@ -520,9 +520,9 @@ dnn\tensor_tools.i: dnn\tensor_tools.cpp.i
 
 # target to preprocess a source file
 dnn\tensor_tools.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dnn\tensor_tools.cpp.i
 
 dnn\tensor_tools.s: dnn\tensor_tools.cpp.s
@@ -531,9 +531,9 @@ dnn\tensor_tools.s: dnn\tensor_tools.cpp.s
 
 # target to generate assembly for a file
 dnn\tensor_tools.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : dnn\tensor_tools.cpp.s
 
 entropy_decoder\entropy_decoder_kernel_1.obj: entropy_decoder\entropy_decoder_kernel_1.cpp.obj
@@ -542,9 +542,9 @@ entropy_decoder\entropy_decoder_kernel_1.obj: entropy_decoder\entropy_decoder_ke
 
 # target to build an object file
 entropy_decoder\entropy_decoder_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_decoder\entropy_decoder_kernel_1.cpp.obj
 
 entropy_decoder\entropy_decoder_kernel_1.i: entropy_decoder\entropy_decoder_kernel_1.cpp.i
@@ -553,9 +553,9 @@ entropy_decoder\entropy_decoder_kernel_1.i: entropy_decoder\entropy_decoder_kern
 
 # target to preprocess a source file
 entropy_decoder\entropy_decoder_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_decoder\entropy_decoder_kernel_1.cpp.i
 
 entropy_decoder\entropy_decoder_kernel_1.s: entropy_decoder\entropy_decoder_kernel_1.cpp.s
@@ -564,9 +564,9 @@ entropy_decoder\entropy_decoder_kernel_1.s: entropy_decoder\entropy_decoder_kern
 
 # target to generate assembly for a file
 entropy_decoder\entropy_decoder_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_decoder\entropy_decoder_kernel_1.cpp.s
 
 entropy_decoder\entropy_decoder_kernel_2.obj: entropy_decoder\entropy_decoder_kernel_2.cpp.obj
@@ -575,9 +575,9 @@ entropy_decoder\entropy_decoder_kernel_2.obj: entropy_decoder\entropy_decoder_ke
 
 # target to build an object file
 entropy_decoder\entropy_decoder_kernel_2.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_decoder\entropy_decoder_kernel_2.cpp.obj
 
 entropy_decoder\entropy_decoder_kernel_2.i: entropy_decoder\entropy_decoder_kernel_2.cpp.i
@@ -586,9 +586,9 @@ entropy_decoder\entropy_decoder_kernel_2.i: entropy_decoder\entropy_decoder_kern
 
 # target to preprocess a source file
 entropy_decoder\entropy_decoder_kernel_2.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_decoder\entropy_decoder_kernel_2.cpp.i
 
 entropy_decoder\entropy_decoder_kernel_2.s: entropy_decoder\entropy_decoder_kernel_2.cpp.s
@@ -597,9 +597,9 @@ entropy_decoder\entropy_decoder_kernel_2.s: entropy_decoder\entropy_decoder_kern
 
 # target to generate assembly for a file
 entropy_decoder\entropy_decoder_kernel_2.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_decoder\entropy_decoder_kernel_2.cpp.s
 
 entropy_encoder\entropy_encoder_kernel_1.obj: entropy_encoder\entropy_encoder_kernel_1.cpp.obj
@@ -608,9 +608,9 @@ entropy_encoder\entropy_encoder_kernel_1.obj: entropy_encoder\entropy_encoder_ke
 
 # target to build an object file
 entropy_encoder\entropy_encoder_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_encoder\entropy_encoder_kernel_1.cpp.obj
 
 entropy_encoder\entropy_encoder_kernel_1.i: entropy_encoder\entropy_encoder_kernel_1.cpp.i
@@ -619,9 +619,9 @@ entropy_encoder\entropy_encoder_kernel_1.i: entropy_encoder\entropy_encoder_kern
 
 # target to preprocess a source file
 entropy_encoder\entropy_encoder_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_encoder\entropy_encoder_kernel_1.cpp.i
 
 entropy_encoder\entropy_encoder_kernel_1.s: entropy_encoder\entropy_encoder_kernel_1.cpp.s
@@ -630,9 +630,9 @@ entropy_encoder\entropy_encoder_kernel_1.s: entropy_encoder\entropy_encoder_kern
 
 # target to generate assembly for a file
 entropy_encoder\entropy_encoder_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_encoder\entropy_encoder_kernel_1.cpp.s
 
 entropy_encoder\entropy_encoder_kernel_2.obj: entropy_encoder\entropy_encoder_kernel_2.cpp.obj
@@ -641,9 +641,9 @@ entropy_encoder\entropy_encoder_kernel_2.obj: entropy_encoder\entropy_encoder_ke
 
 # target to build an object file
 entropy_encoder\entropy_encoder_kernel_2.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_encoder\entropy_encoder_kernel_2.cpp.obj
 
 entropy_encoder\entropy_encoder_kernel_2.i: entropy_encoder\entropy_encoder_kernel_2.cpp.i
@@ -652,9 +652,9 @@ entropy_encoder\entropy_encoder_kernel_2.i: entropy_encoder\entropy_encoder_kern
 
 # target to preprocess a source file
 entropy_encoder\entropy_encoder_kernel_2.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_encoder\entropy_encoder_kernel_2.cpp.i
 
 entropy_encoder\entropy_encoder_kernel_2.s: entropy_encoder\entropy_encoder_kernel_2.cpp.s
@@ -663,9 +663,9 @@ entropy_encoder\entropy_encoder_kernel_2.s: entropy_encoder\entropy_encoder_kern
 
 # target to generate assembly for a file
 entropy_encoder\entropy_encoder_kernel_2.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : entropy_encoder\entropy_encoder_kernel_2.cpp.s
 
 external\libjpeg\jcapimin.obj: external\libjpeg\jcapimin.cpp.obj
@@ -674,9 +674,9 @@ external\libjpeg\jcapimin.obj: external\libjpeg\jcapimin.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcapimin.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcapimin.cpp.obj
 
 external\libjpeg\jcapimin.i: external\libjpeg\jcapimin.cpp.i
@@ -685,9 +685,9 @@ external\libjpeg\jcapimin.i: external\libjpeg\jcapimin.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcapimin.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcapimin.cpp.i
 
 external\libjpeg\jcapimin.s: external\libjpeg\jcapimin.cpp.s
@@ -696,9 +696,9 @@ external\libjpeg\jcapimin.s: external\libjpeg\jcapimin.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcapimin.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcapimin.cpp.s
 
 external\libjpeg\jcapistd.obj: external\libjpeg\jcapistd.cpp.obj
@@ -707,9 +707,9 @@ external\libjpeg\jcapistd.obj: external\libjpeg\jcapistd.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcapistd.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcapistd.cpp.obj
 
 external\libjpeg\jcapistd.i: external\libjpeg\jcapistd.cpp.i
@@ -718,9 +718,9 @@ external\libjpeg\jcapistd.i: external\libjpeg\jcapistd.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcapistd.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcapistd.cpp.i
 
 external\libjpeg\jcapistd.s: external\libjpeg\jcapistd.cpp.s
@@ -729,9 +729,9 @@ external\libjpeg\jcapistd.s: external\libjpeg\jcapistd.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcapistd.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcapistd.cpp.s
 
 external\libjpeg\jccoefct.obj: external\libjpeg\jccoefct.cpp.obj
@@ -740,9 +740,9 @@ external\libjpeg\jccoefct.obj: external\libjpeg\jccoefct.cpp.obj
 
 # target to build an object file
 external\libjpeg\jccoefct.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jccoefct.cpp.obj
 
 external\libjpeg\jccoefct.i: external\libjpeg\jccoefct.cpp.i
@@ -751,9 +751,9 @@ external\libjpeg\jccoefct.i: external\libjpeg\jccoefct.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jccoefct.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jccoefct.cpp.i
 
 external\libjpeg\jccoefct.s: external\libjpeg\jccoefct.cpp.s
@@ -762,9 +762,9 @@ external\libjpeg\jccoefct.s: external\libjpeg\jccoefct.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jccoefct.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jccoefct.cpp.s
 
 external\libjpeg\jccolor.obj: external\libjpeg\jccolor.cpp.obj
@@ -773,9 +773,9 @@ external\libjpeg\jccolor.obj: external\libjpeg\jccolor.cpp.obj
 
 # target to build an object file
 external\libjpeg\jccolor.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jccolor.cpp.obj
 
 external\libjpeg\jccolor.i: external\libjpeg\jccolor.cpp.i
@@ -784,9 +784,9 @@ external\libjpeg\jccolor.i: external\libjpeg\jccolor.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jccolor.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jccolor.cpp.i
 
 external\libjpeg\jccolor.s: external\libjpeg\jccolor.cpp.s
@@ -795,9 +795,9 @@ external\libjpeg\jccolor.s: external\libjpeg\jccolor.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jccolor.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jccolor.cpp.s
 
 external\libjpeg\jcdctmgr.obj: external\libjpeg\jcdctmgr.cpp.obj
@@ -806,9 +806,9 @@ external\libjpeg\jcdctmgr.obj: external\libjpeg\jcdctmgr.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcdctmgr.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcdctmgr.cpp.obj
 
 external\libjpeg\jcdctmgr.i: external\libjpeg\jcdctmgr.cpp.i
@@ -817,9 +817,9 @@ external\libjpeg\jcdctmgr.i: external\libjpeg\jcdctmgr.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcdctmgr.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcdctmgr.cpp.i
 
 external\libjpeg\jcdctmgr.s: external\libjpeg\jcdctmgr.cpp.s
@@ -828,9 +828,9 @@ external\libjpeg\jcdctmgr.s: external\libjpeg\jcdctmgr.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcdctmgr.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcdctmgr.cpp.s
 
 external\libjpeg\jchuff.obj: external\libjpeg\jchuff.cpp.obj
@@ -839,9 +839,9 @@ external\libjpeg\jchuff.obj: external\libjpeg\jchuff.cpp.obj
 
 # target to build an object file
 external\libjpeg\jchuff.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jchuff.cpp.obj
 
 external\libjpeg\jchuff.i: external\libjpeg\jchuff.cpp.i
@@ -850,9 +850,9 @@ external\libjpeg\jchuff.i: external\libjpeg\jchuff.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jchuff.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jchuff.cpp.i
 
 external\libjpeg\jchuff.s: external\libjpeg\jchuff.cpp.s
@@ -861,9 +861,9 @@ external\libjpeg\jchuff.s: external\libjpeg\jchuff.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jchuff.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jchuff.cpp.s
 
 external\libjpeg\jcinit.obj: external\libjpeg\jcinit.cpp.obj
@@ -872,9 +872,9 @@ external\libjpeg\jcinit.obj: external\libjpeg\jcinit.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcinit.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcinit.cpp.obj
 
 external\libjpeg\jcinit.i: external\libjpeg\jcinit.cpp.i
@@ -883,9 +883,9 @@ external\libjpeg\jcinit.i: external\libjpeg\jcinit.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcinit.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcinit.cpp.i
 
 external\libjpeg\jcinit.s: external\libjpeg\jcinit.cpp.s
@@ -894,9 +894,9 @@ external\libjpeg\jcinit.s: external\libjpeg\jcinit.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcinit.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcinit.cpp.s
 
 external\libjpeg\jcmainct.obj: external\libjpeg\jcmainct.cpp.obj
@@ -905,9 +905,9 @@ external\libjpeg\jcmainct.obj: external\libjpeg\jcmainct.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcmainct.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcmainct.cpp.obj
 
 external\libjpeg\jcmainct.i: external\libjpeg\jcmainct.cpp.i
@@ -916,9 +916,9 @@ external\libjpeg\jcmainct.i: external\libjpeg\jcmainct.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcmainct.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcmainct.cpp.i
 
 external\libjpeg\jcmainct.s: external\libjpeg\jcmainct.cpp.s
@@ -927,9 +927,9 @@ external\libjpeg\jcmainct.s: external\libjpeg\jcmainct.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcmainct.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcmainct.cpp.s
 
 external\libjpeg\jcmarker.obj: external\libjpeg\jcmarker.cpp.obj
@@ -938,9 +938,9 @@ external\libjpeg\jcmarker.obj: external\libjpeg\jcmarker.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcmarker.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcmarker.cpp.obj
 
 external\libjpeg\jcmarker.i: external\libjpeg\jcmarker.cpp.i
@@ -949,9 +949,9 @@ external\libjpeg\jcmarker.i: external\libjpeg\jcmarker.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcmarker.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcmarker.cpp.i
 
 external\libjpeg\jcmarker.s: external\libjpeg\jcmarker.cpp.s
@@ -960,9 +960,9 @@ external\libjpeg\jcmarker.s: external\libjpeg\jcmarker.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcmarker.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcmarker.cpp.s
 
 external\libjpeg\jcmaster.obj: external\libjpeg\jcmaster.cpp.obj
@@ -971,9 +971,9 @@ external\libjpeg\jcmaster.obj: external\libjpeg\jcmaster.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcmaster.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcmaster.cpp.obj
 
 external\libjpeg\jcmaster.i: external\libjpeg\jcmaster.cpp.i
@@ -982,9 +982,9 @@ external\libjpeg\jcmaster.i: external\libjpeg\jcmaster.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcmaster.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcmaster.cpp.i
 
 external\libjpeg\jcmaster.s: external\libjpeg\jcmaster.cpp.s
@@ -993,9 +993,9 @@ external\libjpeg\jcmaster.s: external\libjpeg\jcmaster.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcmaster.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcmaster.cpp.s
 
 external\libjpeg\jcomapi.obj: external\libjpeg\jcomapi.cpp.obj
@@ -1004,9 +1004,9 @@ external\libjpeg\jcomapi.obj: external\libjpeg\jcomapi.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcomapi.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcomapi.cpp.obj
 
 external\libjpeg\jcomapi.i: external\libjpeg\jcomapi.cpp.i
@@ -1015,9 +1015,9 @@ external\libjpeg\jcomapi.i: external\libjpeg\jcomapi.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcomapi.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcomapi.cpp.i
 
 external\libjpeg\jcomapi.s: external\libjpeg\jcomapi.cpp.s
@@ -1026,9 +1026,9 @@ external\libjpeg\jcomapi.s: external\libjpeg\jcomapi.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcomapi.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcomapi.cpp.s
 
 external\libjpeg\jcparam.obj: external\libjpeg\jcparam.cpp.obj
@@ -1037,9 +1037,9 @@ external\libjpeg\jcparam.obj: external\libjpeg\jcparam.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcparam.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcparam.cpp.obj
 
 external\libjpeg\jcparam.i: external\libjpeg\jcparam.cpp.i
@@ -1048,9 +1048,9 @@ external\libjpeg\jcparam.i: external\libjpeg\jcparam.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcparam.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcparam.cpp.i
 
 external\libjpeg\jcparam.s: external\libjpeg\jcparam.cpp.s
@@ -1059,9 +1059,9 @@ external\libjpeg\jcparam.s: external\libjpeg\jcparam.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcparam.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcparam.cpp.s
 
 external\libjpeg\jcphuff.obj: external\libjpeg\jcphuff.cpp.obj
@@ -1070,9 +1070,9 @@ external\libjpeg\jcphuff.obj: external\libjpeg\jcphuff.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcphuff.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcphuff.cpp.obj
 
 external\libjpeg\jcphuff.i: external\libjpeg\jcphuff.cpp.i
@@ -1081,9 +1081,9 @@ external\libjpeg\jcphuff.i: external\libjpeg\jcphuff.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcphuff.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcphuff.cpp.i
 
 external\libjpeg\jcphuff.s: external\libjpeg\jcphuff.cpp.s
@@ -1092,9 +1092,9 @@ external\libjpeg\jcphuff.s: external\libjpeg\jcphuff.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcphuff.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcphuff.cpp.s
 
 external\libjpeg\jcprepct.obj: external\libjpeg\jcprepct.cpp.obj
@@ -1103,9 +1103,9 @@ external\libjpeg\jcprepct.obj: external\libjpeg\jcprepct.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcprepct.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcprepct.cpp.obj
 
 external\libjpeg\jcprepct.i: external\libjpeg\jcprepct.cpp.i
@@ -1114,9 +1114,9 @@ external\libjpeg\jcprepct.i: external\libjpeg\jcprepct.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcprepct.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcprepct.cpp.i
 
 external\libjpeg\jcprepct.s: external\libjpeg\jcprepct.cpp.s
@@ -1125,9 +1125,9 @@ external\libjpeg\jcprepct.s: external\libjpeg\jcprepct.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcprepct.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcprepct.cpp.s
 
 external\libjpeg\jcsample.obj: external\libjpeg\jcsample.cpp.obj
@@ -1136,9 +1136,9 @@ external\libjpeg\jcsample.obj: external\libjpeg\jcsample.cpp.obj
 
 # target to build an object file
 external\libjpeg\jcsample.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcsample.cpp.obj
 
 external\libjpeg\jcsample.i: external\libjpeg\jcsample.cpp.i
@@ -1147,9 +1147,9 @@ external\libjpeg\jcsample.i: external\libjpeg\jcsample.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jcsample.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcsample.cpp.i
 
 external\libjpeg\jcsample.s: external\libjpeg\jcsample.cpp.s
@@ -1158,9 +1158,9 @@ external\libjpeg\jcsample.s: external\libjpeg\jcsample.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jcsample.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jcsample.cpp.s
 
 external\libjpeg\jdapimin.obj: external\libjpeg\jdapimin.cpp.obj
@@ -1169,9 +1169,9 @@ external\libjpeg\jdapimin.obj: external\libjpeg\jdapimin.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdapimin.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdapimin.cpp.obj
 
 external\libjpeg\jdapimin.i: external\libjpeg\jdapimin.cpp.i
@@ -1180,9 +1180,9 @@ external\libjpeg\jdapimin.i: external\libjpeg\jdapimin.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdapimin.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdapimin.cpp.i
 
 external\libjpeg\jdapimin.s: external\libjpeg\jdapimin.cpp.s
@@ -1191,9 +1191,9 @@ external\libjpeg\jdapimin.s: external\libjpeg\jdapimin.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdapimin.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdapimin.cpp.s
 
 external\libjpeg\jdapistd.obj: external\libjpeg\jdapistd.cpp.obj
@@ -1202,9 +1202,9 @@ external\libjpeg\jdapistd.obj: external\libjpeg\jdapistd.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdapistd.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdapistd.cpp.obj
 
 external\libjpeg\jdapistd.i: external\libjpeg\jdapistd.cpp.i
@@ -1213,9 +1213,9 @@ external\libjpeg\jdapistd.i: external\libjpeg\jdapistd.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdapistd.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdapistd.cpp.i
 
 external\libjpeg\jdapistd.s: external\libjpeg\jdapistd.cpp.s
@@ -1224,9 +1224,9 @@ external\libjpeg\jdapistd.s: external\libjpeg\jdapistd.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdapistd.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdapistd.cpp.s
 
 external\libjpeg\jdatadst.obj: external\libjpeg\jdatadst.cpp.obj
@@ -1235,9 +1235,9 @@ external\libjpeg\jdatadst.obj: external\libjpeg\jdatadst.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdatadst.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdatadst.cpp.obj
 
 external\libjpeg\jdatadst.i: external\libjpeg\jdatadst.cpp.i
@@ -1246,9 +1246,9 @@ external\libjpeg\jdatadst.i: external\libjpeg\jdatadst.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdatadst.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdatadst.cpp.i
 
 external\libjpeg\jdatadst.s: external\libjpeg\jdatadst.cpp.s
@@ -1257,9 +1257,9 @@ external\libjpeg\jdatadst.s: external\libjpeg\jdatadst.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdatadst.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdatadst.cpp.s
 
 external\libjpeg\jdatasrc.obj: external\libjpeg\jdatasrc.cpp.obj
@@ -1268,9 +1268,9 @@ external\libjpeg\jdatasrc.obj: external\libjpeg\jdatasrc.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdatasrc.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdatasrc.cpp.obj
 
 external\libjpeg\jdatasrc.i: external\libjpeg\jdatasrc.cpp.i
@@ -1279,9 +1279,9 @@ external\libjpeg\jdatasrc.i: external\libjpeg\jdatasrc.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdatasrc.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdatasrc.cpp.i
 
 external\libjpeg\jdatasrc.s: external\libjpeg\jdatasrc.cpp.s
@@ -1290,9 +1290,9 @@ external\libjpeg\jdatasrc.s: external\libjpeg\jdatasrc.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdatasrc.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdatasrc.cpp.s
 
 external\libjpeg\jdcoefct.obj: external\libjpeg\jdcoefct.cpp.obj
@@ -1301,9 +1301,9 @@ external\libjpeg\jdcoefct.obj: external\libjpeg\jdcoefct.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdcoefct.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdcoefct.cpp.obj
 
 external\libjpeg\jdcoefct.i: external\libjpeg\jdcoefct.cpp.i
@@ -1312,9 +1312,9 @@ external\libjpeg\jdcoefct.i: external\libjpeg\jdcoefct.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdcoefct.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdcoefct.cpp.i
 
 external\libjpeg\jdcoefct.s: external\libjpeg\jdcoefct.cpp.s
@@ -1323,9 +1323,9 @@ external\libjpeg\jdcoefct.s: external\libjpeg\jdcoefct.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdcoefct.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdcoefct.cpp.s
 
 external\libjpeg\jdcolor.obj: external\libjpeg\jdcolor.cpp.obj
@@ -1334,9 +1334,9 @@ external\libjpeg\jdcolor.obj: external\libjpeg\jdcolor.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdcolor.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdcolor.cpp.obj
 
 external\libjpeg\jdcolor.i: external\libjpeg\jdcolor.cpp.i
@@ -1345,9 +1345,9 @@ external\libjpeg\jdcolor.i: external\libjpeg\jdcolor.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdcolor.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdcolor.cpp.i
 
 external\libjpeg\jdcolor.s: external\libjpeg\jdcolor.cpp.s
@@ -1356,9 +1356,9 @@ external\libjpeg\jdcolor.s: external\libjpeg\jdcolor.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdcolor.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdcolor.cpp.s
 
 external\libjpeg\jddctmgr.obj: external\libjpeg\jddctmgr.cpp.obj
@@ -1367,9 +1367,9 @@ external\libjpeg\jddctmgr.obj: external\libjpeg\jddctmgr.cpp.obj
 
 # target to build an object file
 external\libjpeg\jddctmgr.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jddctmgr.cpp.obj
 
 external\libjpeg\jddctmgr.i: external\libjpeg\jddctmgr.cpp.i
@@ -1378,9 +1378,9 @@ external\libjpeg\jddctmgr.i: external\libjpeg\jddctmgr.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jddctmgr.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jddctmgr.cpp.i
 
 external\libjpeg\jddctmgr.s: external\libjpeg\jddctmgr.cpp.s
@@ -1389,9 +1389,9 @@ external\libjpeg\jddctmgr.s: external\libjpeg\jddctmgr.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jddctmgr.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jddctmgr.cpp.s
 
 external\libjpeg\jdhuff.obj: external\libjpeg\jdhuff.cpp.obj
@@ -1400,9 +1400,9 @@ external\libjpeg\jdhuff.obj: external\libjpeg\jdhuff.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdhuff.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdhuff.cpp.obj
 
 external\libjpeg\jdhuff.i: external\libjpeg\jdhuff.cpp.i
@@ -1411,9 +1411,9 @@ external\libjpeg\jdhuff.i: external\libjpeg\jdhuff.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdhuff.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdhuff.cpp.i
 
 external\libjpeg\jdhuff.s: external\libjpeg\jdhuff.cpp.s
@@ -1422,9 +1422,9 @@ external\libjpeg\jdhuff.s: external\libjpeg\jdhuff.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdhuff.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdhuff.cpp.s
 
 external\libjpeg\jdinput.obj: external\libjpeg\jdinput.cpp.obj
@@ -1433,9 +1433,9 @@ external\libjpeg\jdinput.obj: external\libjpeg\jdinput.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdinput.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdinput.cpp.obj
 
 external\libjpeg\jdinput.i: external\libjpeg\jdinput.cpp.i
@@ -1444,9 +1444,9 @@ external\libjpeg\jdinput.i: external\libjpeg\jdinput.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdinput.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdinput.cpp.i
 
 external\libjpeg\jdinput.s: external\libjpeg\jdinput.cpp.s
@@ -1455,9 +1455,9 @@ external\libjpeg\jdinput.s: external\libjpeg\jdinput.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdinput.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdinput.cpp.s
 
 external\libjpeg\jdmainct.obj: external\libjpeg\jdmainct.cpp.obj
@@ -1466,9 +1466,9 @@ external\libjpeg\jdmainct.obj: external\libjpeg\jdmainct.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdmainct.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmainct.cpp.obj
 
 external\libjpeg\jdmainct.i: external\libjpeg\jdmainct.cpp.i
@@ -1477,9 +1477,9 @@ external\libjpeg\jdmainct.i: external\libjpeg\jdmainct.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdmainct.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmainct.cpp.i
 
 external\libjpeg\jdmainct.s: external\libjpeg\jdmainct.cpp.s
@@ -1488,9 +1488,9 @@ external\libjpeg\jdmainct.s: external\libjpeg\jdmainct.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdmainct.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmainct.cpp.s
 
 external\libjpeg\jdmarker.obj: external\libjpeg\jdmarker.cpp.obj
@@ -1499,9 +1499,9 @@ external\libjpeg\jdmarker.obj: external\libjpeg\jdmarker.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdmarker.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmarker.cpp.obj
 
 external\libjpeg\jdmarker.i: external\libjpeg\jdmarker.cpp.i
@@ -1510,9 +1510,9 @@ external\libjpeg\jdmarker.i: external\libjpeg\jdmarker.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdmarker.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmarker.cpp.i
 
 external\libjpeg\jdmarker.s: external\libjpeg\jdmarker.cpp.s
@@ -1521,9 +1521,9 @@ external\libjpeg\jdmarker.s: external\libjpeg\jdmarker.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdmarker.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmarker.cpp.s
 
 external\libjpeg\jdmaster.obj: external\libjpeg\jdmaster.cpp.obj
@@ -1532,9 +1532,9 @@ external\libjpeg\jdmaster.obj: external\libjpeg\jdmaster.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdmaster.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmaster.cpp.obj
 
 external\libjpeg\jdmaster.i: external\libjpeg\jdmaster.cpp.i
@@ -1543,9 +1543,9 @@ external\libjpeg\jdmaster.i: external\libjpeg\jdmaster.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdmaster.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmaster.cpp.i
 
 external\libjpeg\jdmaster.s: external\libjpeg\jdmaster.cpp.s
@@ -1554,9 +1554,9 @@ external\libjpeg\jdmaster.s: external\libjpeg\jdmaster.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdmaster.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmaster.cpp.s
 
 external\libjpeg\jdmerge.obj: external\libjpeg\jdmerge.cpp.obj
@@ -1565,9 +1565,9 @@ external\libjpeg\jdmerge.obj: external\libjpeg\jdmerge.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdmerge.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmerge.cpp.obj
 
 external\libjpeg\jdmerge.i: external\libjpeg\jdmerge.cpp.i
@@ -1576,9 +1576,9 @@ external\libjpeg\jdmerge.i: external\libjpeg\jdmerge.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdmerge.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmerge.cpp.i
 
 external\libjpeg\jdmerge.s: external\libjpeg\jdmerge.cpp.s
@@ -1587,9 +1587,9 @@ external\libjpeg\jdmerge.s: external\libjpeg\jdmerge.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdmerge.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdmerge.cpp.s
 
 external\libjpeg\jdphuff.obj: external\libjpeg\jdphuff.cpp.obj
@@ -1598,9 +1598,9 @@ external\libjpeg\jdphuff.obj: external\libjpeg\jdphuff.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdphuff.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdphuff.cpp.obj
 
 external\libjpeg\jdphuff.i: external\libjpeg\jdphuff.cpp.i
@@ -1609,9 +1609,9 @@ external\libjpeg\jdphuff.i: external\libjpeg\jdphuff.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdphuff.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdphuff.cpp.i
 
 external\libjpeg\jdphuff.s: external\libjpeg\jdphuff.cpp.s
@@ -1620,9 +1620,9 @@ external\libjpeg\jdphuff.s: external\libjpeg\jdphuff.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdphuff.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdphuff.cpp.s
 
 external\libjpeg\jdpostct.obj: external\libjpeg\jdpostct.cpp.obj
@@ -1631,9 +1631,9 @@ external\libjpeg\jdpostct.obj: external\libjpeg\jdpostct.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdpostct.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdpostct.cpp.obj
 
 external\libjpeg\jdpostct.i: external\libjpeg\jdpostct.cpp.i
@@ -1642,9 +1642,9 @@ external\libjpeg\jdpostct.i: external\libjpeg\jdpostct.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdpostct.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdpostct.cpp.i
 
 external\libjpeg\jdpostct.s: external\libjpeg\jdpostct.cpp.s
@@ -1653,9 +1653,9 @@ external\libjpeg\jdpostct.s: external\libjpeg\jdpostct.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdpostct.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdpostct.cpp.s
 
 external\libjpeg\jdsample.obj: external\libjpeg\jdsample.cpp.obj
@@ -1664,9 +1664,9 @@ external\libjpeg\jdsample.obj: external\libjpeg\jdsample.cpp.obj
 
 # target to build an object file
 external\libjpeg\jdsample.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdsample.cpp.obj
 
 external\libjpeg\jdsample.i: external\libjpeg\jdsample.cpp.i
@@ -1675,9 +1675,9 @@ external\libjpeg\jdsample.i: external\libjpeg\jdsample.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jdsample.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdsample.cpp.i
 
 external\libjpeg\jdsample.s: external\libjpeg\jdsample.cpp.s
@@ -1686,9 +1686,9 @@ external\libjpeg\jdsample.s: external\libjpeg\jdsample.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jdsample.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jdsample.cpp.s
 
 external\libjpeg\jerror.obj: external\libjpeg\jerror.cpp.obj
@@ -1697,9 +1697,9 @@ external\libjpeg\jerror.obj: external\libjpeg\jerror.cpp.obj
 
 # target to build an object file
 external\libjpeg\jerror.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jerror.cpp.obj
 
 external\libjpeg\jerror.i: external\libjpeg\jerror.cpp.i
@@ -1708,9 +1708,9 @@ external\libjpeg\jerror.i: external\libjpeg\jerror.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jerror.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jerror.cpp.i
 
 external\libjpeg\jerror.s: external\libjpeg\jerror.cpp.s
@@ -1719,9 +1719,9 @@ external\libjpeg\jerror.s: external\libjpeg\jerror.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jerror.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jerror.cpp.s
 
 external\libjpeg\jfdctflt.obj: external\libjpeg\jfdctflt.cpp.obj
@@ -1730,9 +1730,9 @@ external\libjpeg\jfdctflt.obj: external\libjpeg\jfdctflt.cpp.obj
 
 # target to build an object file
 external\libjpeg\jfdctflt.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jfdctflt.cpp.obj
 
 external\libjpeg\jfdctflt.i: external\libjpeg\jfdctflt.cpp.i
@@ -1741,9 +1741,9 @@ external\libjpeg\jfdctflt.i: external\libjpeg\jfdctflt.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jfdctflt.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jfdctflt.cpp.i
 
 external\libjpeg\jfdctflt.s: external\libjpeg\jfdctflt.cpp.s
@@ -1752,9 +1752,9 @@ external\libjpeg\jfdctflt.s: external\libjpeg\jfdctflt.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jfdctflt.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jfdctflt.cpp.s
 
 external\libjpeg\jfdctfst.obj: external\libjpeg\jfdctfst.cpp.obj
@@ -1763,9 +1763,9 @@ external\libjpeg\jfdctfst.obj: external\libjpeg\jfdctfst.cpp.obj
 
 # target to build an object file
 external\libjpeg\jfdctfst.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jfdctfst.cpp.obj
 
 external\libjpeg\jfdctfst.i: external\libjpeg\jfdctfst.cpp.i
@@ -1774,9 +1774,9 @@ external\libjpeg\jfdctfst.i: external\libjpeg\jfdctfst.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jfdctfst.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jfdctfst.cpp.i
 
 external\libjpeg\jfdctfst.s: external\libjpeg\jfdctfst.cpp.s
@@ -1785,9 +1785,9 @@ external\libjpeg\jfdctfst.s: external\libjpeg\jfdctfst.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jfdctfst.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jfdctfst.cpp.s
 
 external\libjpeg\jfdctint.obj: external\libjpeg\jfdctint.cpp.obj
@@ -1796,9 +1796,9 @@ external\libjpeg\jfdctint.obj: external\libjpeg\jfdctint.cpp.obj
 
 # target to build an object file
 external\libjpeg\jfdctint.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jfdctint.cpp.obj
 
 external\libjpeg\jfdctint.i: external\libjpeg\jfdctint.cpp.i
@@ -1807,9 +1807,9 @@ external\libjpeg\jfdctint.i: external\libjpeg\jfdctint.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jfdctint.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jfdctint.cpp.i
 
 external\libjpeg\jfdctint.s: external\libjpeg\jfdctint.cpp.s
@@ -1818,9 +1818,9 @@ external\libjpeg\jfdctint.s: external\libjpeg\jfdctint.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jfdctint.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jfdctint.cpp.s
 
 external\libjpeg\jidctflt.obj: external\libjpeg\jidctflt.cpp.obj
@@ -1829,9 +1829,9 @@ external\libjpeg\jidctflt.obj: external\libjpeg\jidctflt.cpp.obj
 
 # target to build an object file
 external\libjpeg\jidctflt.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctflt.cpp.obj
 
 external\libjpeg\jidctflt.i: external\libjpeg\jidctflt.cpp.i
@@ -1840,9 +1840,9 @@ external\libjpeg\jidctflt.i: external\libjpeg\jidctflt.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jidctflt.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctflt.cpp.i
 
 external\libjpeg\jidctflt.s: external\libjpeg\jidctflt.cpp.s
@@ -1851,9 +1851,9 @@ external\libjpeg\jidctflt.s: external\libjpeg\jidctflt.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jidctflt.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctflt.cpp.s
 
 external\libjpeg\jidctfst.obj: external\libjpeg\jidctfst.cpp.obj
@@ -1862,9 +1862,9 @@ external\libjpeg\jidctfst.obj: external\libjpeg\jidctfst.cpp.obj
 
 # target to build an object file
 external\libjpeg\jidctfst.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctfst.cpp.obj
 
 external\libjpeg\jidctfst.i: external\libjpeg\jidctfst.cpp.i
@@ -1873,9 +1873,9 @@ external\libjpeg\jidctfst.i: external\libjpeg\jidctfst.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jidctfst.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctfst.cpp.i
 
 external\libjpeg\jidctfst.s: external\libjpeg\jidctfst.cpp.s
@@ -1884,9 +1884,9 @@ external\libjpeg\jidctfst.s: external\libjpeg\jidctfst.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jidctfst.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctfst.cpp.s
 
 external\libjpeg\jidctint.obj: external\libjpeg\jidctint.cpp.obj
@@ -1895,9 +1895,9 @@ external\libjpeg\jidctint.obj: external\libjpeg\jidctint.cpp.obj
 
 # target to build an object file
 external\libjpeg\jidctint.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctint.cpp.obj
 
 external\libjpeg\jidctint.i: external\libjpeg\jidctint.cpp.i
@@ -1906,9 +1906,9 @@ external\libjpeg\jidctint.i: external\libjpeg\jidctint.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jidctint.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctint.cpp.i
 
 external\libjpeg\jidctint.s: external\libjpeg\jidctint.cpp.s
@@ -1917,9 +1917,9 @@ external\libjpeg\jidctint.s: external\libjpeg\jidctint.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jidctint.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctint.cpp.s
 
 external\libjpeg\jidctred.obj: external\libjpeg\jidctred.cpp.obj
@@ -1928,9 +1928,9 @@ external\libjpeg\jidctred.obj: external\libjpeg\jidctred.cpp.obj
 
 # target to build an object file
 external\libjpeg\jidctred.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctred.cpp.obj
 
 external\libjpeg\jidctred.i: external\libjpeg\jidctred.cpp.i
@@ -1939,9 +1939,9 @@ external\libjpeg\jidctred.i: external\libjpeg\jidctred.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jidctred.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctred.cpp.i
 
 external\libjpeg\jidctred.s: external\libjpeg\jidctred.cpp.s
@@ -1950,9 +1950,9 @@ external\libjpeg\jidctred.s: external\libjpeg\jidctred.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jidctred.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jidctred.cpp.s
 
 external\libjpeg\jmemmgr.obj: external\libjpeg\jmemmgr.cpp.obj
@@ -1961,9 +1961,9 @@ external\libjpeg\jmemmgr.obj: external\libjpeg\jmemmgr.cpp.obj
 
 # target to build an object file
 external\libjpeg\jmemmgr.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jmemmgr.cpp.obj
 
 external\libjpeg\jmemmgr.i: external\libjpeg\jmemmgr.cpp.i
@@ -1972,9 +1972,9 @@ external\libjpeg\jmemmgr.i: external\libjpeg\jmemmgr.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jmemmgr.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jmemmgr.cpp.i
 
 external\libjpeg\jmemmgr.s: external\libjpeg\jmemmgr.cpp.s
@@ -1983,9 +1983,9 @@ external\libjpeg\jmemmgr.s: external\libjpeg\jmemmgr.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jmemmgr.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jmemmgr.cpp.s
 
 external\libjpeg\jmemnobs.obj: external\libjpeg\jmemnobs.cpp.obj
@@ -1994,9 +1994,9 @@ external\libjpeg\jmemnobs.obj: external\libjpeg\jmemnobs.cpp.obj
 
 # target to build an object file
 external\libjpeg\jmemnobs.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jmemnobs.cpp.obj
 
 external\libjpeg\jmemnobs.i: external\libjpeg\jmemnobs.cpp.i
@@ -2005,9 +2005,9 @@ external\libjpeg\jmemnobs.i: external\libjpeg\jmemnobs.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jmemnobs.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jmemnobs.cpp.i
 
 external\libjpeg\jmemnobs.s: external\libjpeg\jmemnobs.cpp.s
@@ -2016,9 +2016,9 @@ external\libjpeg\jmemnobs.s: external\libjpeg\jmemnobs.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jmemnobs.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jmemnobs.cpp.s
 
 external\libjpeg\jquant1.obj: external\libjpeg\jquant1.cpp.obj
@@ -2027,9 +2027,9 @@ external\libjpeg\jquant1.obj: external\libjpeg\jquant1.cpp.obj
 
 # target to build an object file
 external\libjpeg\jquant1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jquant1.cpp.obj
 
 external\libjpeg\jquant1.i: external\libjpeg\jquant1.cpp.i
@@ -2038,9 +2038,9 @@ external\libjpeg\jquant1.i: external\libjpeg\jquant1.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jquant1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jquant1.cpp.i
 
 external\libjpeg\jquant1.s: external\libjpeg\jquant1.cpp.s
@@ -2049,9 +2049,9 @@ external\libjpeg\jquant1.s: external\libjpeg\jquant1.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jquant1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jquant1.cpp.s
 
 external\libjpeg\jquant2.obj: external\libjpeg\jquant2.cpp.obj
@@ -2060,9 +2060,9 @@ external\libjpeg\jquant2.obj: external\libjpeg\jquant2.cpp.obj
 
 # target to build an object file
 external\libjpeg\jquant2.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jquant2.cpp.obj
 
 external\libjpeg\jquant2.i: external\libjpeg\jquant2.cpp.i
@@ -2071,9 +2071,9 @@ external\libjpeg\jquant2.i: external\libjpeg\jquant2.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jquant2.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jquant2.cpp.i
 
 external\libjpeg\jquant2.s: external\libjpeg\jquant2.cpp.s
@@ -2082,9 +2082,9 @@ external\libjpeg\jquant2.s: external\libjpeg\jquant2.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jquant2.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jquant2.cpp.s
 
 external\libjpeg\jutils.obj: external\libjpeg\jutils.cpp.obj
@@ -2093,9 +2093,9 @@ external\libjpeg\jutils.obj: external\libjpeg\jutils.cpp.obj
 
 # target to build an object file
 external\libjpeg\jutils.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jutils.cpp.obj
 
 external\libjpeg\jutils.i: external\libjpeg\jutils.cpp.i
@@ -2104,9 +2104,9 @@ external\libjpeg\jutils.i: external\libjpeg\jutils.cpp.i
 
 # target to preprocess a source file
 external\libjpeg\jutils.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jutils.cpp.i
 
 external\libjpeg\jutils.s: external\libjpeg\jutils.cpp.s
@@ -2115,9 +2115,9 @@ external\libjpeg\jutils.s: external\libjpeg\jutils.cpp.s
 
 # target to generate assembly for a file
 external\libjpeg\jutils.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libjpeg\jutils.cpp.s
 
 external\libpng\png.obj: external\libpng\png.c.obj
@@ -2126,9 +2126,9 @@ external\libpng\png.obj: external\libpng\png.c.obj
 
 # target to build an object file
 external\libpng\png.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\png.c.obj
 
 external\libpng\png.i: external\libpng\png.c.i
@@ -2137,9 +2137,9 @@ external\libpng\png.i: external\libpng\png.c.i
 
 # target to preprocess a source file
 external\libpng\png.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\png.c.i
 
 external\libpng\png.s: external\libpng\png.c.s
@@ -2148,9 +2148,9 @@ external\libpng\png.s: external\libpng\png.c.s
 
 # target to generate assembly for a file
 external\libpng\png.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\png.c.s
 
 external\libpng\pngerror.obj: external\libpng\pngerror.c.obj
@@ -2159,9 +2159,9 @@ external\libpng\pngerror.obj: external\libpng\pngerror.c.obj
 
 # target to build an object file
 external\libpng\pngerror.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngerror.c.obj
 
 external\libpng\pngerror.i: external\libpng\pngerror.c.i
@@ -2170,9 +2170,9 @@ external\libpng\pngerror.i: external\libpng\pngerror.c.i
 
 # target to preprocess a source file
 external\libpng\pngerror.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngerror.c.i
 
 external\libpng\pngerror.s: external\libpng\pngerror.c.s
@@ -2181,9 +2181,9 @@ external\libpng\pngerror.s: external\libpng\pngerror.c.s
 
 # target to generate assembly for a file
 external\libpng\pngerror.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngerror.c.s
 
 external\libpng\pngget.obj: external\libpng\pngget.c.obj
@@ -2192,9 +2192,9 @@ external\libpng\pngget.obj: external\libpng\pngget.c.obj
 
 # target to build an object file
 external\libpng\pngget.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngget.c.obj
 
 external\libpng\pngget.i: external\libpng\pngget.c.i
@@ -2203,9 +2203,9 @@ external\libpng\pngget.i: external\libpng\pngget.c.i
 
 # target to preprocess a source file
 external\libpng\pngget.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngget.c.i
 
 external\libpng\pngget.s: external\libpng\pngget.c.s
@@ -2214,9 +2214,9 @@ external\libpng\pngget.s: external\libpng\pngget.c.s
 
 # target to generate assembly for a file
 external\libpng\pngget.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngget.c.s
 
 external\libpng\pngmem.obj: external\libpng\pngmem.c.obj
@@ -2225,9 +2225,9 @@ external\libpng\pngmem.obj: external\libpng\pngmem.c.obj
 
 # target to build an object file
 external\libpng\pngmem.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngmem.c.obj
 
 external\libpng\pngmem.i: external\libpng\pngmem.c.i
@@ -2236,9 +2236,9 @@ external\libpng\pngmem.i: external\libpng\pngmem.c.i
 
 # target to preprocess a source file
 external\libpng\pngmem.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngmem.c.i
 
 external\libpng\pngmem.s: external\libpng\pngmem.c.s
@@ -2247,9 +2247,9 @@ external\libpng\pngmem.s: external\libpng\pngmem.c.s
 
 # target to generate assembly for a file
 external\libpng\pngmem.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngmem.c.s
 
 external\libpng\pngpread.obj: external\libpng\pngpread.c.obj
@@ -2258,9 +2258,9 @@ external\libpng\pngpread.obj: external\libpng\pngpread.c.obj
 
 # target to build an object file
 external\libpng\pngpread.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngpread.c.obj
 
 external\libpng\pngpread.i: external\libpng\pngpread.c.i
@@ -2269,9 +2269,9 @@ external\libpng\pngpread.i: external\libpng\pngpread.c.i
 
 # target to preprocess a source file
 external\libpng\pngpread.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngpread.c.i
 
 external\libpng\pngpread.s: external\libpng\pngpread.c.s
@@ -2280,9 +2280,9 @@ external\libpng\pngpread.s: external\libpng\pngpread.c.s
 
 # target to generate assembly for a file
 external\libpng\pngpread.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngpread.c.s
 
 external\libpng\pngread.obj: external\libpng\pngread.c.obj
@@ -2291,9 +2291,9 @@ external\libpng\pngread.obj: external\libpng\pngread.c.obj
 
 # target to build an object file
 external\libpng\pngread.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngread.c.obj
 
 external\libpng\pngread.i: external\libpng\pngread.c.i
@@ -2302,9 +2302,9 @@ external\libpng\pngread.i: external\libpng\pngread.c.i
 
 # target to preprocess a source file
 external\libpng\pngread.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngread.c.i
 
 external\libpng\pngread.s: external\libpng\pngread.c.s
@@ -2313,9 +2313,9 @@ external\libpng\pngread.s: external\libpng\pngread.c.s
 
 # target to generate assembly for a file
 external\libpng\pngread.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngread.c.s
 
 external\libpng\pngrio.obj: external\libpng\pngrio.c.obj
@@ -2324,9 +2324,9 @@ external\libpng\pngrio.obj: external\libpng\pngrio.c.obj
 
 # target to build an object file
 external\libpng\pngrio.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngrio.c.obj
 
 external\libpng\pngrio.i: external\libpng\pngrio.c.i
@@ -2335,9 +2335,9 @@ external\libpng\pngrio.i: external\libpng\pngrio.c.i
 
 # target to preprocess a source file
 external\libpng\pngrio.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngrio.c.i
 
 external\libpng\pngrio.s: external\libpng\pngrio.c.s
@@ -2346,9 +2346,9 @@ external\libpng\pngrio.s: external\libpng\pngrio.c.s
 
 # target to generate assembly for a file
 external\libpng\pngrio.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngrio.c.s
 
 external\libpng\pngrtran.obj: external\libpng\pngrtran.c.obj
@@ -2357,9 +2357,9 @@ external\libpng\pngrtran.obj: external\libpng\pngrtran.c.obj
 
 # target to build an object file
 external\libpng\pngrtran.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngrtran.c.obj
 
 external\libpng\pngrtran.i: external\libpng\pngrtran.c.i
@@ -2368,9 +2368,9 @@ external\libpng\pngrtran.i: external\libpng\pngrtran.c.i
 
 # target to preprocess a source file
 external\libpng\pngrtran.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngrtran.c.i
 
 external\libpng\pngrtran.s: external\libpng\pngrtran.c.s
@@ -2379,9 +2379,9 @@ external\libpng\pngrtran.s: external\libpng\pngrtran.c.s
 
 # target to generate assembly for a file
 external\libpng\pngrtran.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngrtran.c.s
 
 external\libpng\pngrutil.obj: external\libpng\pngrutil.c.obj
@@ -2390,9 +2390,9 @@ external\libpng\pngrutil.obj: external\libpng\pngrutil.c.obj
 
 # target to build an object file
 external\libpng\pngrutil.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngrutil.c.obj
 
 external\libpng\pngrutil.i: external\libpng\pngrutil.c.i
@@ -2401,9 +2401,9 @@ external\libpng\pngrutil.i: external\libpng\pngrutil.c.i
 
 # target to preprocess a source file
 external\libpng\pngrutil.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngrutil.c.i
 
 external\libpng\pngrutil.s: external\libpng\pngrutil.c.s
@@ -2412,9 +2412,9 @@ external\libpng\pngrutil.s: external\libpng\pngrutil.c.s
 
 # target to generate assembly for a file
 external\libpng\pngrutil.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngrutil.c.s
 
 external\libpng\pngset.obj: external\libpng\pngset.c.obj
@@ -2423,9 +2423,9 @@ external\libpng\pngset.obj: external\libpng\pngset.c.obj
 
 # target to build an object file
 external\libpng\pngset.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngset.c.obj
 
 external\libpng\pngset.i: external\libpng\pngset.c.i
@@ -2434,9 +2434,9 @@ external\libpng\pngset.i: external\libpng\pngset.c.i
 
 # target to preprocess a source file
 external\libpng\pngset.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngset.c.i
 
 external\libpng\pngset.s: external\libpng\pngset.c.s
@@ -2445,9 +2445,9 @@ external\libpng\pngset.s: external\libpng\pngset.c.s
 
 # target to generate assembly for a file
 external\libpng\pngset.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngset.c.s
 
 external\libpng\pngtrans.obj: external\libpng\pngtrans.c.obj
@@ -2456,9 +2456,9 @@ external\libpng\pngtrans.obj: external\libpng\pngtrans.c.obj
 
 # target to build an object file
 external\libpng\pngtrans.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngtrans.c.obj
 
 external\libpng\pngtrans.i: external\libpng\pngtrans.c.i
@@ -2467,9 +2467,9 @@ external\libpng\pngtrans.i: external\libpng\pngtrans.c.i
 
 # target to preprocess a source file
 external\libpng\pngtrans.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngtrans.c.i
 
 external\libpng\pngtrans.s: external\libpng\pngtrans.c.s
@@ -2478,9 +2478,9 @@ external\libpng\pngtrans.s: external\libpng\pngtrans.c.s
 
 # target to generate assembly for a file
 external\libpng\pngtrans.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngtrans.c.s
 
 external\libpng\pngwio.obj: external\libpng\pngwio.c.obj
@@ -2489,9 +2489,9 @@ external\libpng\pngwio.obj: external\libpng\pngwio.c.obj
 
 # target to build an object file
 external\libpng\pngwio.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwio.c.obj
 
 external\libpng\pngwio.i: external\libpng\pngwio.c.i
@@ -2500,9 +2500,9 @@ external\libpng\pngwio.i: external\libpng\pngwio.c.i
 
 # target to preprocess a source file
 external\libpng\pngwio.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwio.c.i
 
 external\libpng\pngwio.s: external\libpng\pngwio.c.s
@@ -2511,9 +2511,9 @@ external\libpng\pngwio.s: external\libpng\pngwio.c.s
 
 # target to generate assembly for a file
 external\libpng\pngwio.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwio.c.s
 
 external\libpng\pngwrite.obj: external\libpng\pngwrite.c.obj
@@ -2522,9 +2522,9 @@ external\libpng\pngwrite.obj: external\libpng\pngwrite.c.obj
 
 # target to build an object file
 external\libpng\pngwrite.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwrite.c.obj
 
 external\libpng\pngwrite.i: external\libpng\pngwrite.c.i
@@ -2533,9 +2533,9 @@ external\libpng\pngwrite.i: external\libpng\pngwrite.c.i
 
 # target to preprocess a source file
 external\libpng\pngwrite.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwrite.c.i
 
 external\libpng\pngwrite.s: external\libpng\pngwrite.c.s
@@ -2544,9 +2544,9 @@ external\libpng\pngwrite.s: external\libpng\pngwrite.c.s
 
 # target to generate assembly for a file
 external\libpng\pngwrite.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwrite.c.s
 
 external\libpng\pngwtran.obj: external\libpng\pngwtran.c.obj
@@ -2555,9 +2555,9 @@ external\libpng\pngwtran.obj: external\libpng\pngwtran.c.obj
 
 # target to build an object file
 external\libpng\pngwtran.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwtran.c.obj
 
 external\libpng\pngwtran.i: external\libpng\pngwtran.c.i
@@ -2566,9 +2566,9 @@ external\libpng\pngwtran.i: external\libpng\pngwtran.c.i
 
 # target to preprocess a source file
 external\libpng\pngwtran.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwtran.c.i
 
 external\libpng\pngwtran.s: external\libpng\pngwtran.c.s
@@ -2577,9 +2577,9 @@ external\libpng\pngwtran.s: external\libpng\pngwtran.c.s
 
 # target to generate assembly for a file
 external\libpng\pngwtran.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwtran.c.s
 
 external\libpng\pngwutil.obj: external\libpng\pngwutil.c.obj
@@ -2588,9 +2588,9 @@ external\libpng\pngwutil.obj: external\libpng\pngwutil.c.obj
 
 # target to build an object file
 external\libpng\pngwutil.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwutil.c.obj
 
 external\libpng\pngwutil.i: external\libpng\pngwutil.c.i
@@ -2599,9 +2599,9 @@ external\libpng\pngwutil.i: external\libpng\pngwutil.c.i
 
 # target to preprocess a source file
 external\libpng\pngwutil.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwutil.c.i
 
 external\libpng\pngwutil.s: external\libpng\pngwutil.c.s
@@ -2610,9 +2610,9 @@ external\libpng\pngwutil.s: external\libpng\pngwutil.c.s
 
 # target to generate assembly for a file
 external\libpng\pngwutil.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\libpng\pngwutil.c.s
 
 external\zlib\adler32.obj: external\zlib\adler32.c.obj
@@ -2621,9 +2621,9 @@ external\zlib\adler32.obj: external\zlib\adler32.c.obj
 
 # target to build an object file
 external\zlib\adler32.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\adler32.c.obj
 
 external\zlib\adler32.i: external\zlib\adler32.c.i
@@ -2632,9 +2632,9 @@ external\zlib\adler32.i: external\zlib\adler32.c.i
 
 # target to preprocess a source file
 external\zlib\adler32.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\adler32.c.i
 
 external\zlib\adler32.s: external\zlib\adler32.c.s
@@ -2643,9 +2643,9 @@ external\zlib\adler32.s: external\zlib\adler32.c.s
 
 # target to generate assembly for a file
 external\zlib\adler32.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\adler32.c.s
 
 external\zlib\compress.obj: external\zlib\compress.c.obj
@@ -2654,9 +2654,9 @@ external\zlib\compress.obj: external\zlib\compress.c.obj
 
 # target to build an object file
 external\zlib\compress.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\compress.c.obj
 
 external\zlib\compress.i: external\zlib\compress.c.i
@@ -2665,9 +2665,9 @@ external\zlib\compress.i: external\zlib\compress.c.i
 
 # target to preprocess a source file
 external\zlib\compress.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\compress.c.i
 
 external\zlib\compress.s: external\zlib\compress.c.s
@@ -2676,9 +2676,9 @@ external\zlib\compress.s: external\zlib\compress.c.s
 
 # target to generate assembly for a file
 external\zlib\compress.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\compress.c.s
 
 external\zlib\crc32.obj: external\zlib\crc32.c.obj
@@ -2687,9 +2687,9 @@ external\zlib\crc32.obj: external\zlib\crc32.c.obj
 
 # target to build an object file
 external\zlib\crc32.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\crc32.c.obj
 
 external\zlib\crc32.i: external\zlib\crc32.c.i
@@ -2698,9 +2698,9 @@ external\zlib\crc32.i: external\zlib\crc32.c.i
 
 # target to preprocess a source file
 external\zlib\crc32.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\crc32.c.i
 
 external\zlib\crc32.s: external\zlib\crc32.c.s
@@ -2709,9 +2709,9 @@ external\zlib\crc32.s: external\zlib\crc32.c.s
 
 # target to generate assembly for a file
 external\zlib\crc32.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\crc32.c.s
 
 external\zlib\deflate.obj: external\zlib\deflate.c.obj
@@ -2720,9 +2720,9 @@ external\zlib\deflate.obj: external\zlib\deflate.c.obj
 
 # target to build an object file
 external\zlib\deflate.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\deflate.c.obj
 
 external\zlib\deflate.i: external\zlib\deflate.c.i
@@ -2731,9 +2731,9 @@ external\zlib\deflate.i: external\zlib\deflate.c.i
 
 # target to preprocess a source file
 external\zlib\deflate.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\deflate.c.i
 
 external\zlib\deflate.s: external\zlib\deflate.c.s
@@ -2742,9 +2742,9 @@ external\zlib\deflate.s: external\zlib\deflate.c.s
 
 # target to generate assembly for a file
 external\zlib\deflate.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\deflate.c.s
 
 external\zlib\gzclose.obj: external\zlib\gzclose.c.obj
@@ -2753,9 +2753,9 @@ external\zlib\gzclose.obj: external\zlib\gzclose.c.obj
 
 # target to build an object file
 external\zlib\gzclose.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzclose.c.obj
 
 external\zlib\gzclose.i: external\zlib\gzclose.c.i
@@ -2764,9 +2764,9 @@ external\zlib\gzclose.i: external\zlib\gzclose.c.i
 
 # target to preprocess a source file
 external\zlib\gzclose.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzclose.c.i
 
 external\zlib\gzclose.s: external\zlib\gzclose.c.s
@@ -2775,9 +2775,9 @@ external\zlib\gzclose.s: external\zlib\gzclose.c.s
 
 # target to generate assembly for a file
 external\zlib\gzclose.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzclose.c.s
 
 external\zlib\gzlib.obj: external\zlib\gzlib.c.obj
@@ -2786,9 +2786,9 @@ external\zlib\gzlib.obj: external\zlib\gzlib.c.obj
 
 # target to build an object file
 external\zlib\gzlib.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzlib.c.obj
 
 external\zlib\gzlib.i: external\zlib\gzlib.c.i
@@ -2797,9 +2797,9 @@ external\zlib\gzlib.i: external\zlib\gzlib.c.i
 
 # target to preprocess a source file
 external\zlib\gzlib.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzlib.c.i
 
 external\zlib\gzlib.s: external\zlib\gzlib.c.s
@@ -2808,9 +2808,9 @@ external\zlib\gzlib.s: external\zlib\gzlib.c.s
 
 # target to generate assembly for a file
 external\zlib\gzlib.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzlib.c.s
 
 external\zlib\gzread.obj: external\zlib\gzread.c.obj
@@ -2819,9 +2819,9 @@ external\zlib\gzread.obj: external\zlib\gzread.c.obj
 
 # target to build an object file
 external\zlib\gzread.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzread.c.obj
 
 external\zlib\gzread.i: external\zlib\gzread.c.i
@@ -2830,9 +2830,9 @@ external\zlib\gzread.i: external\zlib\gzread.c.i
 
 # target to preprocess a source file
 external\zlib\gzread.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzread.c.i
 
 external\zlib\gzread.s: external\zlib\gzread.c.s
@@ -2841,9 +2841,9 @@ external\zlib\gzread.s: external\zlib\gzread.c.s
 
 # target to generate assembly for a file
 external\zlib\gzread.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzread.c.s
 
 external\zlib\gzwrite.obj: external\zlib\gzwrite.c.obj
@@ -2852,9 +2852,9 @@ external\zlib\gzwrite.obj: external\zlib\gzwrite.c.obj
 
 # target to build an object file
 external\zlib\gzwrite.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzwrite.c.obj
 
 external\zlib\gzwrite.i: external\zlib\gzwrite.c.i
@@ -2863,9 +2863,9 @@ external\zlib\gzwrite.i: external\zlib\gzwrite.c.i
 
 # target to preprocess a source file
 external\zlib\gzwrite.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzwrite.c.i
 
 external\zlib\gzwrite.s: external\zlib\gzwrite.c.s
@@ -2874,9 +2874,9 @@ external\zlib\gzwrite.s: external\zlib\gzwrite.c.s
 
 # target to generate assembly for a file
 external\zlib\gzwrite.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\gzwrite.c.s
 
 external\zlib\infback.obj: external\zlib\infback.c.obj
@@ -2885,9 +2885,9 @@ external\zlib\infback.obj: external\zlib\infback.c.obj
 
 # target to build an object file
 external\zlib\infback.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\infback.c.obj
 
 external\zlib\infback.i: external\zlib\infback.c.i
@@ -2896,9 +2896,9 @@ external\zlib\infback.i: external\zlib\infback.c.i
 
 # target to preprocess a source file
 external\zlib\infback.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\infback.c.i
 
 external\zlib\infback.s: external\zlib\infback.c.s
@@ -2907,9 +2907,9 @@ external\zlib\infback.s: external\zlib\infback.c.s
 
 # target to generate assembly for a file
 external\zlib\infback.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\infback.c.s
 
 external\zlib\inffast.obj: external\zlib\inffast.c.obj
@@ -2918,9 +2918,9 @@ external\zlib\inffast.obj: external\zlib\inffast.c.obj
 
 # target to build an object file
 external\zlib\inffast.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\inffast.c.obj
 
 external\zlib\inffast.i: external\zlib\inffast.c.i
@@ -2929,9 +2929,9 @@ external\zlib\inffast.i: external\zlib\inffast.c.i
 
 # target to preprocess a source file
 external\zlib\inffast.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\inffast.c.i
 
 external\zlib\inffast.s: external\zlib\inffast.c.s
@@ -2940,9 +2940,9 @@ external\zlib\inffast.s: external\zlib\inffast.c.s
 
 # target to generate assembly for a file
 external\zlib\inffast.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\inffast.c.s
 
 external\zlib\inflate.obj: external\zlib\inflate.c.obj
@@ -2951,9 +2951,9 @@ external\zlib\inflate.obj: external\zlib\inflate.c.obj
 
 # target to build an object file
 external\zlib\inflate.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\inflate.c.obj
 
 external\zlib\inflate.i: external\zlib\inflate.c.i
@@ -2962,9 +2962,9 @@ external\zlib\inflate.i: external\zlib\inflate.c.i
 
 # target to preprocess a source file
 external\zlib\inflate.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\inflate.c.i
 
 external\zlib\inflate.s: external\zlib\inflate.c.s
@@ -2973,9 +2973,9 @@ external\zlib\inflate.s: external\zlib\inflate.c.s
 
 # target to generate assembly for a file
 external\zlib\inflate.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\inflate.c.s
 
 external\zlib\inftrees.obj: external\zlib\inftrees.c.obj
@@ -2984,9 +2984,9 @@ external\zlib\inftrees.obj: external\zlib\inftrees.c.obj
 
 # target to build an object file
 external\zlib\inftrees.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\inftrees.c.obj
 
 external\zlib\inftrees.i: external\zlib\inftrees.c.i
@@ -2995,9 +2995,9 @@ external\zlib\inftrees.i: external\zlib\inftrees.c.i
 
 # target to preprocess a source file
 external\zlib\inftrees.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\inftrees.c.i
 
 external\zlib\inftrees.s: external\zlib\inftrees.c.s
@@ -3006,9 +3006,9 @@ external\zlib\inftrees.s: external\zlib\inftrees.c.s
 
 # target to generate assembly for a file
 external\zlib\inftrees.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\inftrees.c.s
 
 external\zlib\trees.obj: external\zlib\trees.c.obj
@@ -3017,9 +3017,9 @@ external\zlib\trees.obj: external\zlib\trees.c.obj
 
 # target to build an object file
 external\zlib\trees.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\trees.c.obj
 
 external\zlib\trees.i: external\zlib\trees.c.i
@@ -3028,9 +3028,9 @@ external\zlib\trees.i: external\zlib\trees.c.i
 
 # target to preprocess a source file
 external\zlib\trees.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\trees.c.i
 
 external\zlib\trees.s: external\zlib\trees.c.s
@@ -3039,9 +3039,9 @@ external\zlib\trees.s: external\zlib\trees.c.s
 
 # target to generate assembly for a file
 external\zlib\trees.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\trees.c.s
 
 external\zlib\uncompr.obj: external\zlib\uncompr.c.obj
@@ -3050,9 +3050,9 @@ external\zlib\uncompr.obj: external\zlib\uncompr.c.obj
 
 # target to build an object file
 external\zlib\uncompr.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\uncompr.c.obj
 
 external\zlib\uncompr.i: external\zlib\uncompr.c.i
@@ -3061,9 +3061,9 @@ external\zlib\uncompr.i: external\zlib\uncompr.c.i
 
 # target to preprocess a source file
 external\zlib\uncompr.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\uncompr.c.i
 
 external\zlib\uncompr.s: external\zlib\uncompr.c.s
@@ -3072,9 +3072,9 @@ external\zlib\uncompr.s: external\zlib\uncompr.c.s
 
 # target to generate assembly for a file
 external\zlib\uncompr.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\uncompr.c.s
 
 external\zlib\zutil.obj: external\zlib\zutil.c.obj
@@ -3083,9 +3083,9 @@ external\zlib\zutil.obj: external\zlib\zutil.c.obj
 
 # target to build an object file
 external\zlib\zutil.c.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\zutil.c.obj
 
 external\zlib\zutil.i: external\zlib\zutil.c.i
@@ -3094,9 +3094,9 @@ external\zlib\zutil.i: external\zlib\zutil.c.i
 
 # target to preprocess a source file
 external\zlib\zutil.c.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\zutil.c.i
 
 external\zlib\zutil.s: external\zlib\zutil.c.s
@@ -3105,43 +3105,10 @@ external\zlib\zutil.s: external\zlib\zutil.c.s
 
 # target to generate assembly for a file
 external\zlib\zutil.c.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\zutil.c.s
-
-filtering\kalman_filter.obj: filtering\kalman_filter.cpp.obj
-
-.PHONY : filtering\kalman_filter.obj
-
-# target to build an object file
-filtering\kalman_filter.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
-	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
-.PHONY : filtering\kalman_filter.cpp.obj
-
-filtering\kalman_filter.i: filtering\kalman_filter.cpp.i
-
-.PHONY : filtering\kalman_filter.i
-
-# target to preprocess a source file
-filtering\kalman_filter.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
-	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
-.PHONY : filtering\kalman_filter.cpp.i
-
-filtering\kalman_filter.s: filtering\kalman_filter.cpp.s
-
-.PHONY : filtering\kalman_filter.s
-
-# target to generate assembly for a file
-filtering\kalman_filter.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
-	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
-.PHONY : filtering\kalman_filter.cpp.s
 
 global_optimization\global_function_search.obj: global_optimization\global_function_search.cpp.obj
 
@@ -3149,9 +3116,9 @@ global_optimization\global_function_search.obj: global_optimization\global_funct
 
 # target to build an object file
 global_optimization\global_function_search.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : global_optimization\global_function_search.cpp.obj
 
 global_optimization\global_function_search.i: global_optimization\global_function_search.cpp.i
@@ -3160,9 +3127,9 @@ global_optimization\global_function_search.i: global_optimization\global_functio
 
 # target to preprocess a source file
 global_optimization\global_function_search.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : global_optimization\global_function_search.cpp.i
 
 global_optimization\global_function_search.s: global_optimization\global_function_search.cpp.s
@@ -3171,9 +3138,9 @@ global_optimization\global_function_search.s: global_optimization\global_functio
 
 # target to generate assembly for a file
 global_optimization\global_function_search.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : global_optimization\global_function_search.cpp.s
 
 gui_core\gui_core_kernel_1.obj: gui_core\gui_core_kernel_1.cpp.obj
@@ -3182,9 +3149,9 @@ gui_core\gui_core_kernel_1.obj: gui_core\gui_core_kernel_1.cpp.obj
 
 # target to build an object file
 gui_core\gui_core_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_core\gui_core_kernel_1.cpp.obj
 
 gui_core\gui_core_kernel_1.i: gui_core\gui_core_kernel_1.cpp.i
@@ -3193,9 +3160,9 @@ gui_core\gui_core_kernel_1.i: gui_core\gui_core_kernel_1.cpp.i
 
 # target to preprocess a source file
 gui_core\gui_core_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_core\gui_core_kernel_1.cpp.i
 
 gui_core\gui_core_kernel_1.s: gui_core\gui_core_kernel_1.cpp.s
@@ -3204,9 +3171,9 @@ gui_core\gui_core_kernel_1.s: gui_core\gui_core_kernel_1.cpp.s
 
 # target to generate assembly for a file
 gui_core\gui_core_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_core\gui_core_kernel_1.cpp.s
 
 gui_core\gui_core_kernel_2.obj: gui_core\gui_core_kernel_2.cpp.obj
@@ -3215,9 +3182,9 @@ gui_core\gui_core_kernel_2.obj: gui_core\gui_core_kernel_2.cpp.obj
 
 # target to build an object file
 gui_core\gui_core_kernel_2.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_core\gui_core_kernel_2.cpp.obj
 
 gui_core\gui_core_kernel_2.i: gui_core\gui_core_kernel_2.cpp.i
@@ -3226,9 +3193,9 @@ gui_core\gui_core_kernel_2.i: gui_core\gui_core_kernel_2.cpp.i
 
 # target to preprocess a source file
 gui_core\gui_core_kernel_2.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_core\gui_core_kernel_2.cpp.i
 
 gui_core\gui_core_kernel_2.s: gui_core\gui_core_kernel_2.cpp.s
@@ -3237,9 +3204,9 @@ gui_core\gui_core_kernel_2.s: gui_core\gui_core_kernel_2.cpp.s
 
 # target to generate assembly for a file
 gui_core\gui_core_kernel_2.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_core\gui_core_kernel_2.cpp.s
 
 gui_widgets\base_widgets.obj: gui_widgets\base_widgets.cpp.obj
@@ -3248,9 +3215,9 @@ gui_widgets\base_widgets.obj: gui_widgets\base_widgets.cpp.obj
 
 # target to build an object file
 gui_widgets\base_widgets.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\base_widgets.cpp.obj
 
 gui_widgets\base_widgets.i: gui_widgets\base_widgets.cpp.i
@@ -3259,9 +3226,9 @@ gui_widgets\base_widgets.i: gui_widgets\base_widgets.cpp.i
 
 # target to preprocess a source file
 gui_widgets\base_widgets.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\base_widgets.cpp.i
 
 gui_widgets\base_widgets.s: gui_widgets\base_widgets.cpp.s
@@ -3270,9 +3237,9 @@ gui_widgets\base_widgets.s: gui_widgets\base_widgets.cpp.s
 
 # target to generate assembly for a file
 gui_widgets\base_widgets.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\base_widgets.cpp.s
 
 gui_widgets\canvas_drawing.obj: gui_widgets\canvas_drawing.cpp.obj
@@ -3281,9 +3248,9 @@ gui_widgets\canvas_drawing.obj: gui_widgets\canvas_drawing.cpp.obj
 
 # target to build an object file
 gui_widgets\canvas_drawing.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\canvas_drawing.cpp.obj
 
 gui_widgets\canvas_drawing.i: gui_widgets\canvas_drawing.cpp.i
@@ -3292,9 +3259,9 @@ gui_widgets\canvas_drawing.i: gui_widgets\canvas_drawing.cpp.i
 
 # target to preprocess a source file
 gui_widgets\canvas_drawing.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\canvas_drawing.cpp.i
 
 gui_widgets\canvas_drawing.s: gui_widgets\canvas_drawing.cpp.s
@@ -3303,9 +3270,9 @@ gui_widgets\canvas_drawing.s: gui_widgets\canvas_drawing.cpp.s
 
 # target to generate assembly for a file
 gui_widgets\canvas_drawing.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\canvas_drawing.cpp.s
 
 gui_widgets\drawable.obj: gui_widgets\drawable.cpp.obj
@@ -3314,9 +3281,9 @@ gui_widgets\drawable.obj: gui_widgets\drawable.cpp.obj
 
 # target to build an object file
 gui_widgets\drawable.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\drawable.cpp.obj
 
 gui_widgets\drawable.i: gui_widgets\drawable.cpp.i
@@ -3325,9 +3292,9 @@ gui_widgets\drawable.i: gui_widgets\drawable.cpp.i
 
 # target to preprocess a source file
 gui_widgets\drawable.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\drawable.cpp.i
 
 gui_widgets\drawable.s: gui_widgets\drawable.cpp.s
@@ -3336,9 +3303,9 @@ gui_widgets\drawable.s: gui_widgets\drawable.cpp.s
 
 # target to generate assembly for a file
 gui_widgets\drawable.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\drawable.cpp.s
 
 gui_widgets\fonts.obj: gui_widgets\fonts.cpp.obj
@@ -3347,9 +3314,9 @@ gui_widgets\fonts.obj: gui_widgets\fonts.cpp.obj
 
 # target to build an object file
 gui_widgets\fonts.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\fonts.cpp.obj
 
 gui_widgets\fonts.i: gui_widgets\fonts.cpp.i
@@ -3358,9 +3325,9 @@ gui_widgets\fonts.i: gui_widgets\fonts.cpp.i
 
 # target to preprocess a source file
 gui_widgets\fonts.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\fonts.cpp.i
 
 gui_widgets\fonts.s: gui_widgets\fonts.cpp.s
@@ -3369,9 +3336,9 @@ gui_widgets\fonts.s: gui_widgets\fonts.cpp.s
 
 # target to generate assembly for a file
 gui_widgets\fonts.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\fonts.cpp.s
 
 gui_widgets\style.obj: gui_widgets\style.cpp.obj
@@ -3380,9 +3347,9 @@ gui_widgets\style.obj: gui_widgets\style.cpp.obj
 
 # target to build an object file
 gui_widgets\style.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\style.cpp.obj
 
 gui_widgets\style.i: gui_widgets\style.cpp.i
@@ -3391,9 +3358,9 @@ gui_widgets\style.i: gui_widgets\style.cpp.i
 
 # target to preprocess a source file
 gui_widgets\style.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\style.cpp.i
 
 gui_widgets\style.s: gui_widgets\style.cpp.s
@@ -3402,9 +3369,9 @@ gui_widgets\style.s: gui_widgets\style.cpp.s
 
 # target to generate assembly for a file
 gui_widgets\style.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\style.cpp.s
 
 gui_widgets\widgets.obj: gui_widgets\widgets.cpp.obj
@@ -3413,9 +3380,9 @@ gui_widgets\widgets.obj: gui_widgets\widgets.cpp.obj
 
 # target to build an object file
 gui_widgets\widgets.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\widgets.cpp.obj
 
 gui_widgets\widgets.i: gui_widgets\widgets.cpp.i
@@ -3424,9 +3391,9 @@ gui_widgets\widgets.i: gui_widgets\widgets.cpp.i
 
 # target to preprocess a source file
 gui_widgets\widgets.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\widgets.cpp.i
 
 gui_widgets\widgets.s: gui_widgets\widgets.cpp.s
@@ -3435,9 +3402,9 @@ gui_widgets\widgets.s: gui_widgets\widgets.cpp.s
 
 # target to generate assembly for a file
 gui_widgets\widgets.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : gui_widgets\widgets.cpp.s
 
 image_loader\jpeg_loader.obj: image_loader\jpeg_loader.cpp.obj
@@ -3446,9 +3413,9 @@ image_loader\jpeg_loader.obj: image_loader\jpeg_loader.cpp.obj
 
 # target to build an object file
 image_loader\jpeg_loader.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_loader\jpeg_loader.cpp.obj
 
 image_loader\jpeg_loader.i: image_loader\jpeg_loader.cpp.i
@@ -3457,9 +3424,9 @@ image_loader\jpeg_loader.i: image_loader\jpeg_loader.cpp.i
 
 # target to preprocess a source file
 image_loader\jpeg_loader.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_loader\jpeg_loader.cpp.i
 
 image_loader\jpeg_loader.s: image_loader\jpeg_loader.cpp.s
@@ -3468,9 +3435,9 @@ image_loader\jpeg_loader.s: image_loader\jpeg_loader.cpp.s
 
 # target to generate assembly for a file
 image_loader\jpeg_loader.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_loader\jpeg_loader.cpp.s
 
 image_loader\png_loader.obj: image_loader\png_loader.cpp.obj
@@ -3479,9 +3446,9 @@ image_loader\png_loader.obj: image_loader\png_loader.cpp.obj
 
 # target to build an object file
 image_loader\png_loader.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_loader\png_loader.cpp.obj
 
 image_loader\png_loader.i: image_loader\png_loader.cpp.i
@@ -3490,9 +3457,9 @@ image_loader\png_loader.i: image_loader\png_loader.cpp.i
 
 # target to preprocess a source file
 image_loader\png_loader.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_loader\png_loader.cpp.i
 
 image_loader\png_loader.s: image_loader\png_loader.cpp.s
@@ -3501,9 +3468,9 @@ image_loader\png_loader.s: image_loader\png_loader.cpp.s
 
 # target to generate assembly for a file
 image_loader\png_loader.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_loader\png_loader.cpp.s
 
 image_saver\save_jpeg.obj: image_saver\save_jpeg.cpp.obj
@@ -3512,9 +3479,9 @@ image_saver\save_jpeg.obj: image_saver\save_jpeg.cpp.obj
 
 # target to build an object file
 image_saver\save_jpeg.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_saver\save_jpeg.cpp.obj
 
 image_saver\save_jpeg.i: image_saver\save_jpeg.cpp.i
@@ -3523,9 +3490,9 @@ image_saver\save_jpeg.i: image_saver\save_jpeg.cpp.i
 
 # target to preprocess a source file
 image_saver\save_jpeg.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_saver\save_jpeg.cpp.i
 
 image_saver\save_jpeg.s: image_saver\save_jpeg.cpp.s
@@ -3534,9 +3501,9 @@ image_saver\save_jpeg.s: image_saver\save_jpeg.cpp.s
 
 # target to generate assembly for a file
 image_saver\save_jpeg.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_saver\save_jpeg.cpp.s
 
 image_saver\save_png.obj: image_saver\save_png.cpp.obj
@@ -3545,9 +3512,9 @@ image_saver\save_png.obj: image_saver\save_png.cpp.obj
 
 # target to build an object file
 image_saver\save_png.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_saver\save_png.cpp.obj
 
 image_saver\save_png.i: image_saver\save_png.cpp.i
@@ -3556,9 +3523,9 @@ image_saver\save_png.i: image_saver\save_png.cpp.i
 
 # target to preprocess a source file
 image_saver\save_png.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_saver\save_png.cpp.i
 
 image_saver\save_png.s: image_saver\save_png.cpp.s
@@ -3567,9 +3534,9 @@ image_saver\save_png.s: image_saver\save_png.cpp.s
 
 # target to generate assembly for a file
 image_saver\save_png.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : image_saver\save_png.cpp.s
 
 linker\linker_kernel_1.obj: linker\linker_kernel_1.cpp.obj
@@ -3578,9 +3545,9 @@ linker\linker_kernel_1.obj: linker\linker_kernel_1.cpp.obj
 
 # target to build an object file
 linker\linker_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : linker\linker_kernel_1.cpp.obj
 
 linker\linker_kernel_1.i: linker\linker_kernel_1.cpp.i
@@ -3589,9 +3556,9 @@ linker\linker_kernel_1.i: linker\linker_kernel_1.cpp.i
 
 # target to preprocess a source file
 linker\linker_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : linker\linker_kernel_1.cpp.i
 
 linker\linker_kernel_1.s: linker\linker_kernel_1.cpp.s
@@ -3600,9 +3567,9 @@ linker\linker_kernel_1.s: linker\linker_kernel_1.cpp.s
 
 # target to generate assembly for a file
 linker\linker_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : linker\linker_kernel_1.cpp.s
 
 logger\extra_logger_headers.obj: logger\extra_logger_headers.cpp.obj
@@ -3611,9 +3578,9 @@ logger\extra_logger_headers.obj: logger\extra_logger_headers.cpp.obj
 
 # target to build an object file
 logger\extra_logger_headers.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : logger\extra_logger_headers.cpp.obj
 
 logger\extra_logger_headers.i: logger\extra_logger_headers.cpp.i
@@ -3622,9 +3589,9 @@ logger\extra_logger_headers.i: logger\extra_logger_headers.cpp.i
 
 # target to preprocess a source file
 logger\extra_logger_headers.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : logger\extra_logger_headers.cpp.i
 
 logger\extra_logger_headers.s: logger\extra_logger_headers.cpp.s
@@ -3633,9 +3600,9 @@ logger\extra_logger_headers.s: logger\extra_logger_headers.cpp.s
 
 # target to generate assembly for a file
 logger\extra_logger_headers.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : logger\extra_logger_headers.cpp.s
 
 logger\logger_config_file.obj: logger\logger_config_file.cpp.obj
@@ -3644,9 +3611,9 @@ logger\logger_config_file.obj: logger\logger_config_file.cpp.obj
 
 # target to build an object file
 logger\logger_config_file.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : logger\logger_config_file.cpp.obj
 
 logger\logger_config_file.i: logger\logger_config_file.cpp.i
@@ -3655,9 +3622,9 @@ logger\logger_config_file.i: logger\logger_config_file.cpp.i
 
 # target to preprocess a source file
 logger\logger_config_file.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : logger\logger_config_file.cpp.i
 
 logger\logger_config_file.s: logger\logger_config_file.cpp.s
@@ -3666,9 +3633,9 @@ logger\logger_config_file.s: logger\logger_config_file.cpp.s
 
 # target to generate assembly for a file
 logger\logger_config_file.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : logger\logger_config_file.cpp.s
 
 logger\logger_kernel_1.obj: logger\logger_kernel_1.cpp.obj
@@ -3677,9 +3644,9 @@ logger\logger_kernel_1.obj: logger\logger_kernel_1.cpp.obj
 
 # target to build an object file
 logger\logger_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : logger\logger_kernel_1.cpp.obj
 
 logger\logger_kernel_1.i: logger\logger_kernel_1.cpp.i
@@ -3688,9 +3655,9 @@ logger\logger_kernel_1.i: logger\logger_kernel_1.cpp.i
 
 # target to preprocess a source file
 logger\logger_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : logger\logger_kernel_1.cpp.i
 
 logger\logger_kernel_1.s: logger\logger_kernel_1.cpp.s
@@ -3699,9 +3666,9 @@ logger\logger_kernel_1.s: logger\logger_kernel_1.cpp.s
 
 # target to generate assembly for a file
 logger\logger_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : logger\logger_kernel_1.cpp.s
 
 md5\md5_kernel_1.obj: md5\md5_kernel_1.cpp.obj
@@ -3710,9 +3677,9 @@ md5\md5_kernel_1.obj: md5\md5_kernel_1.cpp.obj
 
 # target to build an object file
 md5\md5_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : md5\md5_kernel_1.cpp.obj
 
 md5\md5_kernel_1.i: md5\md5_kernel_1.cpp.i
@@ -3721,9 +3688,9 @@ md5\md5_kernel_1.i: md5\md5_kernel_1.cpp.i
 
 # target to preprocess a source file
 md5\md5_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : md5\md5_kernel_1.cpp.i
 
 md5\md5_kernel_1.s: md5\md5_kernel_1.cpp.s
@@ -3732,9 +3699,9 @@ md5\md5_kernel_1.s: md5\md5_kernel_1.cpp.s
 
 # target to generate assembly for a file
 md5\md5_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : md5\md5_kernel_1.cpp.s
 
 misc_api\misc_api_kernel_1.obj: misc_api\misc_api_kernel_1.cpp.obj
@@ -3743,9 +3710,9 @@ misc_api\misc_api_kernel_1.obj: misc_api\misc_api_kernel_1.cpp.obj
 
 # target to build an object file
 misc_api\misc_api_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : misc_api\misc_api_kernel_1.cpp.obj
 
 misc_api\misc_api_kernel_1.i: misc_api\misc_api_kernel_1.cpp.i
@@ -3754,9 +3721,9 @@ misc_api\misc_api_kernel_1.i: misc_api\misc_api_kernel_1.cpp.i
 
 # target to preprocess a source file
 misc_api\misc_api_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : misc_api\misc_api_kernel_1.cpp.i
 
 misc_api\misc_api_kernel_1.s: misc_api\misc_api_kernel_1.cpp.s
@@ -3765,9 +3732,9 @@ misc_api\misc_api_kernel_1.s: misc_api\misc_api_kernel_1.cpp.s
 
 # target to generate assembly for a file
 misc_api\misc_api_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : misc_api\misc_api_kernel_1.cpp.s
 
 misc_api\misc_api_kernel_2.obj: misc_api\misc_api_kernel_2.cpp.obj
@@ -3776,9 +3743,9 @@ misc_api\misc_api_kernel_2.obj: misc_api\misc_api_kernel_2.cpp.obj
 
 # target to build an object file
 misc_api\misc_api_kernel_2.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : misc_api\misc_api_kernel_2.cpp.obj
 
 misc_api\misc_api_kernel_2.i: misc_api\misc_api_kernel_2.cpp.i
@@ -3787,9 +3754,9 @@ misc_api\misc_api_kernel_2.i: misc_api\misc_api_kernel_2.cpp.i
 
 # target to preprocess a source file
 misc_api\misc_api_kernel_2.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : misc_api\misc_api_kernel_2.cpp.i
 
 misc_api\misc_api_kernel_2.s: misc_api\misc_api_kernel_2.cpp.s
@@ -3798,9 +3765,9 @@ misc_api\misc_api_kernel_2.s: misc_api\misc_api_kernel_2.cpp.s
 
 # target to generate assembly for a file
 misc_api\misc_api_kernel_2.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : misc_api\misc_api_kernel_2.cpp.s
 
 server\server_http.obj: server\server_http.cpp.obj
@@ -3809,9 +3776,9 @@ server\server_http.obj: server\server_http.cpp.obj
 
 # target to build an object file
 server\server_http.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : server\server_http.cpp.obj
 
 server\server_http.i: server\server_http.cpp.i
@@ -3820,9 +3787,9 @@ server\server_http.i: server\server_http.cpp.i
 
 # target to preprocess a source file
 server\server_http.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : server\server_http.cpp.i
 
 server\server_http.s: server\server_http.cpp.s
@@ -3831,9 +3798,9 @@ server\server_http.s: server\server_http.cpp.s
 
 # target to generate assembly for a file
 server\server_http.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : server\server_http.cpp.s
 
 server\server_iostream.obj: server\server_iostream.cpp.obj
@@ -3842,9 +3809,9 @@ server\server_iostream.obj: server\server_iostream.cpp.obj
 
 # target to build an object file
 server\server_iostream.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : server\server_iostream.cpp.obj
 
 server\server_iostream.i: server\server_iostream.cpp.i
@@ -3853,9 +3820,9 @@ server\server_iostream.i: server\server_iostream.cpp.i
 
 # target to preprocess a source file
 server\server_iostream.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : server\server_iostream.cpp.i
 
 server\server_iostream.s: server\server_iostream.cpp.s
@@ -3864,9 +3831,9 @@ server\server_iostream.s: server\server_iostream.cpp.s
 
 # target to generate assembly for a file
 server\server_iostream.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : server\server_iostream.cpp.s
 
 server\server_kernel.obj: server\server_kernel.cpp.obj
@@ -3875,9 +3842,9 @@ server\server_kernel.obj: server\server_kernel.cpp.obj
 
 # target to build an object file
 server\server_kernel.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : server\server_kernel.cpp.obj
 
 server\server_kernel.i: server\server_kernel.cpp.i
@@ -3886,9 +3853,9 @@ server\server_kernel.i: server\server_kernel.cpp.i
 
 # target to preprocess a source file
 server\server_kernel.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : server\server_kernel.cpp.i
 
 server\server_kernel.s: server\server_kernel.cpp.s
@@ -3897,9 +3864,9 @@ server\server_kernel.s: server\server_kernel.cpp.s
 
 # target to generate assembly for a file
 server\server_kernel.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : server\server_kernel.cpp.s
 
 sockets\sockets_extensions.obj: sockets\sockets_extensions.cpp.obj
@@ -3908,9 +3875,9 @@ sockets\sockets_extensions.obj: sockets\sockets_extensions.cpp.obj
 
 # target to build an object file
 sockets\sockets_extensions.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockets\sockets_extensions.cpp.obj
 
 sockets\sockets_extensions.i: sockets\sockets_extensions.cpp.i
@@ -3919,9 +3886,9 @@ sockets\sockets_extensions.i: sockets\sockets_extensions.cpp.i
 
 # target to preprocess a source file
 sockets\sockets_extensions.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockets\sockets_extensions.cpp.i
 
 sockets\sockets_extensions.s: sockets\sockets_extensions.cpp.s
@@ -3930,9 +3897,9 @@ sockets\sockets_extensions.s: sockets\sockets_extensions.cpp.s
 
 # target to generate assembly for a file
 sockets\sockets_extensions.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockets\sockets_extensions.cpp.s
 
 sockets\sockets_kernel_1.obj: sockets\sockets_kernel_1.cpp.obj
@@ -3941,9 +3908,9 @@ sockets\sockets_kernel_1.obj: sockets\sockets_kernel_1.cpp.obj
 
 # target to build an object file
 sockets\sockets_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockets\sockets_kernel_1.cpp.obj
 
 sockets\sockets_kernel_1.i: sockets\sockets_kernel_1.cpp.i
@@ -3952,9 +3919,9 @@ sockets\sockets_kernel_1.i: sockets\sockets_kernel_1.cpp.i
 
 # target to preprocess a source file
 sockets\sockets_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockets\sockets_kernel_1.cpp.i
 
 sockets\sockets_kernel_1.s: sockets\sockets_kernel_1.cpp.s
@@ -3963,9 +3930,9 @@ sockets\sockets_kernel_1.s: sockets\sockets_kernel_1.cpp.s
 
 # target to generate assembly for a file
 sockets\sockets_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockets\sockets_kernel_1.cpp.s
 
 sockets\sockets_kernel_2.obj: sockets\sockets_kernel_2.cpp.obj
@@ -3974,9 +3941,9 @@ sockets\sockets_kernel_2.obj: sockets\sockets_kernel_2.cpp.obj
 
 # target to build an object file
 sockets\sockets_kernel_2.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockets\sockets_kernel_2.cpp.obj
 
 sockets\sockets_kernel_2.i: sockets\sockets_kernel_2.cpp.i
@@ -3985,9 +3952,9 @@ sockets\sockets_kernel_2.i: sockets\sockets_kernel_2.cpp.i
 
 # target to preprocess a source file
 sockets\sockets_kernel_2.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockets\sockets_kernel_2.cpp.i
 
 sockets\sockets_kernel_2.s: sockets\sockets_kernel_2.cpp.s
@@ -3996,9 +3963,9 @@ sockets\sockets_kernel_2.s: sockets\sockets_kernel_2.cpp.s
 
 # target to generate assembly for a file
 sockets\sockets_kernel_2.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockets\sockets_kernel_2.cpp.s
 
 sockstreambuf\sockstreambuf.obj: sockstreambuf\sockstreambuf.cpp.obj
@@ -4007,9 +3974,9 @@ sockstreambuf\sockstreambuf.obj: sockstreambuf\sockstreambuf.cpp.obj
 
 # target to build an object file
 sockstreambuf\sockstreambuf.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockstreambuf\sockstreambuf.cpp.obj
 
 sockstreambuf\sockstreambuf.i: sockstreambuf\sockstreambuf.cpp.i
@@ -4018,9 +3985,9 @@ sockstreambuf\sockstreambuf.i: sockstreambuf\sockstreambuf.cpp.i
 
 # target to preprocess a source file
 sockstreambuf\sockstreambuf.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockstreambuf\sockstreambuf.cpp.i
 
 sockstreambuf\sockstreambuf.s: sockstreambuf\sockstreambuf.cpp.s
@@ -4029,9 +3996,9 @@ sockstreambuf\sockstreambuf.s: sockstreambuf\sockstreambuf.cpp.s
 
 # target to generate assembly for a file
 sockstreambuf\sockstreambuf.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockstreambuf\sockstreambuf.cpp.s
 
 sockstreambuf\sockstreambuf_unbuffered.obj: sockstreambuf\sockstreambuf_unbuffered.cpp.obj
@@ -4040,9 +4007,9 @@ sockstreambuf\sockstreambuf_unbuffered.obj: sockstreambuf\sockstreambuf_unbuffer
 
 # target to build an object file
 sockstreambuf\sockstreambuf_unbuffered.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockstreambuf\sockstreambuf_unbuffered.cpp.obj
 
 sockstreambuf\sockstreambuf_unbuffered.i: sockstreambuf\sockstreambuf_unbuffered.cpp.i
@@ -4051,9 +4018,9 @@ sockstreambuf\sockstreambuf_unbuffered.i: sockstreambuf\sockstreambuf_unbuffered
 
 # target to preprocess a source file
 sockstreambuf\sockstreambuf_unbuffered.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockstreambuf\sockstreambuf_unbuffered.cpp.i
 
 sockstreambuf\sockstreambuf_unbuffered.s: sockstreambuf\sockstreambuf_unbuffered.cpp.s
@@ -4062,9 +4029,9 @@ sockstreambuf\sockstreambuf_unbuffered.s: sockstreambuf\sockstreambuf_unbuffered
 
 # target to generate assembly for a file
 sockstreambuf\sockstreambuf_unbuffered.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : sockstreambuf\sockstreambuf_unbuffered.cpp.s
 
 stack_trace.obj: stack_trace.cpp.obj
@@ -4073,9 +4040,9 @@ stack_trace.obj: stack_trace.cpp.obj
 
 # target to build an object file
 stack_trace.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : stack_trace.cpp.obj
 
 stack_trace.i: stack_trace.cpp.i
@@ -4084,9 +4051,9 @@ stack_trace.i: stack_trace.cpp.i
 
 # target to preprocess a source file
 stack_trace.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : stack_trace.cpp.i
 
 stack_trace.s: stack_trace.cpp.s
@@ -4095,43 +4062,10 @@ stack_trace.s: stack_trace.cpp.s
 
 # target to generate assembly for a file
 stack_trace.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : stack_trace.cpp.s
-
-test_for_odr_violations.obj: test_for_odr_violations.cpp.obj
-
-.PHONY : test_for_odr_violations.obj
-
-# target to build an object file
-test_for_odr_violations.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
-	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
-.PHONY : test_for_odr_violations.cpp.obj
-
-test_for_odr_violations.i: test_for_odr_violations.cpp.i
-
-.PHONY : test_for_odr_violations.i
-
-# target to preprocess a source file
-test_for_odr_violations.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
-	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
-.PHONY : test_for_odr_violations.cpp.i
-
-test_for_odr_violations.s: test_for_odr_violations.cpp.s
-
-.PHONY : test_for_odr_violations.s
-
-# target to generate assembly for a file
-test_for_odr_violations.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
-	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
-.PHONY : test_for_odr_violations.cpp.s
 
 threads\async.obj: threads\async.cpp.obj
 
@@ -4139,9 +4073,9 @@ threads\async.obj: threads\async.cpp.obj
 
 # target to build an object file
 threads\async.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\async.cpp.obj
 
 threads\async.i: threads\async.cpp.i
@@ -4150,9 +4084,9 @@ threads\async.i: threads\async.cpp.i
 
 # target to preprocess a source file
 threads\async.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\async.cpp.i
 
 threads\async.s: threads\async.cpp.s
@@ -4161,9 +4095,9 @@ threads\async.s: threads\async.cpp.s
 
 # target to generate assembly for a file
 threads\async.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\async.cpp.s
 
 threads\multithreaded_object_extension.obj: threads\multithreaded_object_extension.cpp.obj
@@ -4172,9 +4106,9 @@ threads\multithreaded_object_extension.obj: threads\multithreaded_object_extensi
 
 # target to build an object file
 threads\multithreaded_object_extension.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\multithreaded_object_extension.cpp.obj
 
 threads\multithreaded_object_extension.i: threads\multithreaded_object_extension.cpp.i
@@ -4183,9 +4117,9 @@ threads\multithreaded_object_extension.i: threads\multithreaded_object_extension
 
 # target to preprocess a source file
 threads\multithreaded_object_extension.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\multithreaded_object_extension.cpp.i
 
 threads\multithreaded_object_extension.s: threads\multithreaded_object_extension.cpp.s
@@ -4194,9 +4128,9 @@ threads\multithreaded_object_extension.s: threads\multithreaded_object_extension
 
 # target to generate assembly for a file
 threads\multithreaded_object_extension.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\multithreaded_object_extension.cpp.s
 
 threads\thread_pool_extension.obj: threads\thread_pool_extension.cpp.obj
@@ -4205,9 +4139,9 @@ threads\thread_pool_extension.obj: threads\thread_pool_extension.cpp.obj
 
 # target to build an object file
 threads\thread_pool_extension.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\thread_pool_extension.cpp.obj
 
 threads\thread_pool_extension.i: threads\thread_pool_extension.cpp.i
@@ -4216,9 +4150,9 @@ threads\thread_pool_extension.i: threads\thread_pool_extension.cpp.i
 
 # target to preprocess a source file
 threads\thread_pool_extension.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\thread_pool_extension.cpp.i
 
 threads\thread_pool_extension.s: threads\thread_pool_extension.cpp.s
@@ -4227,9 +4161,9 @@ threads\thread_pool_extension.s: threads\thread_pool_extension.cpp.s
 
 # target to generate assembly for a file
 threads\thread_pool_extension.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\thread_pool_extension.cpp.s
 
 threads\threaded_object_extension.obj: threads\threaded_object_extension.cpp.obj
@@ -4238,9 +4172,9 @@ threads\threaded_object_extension.obj: threads\threaded_object_extension.cpp.obj
 
 # target to build an object file
 threads\threaded_object_extension.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threaded_object_extension.cpp.obj
 
 threads\threaded_object_extension.i: threads\threaded_object_extension.cpp.i
@@ -4249,9 +4183,9 @@ threads\threaded_object_extension.i: threads\threaded_object_extension.cpp.i
 
 # target to preprocess a source file
 threads\threaded_object_extension.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threaded_object_extension.cpp.i
 
 threads\threaded_object_extension.s: threads\threaded_object_extension.cpp.s
@@ -4260,9 +4194,9 @@ threads\threaded_object_extension.s: threads\threaded_object_extension.cpp.s
 
 # target to generate assembly for a file
 threads\threaded_object_extension.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threaded_object_extension.cpp.s
 
 threads\threads_kernel_1.obj: threads\threads_kernel_1.cpp.obj
@@ -4271,9 +4205,9 @@ threads\threads_kernel_1.obj: threads\threads_kernel_1.cpp.obj
 
 # target to build an object file
 threads\threads_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threads_kernel_1.cpp.obj
 
 threads\threads_kernel_1.i: threads\threads_kernel_1.cpp.i
@@ -4282,9 +4216,9 @@ threads\threads_kernel_1.i: threads\threads_kernel_1.cpp.i
 
 # target to preprocess a source file
 threads\threads_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threads_kernel_1.cpp.i
 
 threads\threads_kernel_1.s: threads\threads_kernel_1.cpp.s
@@ -4293,9 +4227,9 @@ threads\threads_kernel_1.s: threads\threads_kernel_1.cpp.s
 
 # target to generate assembly for a file
 threads\threads_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threads_kernel_1.cpp.s
 
 threads\threads_kernel_2.obj: threads\threads_kernel_2.cpp.obj
@@ -4304,9 +4238,9 @@ threads\threads_kernel_2.obj: threads\threads_kernel_2.cpp.obj
 
 # target to build an object file
 threads\threads_kernel_2.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threads_kernel_2.cpp.obj
 
 threads\threads_kernel_2.i: threads\threads_kernel_2.cpp.i
@@ -4315,9 +4249,9 @@ threads\threads_kernel_2.i: threads\threads_kernel_2.cpp.i
 
 # target to preprocess a source file
 threads\threads_kernel_2.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threads_kernel_2.cpp.i
 
 threads\threads_kernel_2.s: threads\threads_kernel_2.cpp.s
@@ -4326,9 +4260,9 @@ threads\threads_kernel_2.s: threads\threads_kernel_2.cpp.s
 
 # target to generate assembly for a file
 threads\threads_kernel_2.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threads_kernel_2.cpp.s
 
 threads\threads_kernel_shared.obj: threads\threads_kernel_shared.cpp.obj
@@ -4337,9 +4271,9 @@ threads\threads_kernel_shared.obj: threads\threads_kernel_shared.cpp.obj
 
 # target to build an object file
 threads\threads_kernel_shared.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threads_kernel_shared.cpp.obj
 
 threads\threads_kernel_shared.i: threads\threads_kernel_shared.cpp.i
@@ -4348,9 +4282,9 @@ threads\threads_kernel_shared.i: threads\threads_kernel_shared.cpp.i
 
 # target to preprocess a source file
 threads\threads_kernel_shared.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threads_kernel_shared.cpp.i
 
 threads\threads_kernel_shared.s: threads\threads_kernel_shared.cpp.s
@@ -4359,9 +4293,9 @@ threads\threads_kernel_shared.s: threads\threads_kernel_shared.cpp.s
 
 # target to generate assembly for a file
 threads\threads_kernel_shared.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : threads\threads_kernel_shared.cpp.s
 
 timer\timer.obj: timer\timer.cpp.obj
@@ -4370,9 +4304,9 @@ timer\timer.obj: timer\timer.cpp.obj
 
 # target to build an object file
 timer\timer.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : timer\timer.cpp.obj
 
 timer\timer.i: timer\timer.cpp.i
@@ -4381,9 +4315,9 @@ timer\timer.i: timer\timer.cpp.i
 
 # target to preprocess a source file
 timer\timer.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : timer\timer.cpp.i
 
 timer\timer.s: timer\timer.cpp.s
@@ -4392,9 +4326,9 @@ timer\timer.s: timer\timer.cpp.s
 
 # target to generate assembly for a file
 timer\timer.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : timer\timer.cpp.s
 
 tokenizer\tokenizer_kernel_1.obj: tokenizer\tokenizer_kernel_1.cpp.obj
@@ -4403,9 +4337,9 @@ tokenizer\tokenizer_kernel_1.obj: tokenizer\tokenizer_kernel_1.cpp.obj
 
 # target to build an object file
 tokenizer\tokenizer_kernel_1.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : tokenizer\tokenizer_kernel_1.cpp.obj
 
 tokenizer\tokenizer_kernel_1.i: tokenizer\tokenizer_kernel_1.cpp.i
@@ -4414,9 +4348,9 @@ tokenizer\tokenizer_kernel_1.i: tokenizer\tokenizer_kernel_1.cpp.i
 
 # target to preprocess a source file
 tokenizer\tokenizer_kernel_1.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : tokenizer\tokenizer_kernel_1.cpp.i
 
 tokenizer\tokenizer_kernel_1.s: tokenizer\tokenizer_kernel_1.cpp.s
@@ -4425,9 +4359,9 @@ tokenizer\tokenizer_kernel_1.s: tokenizer\tokenizer_kernel_1.cpp.s
 
 # target to generate assembly for a file
 tokenizer\tokenizer_kernel_1.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : tokenizer\tokenizer_kernel_1.cpp.s
 
 unicode\unicode.obj: unicode\unicode.cpp.obj
@@ -4436,9 +4370,9 @@ unicode\unicode.obj: unicode\unicode.cpp.obj
 
 # target to build an object file
 unicode\unicode.cpp.obj:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.obj
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : unicode\unicode.cpp.obj
 
 unicode\unicode.i: unicode\unicode.cpp.i
@@ -4447,9 +4381,9 @@ unicode\unicode.i: unicode\unicode.cpp.i
 
 # target to preprocess a source file
 unicode\unicode.cpp.i:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.i
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : unicode\unicode.cpp.i
 
 unicode\unicode.s: unicode\unicode.cpp.s
@@ -4458,9 +4392,9 @@ unicode\unicode.s: unicode\unicode.cpp.s
 
 # target to generate assembly for a file
 unicode\unicode.cpp.s:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.s
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : unicode\unicode.cpp.s
 
 # Help Target
@@ -4742,9 +4676,6 @@ help:
 	@echo ... external/zlib/zutil.obj
 	@echo ... external/zlib/zutil.i
 	@echo ... external/zlib/zutil.s
-	@echo ... filtering/kalman_filter.obj
-	@echo ... filtering/kalman_filter.i
-	@echo ... filtering/kalman_filter.s
 	@echo ... global_optimization/global_function_search.obj
 	@echo ... global_optimization/global_function_search.i
 	@echo ... global_optimization/global_function_search.s
@@ -4832,9 +4763,6 @@ help:
 	@echo ... stack_trace.obj
 	@echo ... stack_trace.i
 	@echo ... stack_trace.s
-	@echo ... test_for_odr_violations.obj
-	@echo ... test_for_odr_violations.i
-	@echo ... test_for_odr_violations.s
 	@echo ... threads/async.obj
 	@echo ... threads/async.i
 	@echo ... threads/async.s
@@ -4876,8 +4804,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : cmake_check_build_system
 

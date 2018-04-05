@@ -52,7 +52,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\dlib-19.9\dlib\cmake_utils\test_for_neon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\neon_test_build
+CMAKE_BINARY_DIR = D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\neon_test_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\neon_test_build\CMakeFiles D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\neon_test_build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\neon_test_build\CMakeFiles D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\neon_test_build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\neon_test_build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\neon_test_build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

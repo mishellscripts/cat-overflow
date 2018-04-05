@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/dlib-19.9/dlib/cmake_utils/test_for_neon/neon_test.cpp" "D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/neon_test.cpp.obj"
+  "C:/dlib-19.9/dlib/cmake_utils/test_for_neon/neon_test.cpp" "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build/neon_test_build/CMakeFiles/neon_test.dir/neon_test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

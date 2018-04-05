@@ -31,6 +31,6 @@ endif()
 
 add_executable(face_detection main.cpp eyeLike.cpp findEyeCenter.h findEyeCenter.cpp findEyeCorner.h findEyeCorner.cpp constants.h helpers.cpp helpers.h eyeLike.h)
 
-set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
+#set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
 target_link_libraries(face_detection ${OpenCV_LIBS})
 target_link_libraries(face_detection dlib)

@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;CMake Files\dlib-19.9\;CMake Files\dlib-19.9\dlib\;CMake Files\dlib-19.9\dlib\cmake_utils\;CMake Files\opencv\;CMake Files\opencv\build\;CMake Files\opencv\build\x64\;CMake Files\opencv\build\x64\vc15\;CMake Files\opencv\build\x64\vc15\lib\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release"/>
+				<Option working_dir="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release"/>
+				<Option working_dir="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="face_detection">
-				<Option output="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/face_detection.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release"/>
+				<Option output="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/face_detection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -37,24 +37,24 @@
 					<Add directory="C:/opencv/build/include"/>
 					<Add directory="C:/opencv/build/include/opencv"/>
 					<Add directory="C:/dlib-19.9/dlib/.."/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 face_detection"/>
-					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 face_detection"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="face_detection/fast">
-				<Option output="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/face_detection.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release"/>
+				<Option output="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/face_detection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -62,34 +62,34 @@
 					<Add directory="C:/opencv/build/include"/>
 					<Add directory="C:/opencv/build/include/opencv"/>
 					<Add directory="C:/dlib-19.9/dlib/.."/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 face_detection/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 face_detection/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release"/>
+				<Option working_dir="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dlib">
-				<Option output="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/dlib_build/dlib19.10.0_release_64bit_msvc1910.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/dlib_build"/>
+				<Option output="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build/dlib_release_64bit_msvc1911.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
@@ -99,24 +99,24 @@
 					<Add directory="C:/opencv/build/include/opencv"/>
 					<Add directory="C:/dlib-19.9/dlib/external/libpng"/>
 					<Add directory="C:/dlib-19.9/dlib/external/zlib"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 dlib"/>
-					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 dlib"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dlib/fast">
-				<Option output="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/dlib_build/dlib19.10.0_release_64bit_msvc1910.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/dlib_build"/>
+				<Option output="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build/dlib_release_64bit_msvc1911.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
@@ -126,19 +126,19 @@
 					<Add directory="C:/opencv/build/include/opencv"/>
 					<Add directory="C:/dlib-19.9/dlib/external/libpng"/>
 					<Add directory="C:/dlib-19.9/dlib/external/zlib"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 dlib/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 dlib/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -493,12 +493,6 @@
 		<Unit filename="C:/dlib-19.9/dlib/external/zlib/zutil.h">
 			<Option target="dlib"/>
 		</Unit>
-		<Unit filename="C:/dlib-19.9/dlib/filtering/kalman_filter.cpp">
-			<Option target="dlib"/>
-		</Unit>
-		<Unit filename="C:/dlib-19.9/dlib/filtering/kalman_filter.h">
-			<Option target="dlib"/>
-		</Unit>
 		<Unit filename="C:/dlib-19.9/dlib/global_optimization/global_function_search.cpp">
 			<Option target="dlib"/>
 		</Unit>
@@ -673,12 +667,6 @@
 		<Unit filename="C:/dlib-19.9/dlib/stack_trace.h">
 			<Option target="dlib"/>
 		</Unit>
-		<Unit filename="C:/dlib-19.9/dlib/test_for_odr_violations.cpp">
-			<Option target="dlib"/>
-		</Unit>
-		<Unit filename="C:/dlib-19.9/dlib/test_for_odr_violations.h">
-			<Option target="dlib"/>
-		</Unit>
 		<Unit filename="C:/dlib-19.9/dlib/threads/async.cpp">
 			<Option target="dlib"/>
 		</Unit>
@@ -739,70 +727,73 @@
 		<Unit filename="C:/dlib-19.9/dlib/unicode/unicode.h">
 			<Option target="dlib"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/constants.h">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/constants.h">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/eyeLike.cpp">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/eyeLike.cpp">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/eyeLike.h">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/eyeLike.h">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/findEyeCenter.cpp">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCenter.cpp">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/findEyeCenter.h">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCenter.h">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/findEyeCorner.cpp">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCorner.cpp">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/findEyeCorner.h">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCorner.h">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/helpers.cpp">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/helpers.cpp">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/helpers.h">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/helpers.h">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/main.cpp">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/main.cpp">
 			<Option target="face_detection"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/CMakeLists.txt">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/dlib-19.9/dlib/CMakeLists.txt">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/dlib-19.9/dlib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\dlib-19.9\dlib\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/dlib-19.9/dlib/cmake">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/dlib-19.9/dlib/cmake">
 			<Option virtualFolder="CMake Files\dlib-19.9\dlib\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/dlib-19.9/dlib/cmake_utils/check_if_neon_available.cmake">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/dlib-19.9/dlib/cmake_utils/check_if_neon_available.cmake">
 			<Option virtualFolder="CMake Files\dlib-19.9\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/dlib-19.9/dlib/cmake_utils/release_build_by_default">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/dlib-19.9/dlib/cmake_utils/cmake_find_blas.txt">
 			<Option virtualFolder="CMake Files\dlib-19.9\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/dlib-19.9/dlib/cmake_utils/set_compiler_specific_options.cmake">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/dlib-19.9/dlib/cmake_utils/release_build_by_default">
 			<Option virtualFolder="CMake Files\dlib-19.9\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/dlib-19.9/dlib/cmake_utils/use_cpp_11.cmake">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/dlib-19.9/dlib/cmake_utils/set_compiler_specific_options.cmake">
 			<Option virtualFolder="CMake Files\dlib-19.9\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/opencv/build/x64/vc15/lib/OpenCVConfig-version.cmake">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/dlib-19.9/dlib/cmake_utils/use_cpp_11.cmake">
+			<Option virtualFolder="CMake Files\dlib-19.9\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv/build/x64/vc15/lib/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\opencv\build\x64\vc15\lib\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/opencv/build/x64/vc15/lib/OpenCVConfig.cmake">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv/build/x64/vc15/lib/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\opencv\build\x64\vc15\lib\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake">
 			<Option virtualFolder="CMake Files\opencv\build\x64\vc15\lib\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\opencv\build\x64\vc15\lib\"/>
 		</Unit>
-		<Unit filename="D:/OneDrive/CS/CS160/face_detection_win/opencv/build/x64/vc15/lib/OpenCVModules.cmake">
+		<Unit filename="D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv/build/x64/vc15/lib/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\opencv\build\x64\vc15\lib\"/>
 		</Unit>
 	</Project>

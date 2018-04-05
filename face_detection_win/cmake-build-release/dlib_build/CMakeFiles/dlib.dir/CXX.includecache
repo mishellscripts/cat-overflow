@@ -1051,6 +1051,8 @@ memory
 -
 ../geometry/rectangle.h
 C:/dlib-19.9/dlib/geometry/rectangle.h
+../test_for_odr_violations.h
+C:/dlib-19.9/dlib/test_for_odr_violations.h
 tensor_tools.cpp
 C:/dlib-19.9/dlib/dnn/tensor_tools.cpp
 
@@ -1941,6 +1943,8 @@ mutex
 C:/dlib-19.9/dlib/rand.h
 upper_bound_function.h
 C:/dlib-19.9/dlib/global_optimization/upper_bound_function.h
+../test_for_odr_violations.h
+C:/dlib-19.9/dlib/test_for_odr_violations.h
 
 C:/dlib-19.9/dlib/global_optimization/global_function_search_abstract.h
 vector
@@ -2597,6 +2601,8 @@ C:/dlib-19.9/dlib/image_loader/image_loader.h
 C:/dlib-19.9/dlib/pixel.h
 ../dir_nav.h
 C:/dlib-19.9/dlib/dir_nav.h
+../test_for_odr_violations.h
+C:/dlib-19.9/dlib/test_for_odr_violations.h
 jpeg_loader.cpp
 C:/dlib-19.9/dlib/image_loader/jpeg_loader.cpp
 
@@ -2643,6 +2649,8 @@ C:/dlib-19.9/dlib/image_loader/image_loader.h
 C:/dlib-19.9/dlib/pixel.h
 ../dir_nav.h
 C:/dlib-19.9/dlib/dir_nav.h
+../test_for_odr_violations.h
+C:/dlib-19.9/dlib/test_for_odr_violations.h
 png_loader.cpp
 C:/dlib-19.9/dlib/image_loader/png_loader.cpp
 
@@ -3377,6 +3385,8 @@ matrix_conv_abstract.h
 C:/dlib-19.9/dlib/matrix/matrix_conv_abstract.h
 matrix.h
 C:/dlib-19.9/dlib/matrix/matrix.h
+matrix_fft.h
+C:/dlib-19.9/dlib/matrix/matrix_fft.h
 
 C:/dlib-19.9/dlib/matrix/matrix_conv_abstract.h
 matrix_abstract.h
@@ -3909,6 +3919,8 @@ optimization/find_max_factor_graph_viterbi.h
 C:/dlib-19.9/dlib/optimization/find_max_factor_graph_viterbi.h
 optimization/find_max_parse_cky.h
 C:/dlib-19.9/dlib/optimization/find_max_parse_cky.h
+optimization/isotonic_regression.h
+C:/dlib-19.9/dlib/optimization/isotonic_regression.h
 
 C:/dlib-19.9/dlib/optimization/find_max_factor_graph_nmplp.h
 find_max_factor_graph_nmplp_abstract.h
@@ -4470,6 +4482,10 @@ memory
 set
 -
 limits
+-
+type_traits
+-
+utility
 -
 uintn.h
 C:/dlib-19.9/dlib/uintn.h
@@ -6003,6 +6019,8 @@ C:/dlib-19.9/dlib/memory_manager.h
 C:/dlib-19.9/dlib/queue.h
 ../set.h
 C:/dlib-19.9/dlib/set.h
+../test_for_odr_violations.h
+C:/dlib-19.9/dlib/test_for_odr_violations.h
 threads_kernel_shared.cpp
 C:/dlib-19.9/dlib/threads/threads_kernel_shared.cpp
 

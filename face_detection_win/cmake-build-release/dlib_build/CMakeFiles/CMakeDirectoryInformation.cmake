@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/dlib-19.9/dlib")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release")
 
 
 # The C and CXX include file regular expressions for this directory.

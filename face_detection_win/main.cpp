@@ -10,6 +10,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/opencv.hpp>
+#include <dlib/opencv.h>
 #include <time.h>
 
 #include "eyeLike.h"
@@ -28,10 +29,11 @@ using namespace std;
 
 
 
-string imgs_name(std::vector<string> &names, unsigned int num_frames, string first_frame);
-std::vector<Mat> load_img(const std::vector<string> &names);
+void make_directry(const string &output_dir);
+std::vector<Mat> load_imgs(const string &input_dir, const string &file_type);
+void write_imgs(const std::vector<Mat> &images, const string &output_dir, const string &video_id, const string &file_type);
 
-void run(std::vector<string> &imgs_name, std::vector<Mat> &imgs, char *predictor, const string folder_name);
+void run(std::vector<Mat> &imgs, char *predictor);
 
 cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect);
 
@@ -47,116 +49,68 @@ void draw_head_posting(Mat &img, const std::vector<Dual_Points> &p);
 std::vector<Dual_Points> head_pose_estimation(std::vector<full_object_detection> &shapes, Mat &img);
 
 
-
 int main(int argc, char **argv)
 {
     //unsigned double start = time(0);
-    if (argc == 1)
+    if (argc != 4)
     {
         cout << "Call this program like this:" << endl;
-        cout << "Linux: ./face_detection num_of_frames faces.1.png" << endl;
-        cout << "Windows: face_detection.exe num_of_frames faces.1.png" << endl;
+        cout << "Linux: ./face_detection ./video_frames ./output_dir video_id" << endl;
+        cout << "Windows: face_detection.exe .\\video_frames .\\output_dir video_id" << endl;
         cout << "\nYou can get the shape_predictor_68_face_landmarks.dat file from:\n";
         cout << "http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2" << endl;
         return 0;
     }
+    make_directry(argv[3]);
+    std::vector<Mat> images = load_imgs(argv[2], argv[4]);
+    if (images.size() == 0)
+    {
+        return 1;
+    }
+    run(images, "shape_predictor_68_face_landmarks.dat");
+    write_imgs(images, argv[3], argv[4], ".png");
 
-    unsigned int num_of_frames = stoi(argv[1]);
-    string first_frame = argv[2];
-    //generate all the imgs' file name according to the naming scheme
-    std::vector<string> file_names;
-    string folder = imgs_name(file_names, num_of_frames, first_frame);
-
-    //load all images into a vector
-    std::vector<Mat> imgs = load_img(file_names);
-
-#if defined _MSC_VER
-    _mkdir(folder.c_str());
-#elif defind __GNUC__
-    mkdir(folder.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
-#endif
-
-    run(file_names, imgs, "shape_predictor_68_face_landmarks.dat", folder);
-
-    //cout << "time used: " << time(0) - start << endl;
     return 0;
 }
 
-string imgs_name(std::vector<string> &names, unsigned int num_frames, string first_frame)
+void make_directry(const string &output_dir)
 {
-    names.push_back(first_frame);
-
-    string subfix = "";
-    stringstream prefix;
-    bool is_first = true;
-
-    for (int i = first_frame.size() - 1; i >= 0; i--)
-    {
-        if (first_frame[i] != '.' && is_first == true)
-        {
-            subfix = first_frame[i] + subfix;
-        }
-        else if (first_frame[i] == '.' && is_first == true)
-        {
-            subfix = first_frame[i] + subfix;
-            is_first = false;
-        }
-        else if (first_frame[i] == '.' && is_first == false)
-        {
-            for (int j = 0; j < i; j++)
-            {
-                prefix.put(first_frame[j]);
-            }
-            break;
-        }
-    }
-
-    string pre = "";
-    prefix >> pre;
-
-    for (unsigned int i = 2; i <= num_frames; i++)
-    {
-        names.push_back(pre + "." + to_string(i) + subfix);
-    }
-
-    return "out_" + get_image_name(pre);
+#if defined _MSC_VER
+    _mkdir(output_dir.c_str());
+#elif defind __GNUC__
+    mkdir(output_dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
+#endif
 }
 
-std::vector<Mat> load_img(const std::vector<string> &names)
+std::vector<Mat> load_imgs(const string &input_dir, const string &file_type)
 {
-    std::vector<Mat> imgs;
-    for (int i = 0; i < names.size(); i++)
+    std::vector<file> files = get_files_in_directory_tree(input_dir, match_ending(file_type), 0);
+    std::sort(files.begin(), files.end());
+    if (files.size() == 0)
     {
-        Mat img = imread(names[i]);
-        if (img.empty())
-        {
-            cout << "Could not open or find image " << names[i] << endl;
-            continue;
-        }
-        imgs.push_back(img);
+        cout << "No images found in " << input_dir << endl;
+        return std::vector<Mat>(0);
+    }
+    std::vector<Mat> imgs(files.size());
+    for (int i = 0; i < files.size(); i++)
+    {
+        array2d<rgb_pixel> dimg;
+        load_image(dimg, files[i]);
+        imgs.push_back(dlib::toMat(dimg));
     }
     return imgs;
 }
 
-string get_image_name(string name)
+void write_imgs(const std::vector<Mat> &images, const string &output_dir, const string &video_id, const string &file_type)
 {
-    string image_name = "";
-    for (int i = name.size() - 1; i >= 0; i--)
+    for (int i = 0; i < images.size(); i++)
     {
-        if (name[i] != '/' && name[i] != '\\')
-        {
-            image_name = name[i] + image_name;
-        }
-        else
-        {
-            return image_name;
-        }
+        imwrite(output_dir + "/" + video_id + "." + to_string(i) + file_type, images[i]);
     }
-    cout << image_name << endl;
-    return image_name;
 }
 
-void run(std::vector<string> &imgs_name, std::vector<Mat> &imgs, char *predictor, const string folder)
+
+void run(std::vector<Mat> &imgs, char *predictor)
 {
     time_t start = time(0);
 
@@ -164,19 +118,10 @@ void run(std::vector<string> &imgs_name, std::vector<Mat> &imgs, char *predictor
     shape_predictor sp;
     deserialize(predictor) >> sp;
 
-    for (unsigned int i = 0; i < imgs_name.size(); i++)
+    for (unsigned int i = 0; i < imgs.size(); i++)
     {
-        //array2d<rgb_pixel> img;
-        //load_image(img, imgs_name[i]);
-        /*
-        Mat img = imread(imgs_name[i]);
-        if (img.empty())
-        {
-            cout << "Could not open or find image " << imgs_name[i] << endl;
-            return;
-        }
-        */
         cv_image<bgr_pixel> cimg(imgs[i]);
+
 
         std::vector<dlib::rectangle> dets = detector(cimg);     //faces
 
@@ -198,12 +143,6 @@ void run(std::vector<string> &imgs_name, std::vector<Mat> &imgs, char *predictor
         draw_delaunay_triangles(shapes, imgs[i]);
         draw_eye_center(imgs[i], eyes);
         draw_head_posting(imgs[i], heads);
-
-        string image_name = get_image_name(imgs_name[i]);
-        imwrite("./" + folder + "/out_" + image_name, imgs[i]);
-        //cout << "./" + folder + "/out_" + image_name << endl;
-        cout << "\nframe#: " << i << endl;
-        cout << "time used: " << time(0) - start << endl;
     }
 }
 

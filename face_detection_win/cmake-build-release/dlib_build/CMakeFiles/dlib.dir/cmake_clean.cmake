@@ -13,8 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.obj"
   "CMakeFiles/dlib.dir/data_io/mnist.cpp.obj"
   "CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.obj"
-  "CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.obj"
-  "CMakeFiles/dlib.dir/test_for_odr_violations.cpp.obj"
   "CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.obj"
   "CMakeFiles/dlib.dir/bsp/bsp.cpp.obj"
   "CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.obj"
@@ -130,8 +128,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.obj"
   "CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.obj"
   "CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.obj"
-  "dlib19.10.0_release_64bit_msvc1910.pdb"
-  "dlib19.10.0_release_64bit_msvc1910.lib"
+  "dlib_release_64bit_msvc1911.pdb"
+  "dlib_release_64bit_msvc1911.lib"
 )
 
 # Per-language clean rules from dependency scanning.

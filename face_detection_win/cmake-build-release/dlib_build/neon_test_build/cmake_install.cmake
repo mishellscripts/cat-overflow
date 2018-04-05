@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/dlib_build/neon_test_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build/neon_test_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

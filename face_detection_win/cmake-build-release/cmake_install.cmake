@@ -1,4 +1,4 @@
-# Install script for directory: D:/OneDrive/CS/CS160/face_detection_win
+# Install script for directory: D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/dlib_build/cmake_install.cmake")
+  include("D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/OneDrive/CS/CS160/face_detection_win/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
