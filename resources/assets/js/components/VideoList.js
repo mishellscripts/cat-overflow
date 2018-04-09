@@ -7,16 +7,28 @@ import Moment from 'react-moment';
 import 'moment-timezone';
 
 export default class VideoList extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            deleting: status.WAITING,
+            id: null,
+        };
+        this.handleDelete = this.handleDelete.bind(this);
+    }
+
     handleDelete(e) {
         e.preventDefault();
+        this.setState({ deleting: status.FETCHING, id: e.target.id });
         this.deleteVideo(e.target.id).then((response) => {
-            console.log(response.data);
+            this.setState({ deleting: status.SUCCESSFUL });
             this.props.updateVideoList();
         })
         .catch( (error) => {
-          console.log(error);
+            console.log(error);            
+            this.setState({ deleting: status.FAILURE });
         });
     }
+    
 
     deleteVideo(id) {
         const url = 'http://localhost:8000/api/deleteOriginalVideo';
@@ -53,11 +65,19 @@ export default class VideoList extends Component {
                                 </Moment>
                             </small>
                             <button
-                                id={video.id}
-                                className="btn btn-danger btn-sm"
-                                onClick={this.handleDelete.bind(this)}
+                              id={video.id}
+                              className="btn btn-danger btn-sm"
+                              onClick={this.handleDelete.bind(this)}
                             >
-                              delete
+                                <i 
+                                  className="fa fa-spinner fa-spin" 
+                                  hidden={this.state.deleting !== status.FETCHING || this.state.id != video.id} 
+                                />
+                                <div
+                                  hidden={this.state.deleting === status.FETCHING && this.state.id == video.id}
+                                >
+                                  delete
+                                </div>
                             </button>
                         </div>
                     </div>
@@ -78,7 +98,7 @@ export default class VideoList extends Component {
               <div className="card">
                   <div className="card-header">Your Videos</div>
                   <div className="List-group" hidden={
-                      this.props.status === status.FETCHING &&
+                      this.state.status === status.FETCHING &&
                       isEmpty
                   }>
                       {videoList}
@@ -86,7 +106,7 @@ export default class VideoList extends Component {
                   <div
                     className="card-body"
                     hidden={
-                      this.props.status !== status.FETCHING ||
+                      this.state.status !== status.FETCHING ||
                       !isEmpty
                     }
                   >
