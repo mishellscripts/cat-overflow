@@ -107,7 +107,7 @@ export default class FileUploader extends Component {
                       className="alert alert-danger mt-2"
                       hidden={this.state.status !== status.FAILURE}
                     >
-                        <strong>Error!</strong> {this.state.error}
+                        <strong>Error!</strong> <span dangerouslySetInnerHTML={ {__html: this.state.error} } />
                     </div>
                   </div>
               </div>
