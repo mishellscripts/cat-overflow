@@ -8,6 +8,7 @@ use App\User;
 use App\Http\Resources\OriginalVideo as OriginalVideoResource;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Validator;
 use FFMpeg;
 
 class OriginalVideoController extends Controller
@@ -71,15 +72,34 @@ class OriginalVideoController extends Controller
             return response('File size too large. Max file size is 2 MB.', 400);
         }
 
+        // Check mp4 file
+        $validator = Validator::make($request->all(), [
+                'file'  => 'required|mimes:mp4|max:2000',
+            ]
+        );
+
+        if ($validator->fails()) {
+            $errors = '';
+            foreach ($validator->errors()->get('file') as $error) {
+                $errors .= $error . '<br>';
+            }
+            return response()->json($errors, 400);
+        }
+
         $ffprobe = \FFMpeg\FFProbe::create([
             'ffmpeg.binaries'  => $this->ffmpeg_path,
             'ffprobe.binaries' => $this->ffmprope_path,
         ]);
-        $info = $ffprobe
+
+        try {
+            $info = $ffprobe
             ->streams($request->file)
             ->videos()
             ->first();
-        //Log::info(var_export($info, true)); // show all info
+            //Log::info(var_export($info, true)); // show all info
+        } catch (\Exception $e) {
+            return response()->json('Please try again. Make sure you are uploading a valid file.', 400);
+        }
 
         $frame_rate = $info->get('r_frame_rate');
         // Need to eval frame rate ('30000/1001') to get float
