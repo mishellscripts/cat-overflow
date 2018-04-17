@@ -100,7 +100,10 @@ Dual_Points findEyes(cv::Mat frame_gray, cv::Mat &source_img, cv::Rect face)
 }
 
 
-std::vector<Dual_Points> eye_detection(cv::Mat &frame, const std::vector<cv::Rect> &faces)
+std::vector<Dual_Points> eye_detection(cv::Mat &frame,
+                                       const std::vector<cv::Rect> &faces,
+                                       cv::Rect left_eye,
+                                       cv::Rect right_eye)
 {
     std::vector<cv::Mat> rgbChannels(3);
     cv::split(frame, rgbChannels);

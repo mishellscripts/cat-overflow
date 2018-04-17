@@ -36,9 +36,12 @@ using namespace std;
 
 
 
-void make_directry(const string &output_dir);
+void make_directory(const string &output_dir);
 std::vector<Mat> load_imgs(const string &input_dir, const string &file_type);
-void write_imgs(const std::vector<Mat> &images, const string &output_dir, const string &video_id, const string &file_type);
+void write_imgs(const std::vector<Mat> &images,
+                const string &output_dir,
+                const string &video_id,
+                const string &file_type);
 
 void run(std::vector<Mat> &imgs, char *predictor);
 
@@ -48,6 +51,10 @@ cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect);
 void draw_delaunay_triangles(std::vector<full_object_detection> &shapes, Mat &img);
 void draw_delaunay(Mat &img, Subdiv2D &subdiv);
 string get_image_name(string name);
+
+void eye_pupils(std::vector<Dual_Points> eyes,
+                Mat image, std::vector<cv::Rect> faces,
+                std::vector<full_object_detection> shapes)
 
 void draw_eye_center(Mat &img, const std::vector<Dual_Points> &p);
 void draw_head_posting(Mat &img, const std::vector<Dual_Points> &p);
@@ -69,7 +76,7 @@ int main(int argc, char **argv)
         return 0;
     }
 
-    make_directry(argv[2]);
+    make_directory(argv[2]);
 
     std::vector<Mat> images = load_imgs(argv[1], ".png");
 
@@ -118,7 +125,10 @@ std::vector<Mat> load_imgs(const string &input_dir, const string &file_type)
 
 }
 
-void write_imgs(const std::vector<Mat> &images, const string &output_dir, const string &video_id, const string &file_type)
+void write_imgs(const std::vector<Mat> &images,
+                const string &output_dir,
+                const string &video_id,
+                const string &file_type)
 {
     try {
         for (int i = 0; i < images.size(); i++)
@@ -174,20 +184,30 @@ void run(std::vector<Mat> &imgs, char *predictor)
 
     cout << "time: " << time(nullptr) - start << endl;
 }
-/*
-void eye_pupils(std::vector<Dual_Points> eyes, Mat image, std::vector<cv::Rect> faces, std::vector<full_object_detection> shapes)
+
+void eye_pupils(std::vector<Dual_Points> eyes,
+                Mat image, std::vector<cv::Rect> faces,
+                std::vector<full_object_detection> shapes)
 {
     for (const auto& shape : shapes)
     {
         //left eye region
-        int l_x = shape.part(36).x();
-        int l_y = shape.part(37).y() < shape.part(38).y() ? shape.part(37).y() : shape.part(38).y();
-        int l_width = shape.part(39).x() - l_x;
-        int l_height = (shape.part(41).y() > shape.part(40).y() ? shape.part(41).y() : shape.part(40).y()) - l_y;
+        int l_tlx = shape.part(36).x();
+        int l_tly = shape.part(37).y() < shape.part(38).y() ? shape.part(37).y() : shape.part(38).y();
+        int l_brx = shape.part(39).x();
+        int l_bry = shape.part(41).y() > shape.part(40).y() ? shape.part(41).y() : shape.part(40).y();
 
+        Rect left_eye(cv::Point2i(l_tlx, l_tly), cv::Point2i(l_brx, l_bry));
+
+        //right eye region
+        int r_tlx = shape.part(42).x();
+        int r_tly = shape.part(43).y() < shape.part(44).y() ? shape.part(43).y() : shape.part(44).y();
+        int r_brx = shape.part(45).x();
+        int r_bry = shape.part(47).y() > shape.part(46).y() ? shape.part(47).y() : shape.part(46).y();
+
+        Rect right_eye(cv::Point2i(r_tlx, r_tly), cv::Point2i(r_brx, r_bry));
     }
 }
-*/
 
 cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect)
 {
