@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG   -DDLIB_HAVE
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\opencv\build\include -IC:\opencv\build\include\opencv -IC:\dlib-19.9\dlib\.. 
+CXX_INCLUDES = -IC:\opencv\build\include -IC:\opencv\build\include\opencv -IC:\dlib\dlib\.. 
 

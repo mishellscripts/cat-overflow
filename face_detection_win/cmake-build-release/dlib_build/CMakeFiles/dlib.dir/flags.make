@@ -7,11 +7,11 @@ C_FLAGS = /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   -DDLIB_HAVE_SSE2 -DDLIB
 
 C_DEFINES = -DDLIB_JPEG_STATIC
 
-C_INCLUDES = -IC:\opencv\build\include -IC:\opencv\build\include\opencv -IC:\dlib-19.9\dlib\external\libpng -IC:\dlib-19.9\dlib\external\zlib 
+C_INCLUDES = -IC:\opencv\build\include -IC:\opencv\build\include\opencv -IC:\dlib\dlib\external\libpng -IC:\dlib\dlib\external\zlib 
 
 CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG   -DDLIB_HAVE_SSE2 -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT /bigobj
 
 CXX_DEFINES = -DDLIB_JPEG_STATIC
 
-CXX_INCLUDES = -IC:\opencv\build\include -IC:\opencv\build\include\opencv -IC:\dlib-19.9\dlib\external\libpng -IC:\dlib-19.9\dlib\external\zlib 
+CXX_INCLUDES = -IC:\opencv\build\include -IC:\opencv\build\include\opencv -IC:\dlib\dlib\external\libpng -IC:\dlib\dlib\external\zlib 
 

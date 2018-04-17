@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-C:/dlib-19.9/dlib/cmake_utils/test_for_neon/neon_test.cpp
+C:/dlib/dlib/cmake_utils/test_for_neon/neon_test.cpp
 

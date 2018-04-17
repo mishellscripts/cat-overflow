@@ -1,4 +1,4 @@
-# Install script for directory: C:/dlib-19.9/dlib
+# Install script for directory: C:/dlib/dlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

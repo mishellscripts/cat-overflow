@@ -22,7 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2017.3.4/bin/cmake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake"
   "C:/Program Files/JetBrains/CLion 2017.3.4/bin/cmake/share/cmake-3.10/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2017.3.4/bin/cmake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake"
-  "C:/dlib-19.9/dlib/cmake_utils/test_for_neon/CMakeLists.txt"
+  "C:/dlib/dlib/cmake_utils/test_for_neon/CMakeLists.txt"
   "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/3.10.2/CMakeRCCompiler.cmake"

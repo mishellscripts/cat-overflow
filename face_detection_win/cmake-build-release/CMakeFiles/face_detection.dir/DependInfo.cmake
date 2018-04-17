@@ -16,7 +16,7 @@ set(CMAKE_CXX_COMPILER_ID "MSVC")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "C:/opencv/build/include"
   "C:/opencv/build/include/opencv"
-  "C:/dlib-19.9/dlib/.."
+  "C:/dlib/dlib/.."
   )
 
 # Targets to which this target links.

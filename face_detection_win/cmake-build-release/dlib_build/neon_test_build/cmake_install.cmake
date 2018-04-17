@@ -1,8 +1,8 @@
-# Install script for directory: C:/dlib-19.9/dlib/cmake_utils/test_for_neon
+# Install script for directory: C:/dlib/dlib/cmake_utils/test_for_neon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/neon_test")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/neon_test")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

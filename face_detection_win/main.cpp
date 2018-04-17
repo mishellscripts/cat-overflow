@@ -4,6 +4,7 @@
 #include <dlib/opencv/cv_image.h>
 #include <dlib/gui_widgets.h>
 #include <dlib/image_io.h>
+#include <dlib/dir_nav.h>
 #include <iostream>
 #include <vector>
 #include <sstream>
@@ -12,15 +13,21 @@
 #include <opencv2/opencv.hpp>
 #include <dlib/opencv.h>
 #include <time.h>
+#include <algorithm>
+//#include <dirent.h>
 
 #include "eyeLike.h"
 #include "constants.h"
 
 #if defined _MSC_VER
 #include <direct.h>
+
+
+#define file file
 #elif defined __GNUC__
 #include <sys/types.h>
 #include <sys/stat.h>
+
 #endif
 
 using namespace dlib;
@@ -61,52 +68,67 @@ int main(int argc, char **argv)
         cout << "http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2" << endl;
         return 0;
     }
-    make_directry(argv[3]);
-    std::vector<Mat> images = load_imgs(argv[2], argv[4]);
+
+    make_directry(argv[2]);
+
+    std::vector<Mat> images = load_imgs(argv[1], ".png");
+
     if (images.size() == 0)
     {
         return 1;
     }
     run(images, "shape_predictor_68_face_landmarks.dat");
-    write_imgs(images, argv[3], argv[4], ".png");
+
+    write_imgs(images, argv[2], argv[3], ".png");
 
     return 0;
 }
 
 void make_directry(const string &output_dir)
 {
+    try {
 #if defined _MSC_VER
-    _mkdir(output_dir.c_str());
+        _mkdir(output_dir.c_str());
 #elif defind __GNUC__
-    mkdir(output_dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
+        mkdir(output_dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 #endif
+    } catch (Exception &e) {
+        cout << e.what() << endl;
+    }
 }
 
 std::vector<Mat> load_imgs(const string &input_dir, const string &file_type)
 {
-    std::vector<file> files = get_files_in_directory_tree(input_dir, match_ending(file_type), 0);
-    std::sort(files.begin(), files.end());
+    std::vector<dlib::file> files = get_files_in_directory_tree(input_dir, match_ending(".png"), 0);
+
+    //std::sort(files.begin(), files.end());
+
     if (files.size() == 0)
     {
         cout << "No images found in " << input_dir << endl;
         return std::vector<Mat>(0);
     }
-    std::vector<Mat> imgs(files.size());
+    std::vector<Mat> imgs;
     for (int i = 0; i < files.size(); i++)
     {
-        array2d<rgb_pixel> dimg;
-        load_image(dimg, files[i]);
-        imgs.push_back(dlib::toMat(dimg));
+        imgs.push_back(imread(files[i].full_name()));
+        cout << files[i].full_name() << endl;
     }
     return imgs;
+
 }
 
 void write_imgs(const std::vector<Mat> &images, const string &output_dir, const string &video_id, const string &file_type)
 {
-    for (int i = 0; i < images.size(); i++)
-    {
-        imwrite(output_dir + "/" + video_id + "." + to_string(i) + file_type, images[i]);
+    try {
+        for (int i = 0; i < images.size(); i++)
+        {
+            imwrite(output_dir + "/" + video_id + "." + to_string(i) + file_type, images[i]);
+        }
+    } catch (Exception &e) {
+        cout << e.what() << endl;
     }
+
 }
 
 
@@ -152,6 +174,20 @@ void run(std::vector<Mat> &imgs, char *predictor)
 
     cout << "time: " << time(nullptr) - start << endl;
 }
+/*
+void eye_pupils(std::vector<Dual_Points> eyes, Mat image, std::vector<cv::Rect> faces, std::vector<full_object_detection> shapes)
+{
+    for (const auto& shape : shapes)
+    {
+        //left eye region
+        int l_x = shape.part(36).x();
+        int l_y = shape.part(37).y() < shape.part(38).y() ? shape.part(37).y() : shape.part(38).y();
+        int l_width = shape.part(39).x() - l_x;
+        int l_height = (shape.part(41).y() > shape.part(40).y() ? shape.part(41).y() : shape.part(40).y()) - l_y;
+
+    }
+}
+*/
 
 cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect)
 {

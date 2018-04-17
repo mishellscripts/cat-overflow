@@ -55,7 +55,7 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\dlib-19.9\dlib\cmake_utils\test_for_neon
+CMAKE_SOURCE_DIR = C:\dlib\dlib\cmake_utils\test_for_neon
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build\neon_test_build

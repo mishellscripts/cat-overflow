@@ -386,7 +386,7 @@ DLIB_PNG_SUPPORT:BOOL=ON
 //Disable this if you don't want to use a BLAS library
 DLIB_USE_BLAS:STRING=OFF
 
-//Disable this if you don't want to use a BLAS library
+//Disable this if you don't want to use NVIDIA CUDA
 DLIB_USE_CUDA:STRING=OFF
 
 //Disable this if you don't want to use a LAPACK library
@@ -432,7 +432,7 @@ dlib_BINARY_DIR:STATIC=D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_w
 dlib_LIB_DEPENDS:STATIC=general;ws2_32;general;winmm;general;comctl32;general;gdi32;general;imm32;
 
 //Value Computed by CMake
-dlib_SOURCE_DIR:STATIC=C:/dlib-19.9/dlib
+dlib_SOURCE_DIR:STATIC=C:/dlib/dlib
 
 //Value Computed by CMake
 face_detection_BINARY_DIR:STATIC=D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release
