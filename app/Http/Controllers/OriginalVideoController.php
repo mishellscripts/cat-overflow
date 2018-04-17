@@ -120,6 +120,7 @@ class OriginalVideoController extends Controller
                 ->storeAs('public/original_videos', $video->id.'.mp4');
             //TODO choose a better frame rate
             $this->extractImages($request->file, $video->id, '1/1');
+            $this->processImages($video->id);
             return new OriginalVideoResource($video);
         } else {
             Log::warning('failed to save video');
@@ -129,22 +130,33 @@ class OriginalVideoController extends Controller
 
     private function extractImages($file, $id, $frame_rate)
     {
-        $ffmpeg = \FFMpeg\FFMpeg::create([
-            'ffmpeg.binaries'  => $this->ffmpeg_path,
-            'ffprobe.binaries' => $this->ffmprope_path,
-        ]);
-        $ffmpeg_video = $ffmpeg->open($file);
+        // $ffmpeg = \FFMpeg\FFMpeg::create([
+        //     'ffmpeg.binaries'  => $this->ffmpeg_path,
+        //     'ffprobe.binaries' => $this->ffmprope_path,
+        // ]);
+        // $ffmpeg_video = $ffmpeg->open($file);
+
+        $video_path = "storage/original_videos/$id.mp4";
         $path = "storage/original_images/$id";
         if (!file_exists($path)) {
             mkdir($path, 0777, true);
         }
-        // TODO wait for PHP-FFMpeg to fix the bug which produces duplicate files
-        $ffmpeg_video
-            ->filters()
-            ->extractMultipleFrames($frame_rate, $path)
-            ->synchronize();
-        $ffmpeg_video
-            ->save(new FFMpeg\Format\Video\X264(), "$path/output_%d.png");
+
+        // // TODO wait for PHP-FFMpeg to fix the bug which produces duplicate files
+        // $ffmpeg_video
+        //     ->filters()
+        //     ->extractMultipleFrames($frame_rate, $path)
+        //     ->synchronize();
+        // $ffmpeg_video
+        //     ->save(new FFMpeg\Format\Video\X264(), "$path/output_%d.png");
+
+        exec("ffmpeg -i $video_path -vf fps=$frame_rate $path/%d.png");
+    }
+
+    private function processImages($id) {
+        $cwd = getcwd();
+        chdir("$cwd/../face_detection_win/cmake-build-release");
+        exec("face_detection.exe ../../storage/app/public/original_images/$id ../../storage/app/public/processed_images/$id $id");
     }
 
     /**
