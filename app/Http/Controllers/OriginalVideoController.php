@@ -119,7 +119,7 @@ class OriginalVideoController extends Controller
                 ->file('file')
                 ->storeAs('public/original_videos', $video->id.'.mp4');
             //TODO choose a better frame rate
-            $this->extractImages($request->file, $video->id, '1/1');
+            $this->extractImages($request->file, $video->id, $fps);
             $this->processImages($video->id);
             return new OriginalVideoResource($video);
         } else {
@@ -154,6 +154,10 @@ class OriginalVideoController extends Controller
     }
 
     private function processImages($id) {
+        $path = "storage/processed_images/$id";
+        if (!file_exists($path)) {
+            mkdir($path, 0777, true);
+        }
         $cwd = getcwd();
         chdir("$cwd/../face_detection_win/cmake-build-release");
         exec("face_detection.exe ../../storage/app/public/original_images/$id ../../storage/app/public/processed_images/$id $id");
