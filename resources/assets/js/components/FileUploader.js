@@ -19,15 +19,19 @@ export default class FileUploader extends Component {
     handleSubmit(e) {
       e.preventDefault();
       this.setState({ status: status.FETCHING });
-      this.fileUpload(e.target.name.value, this.state.video).then((response) => {
-          console.log(response.data);
-          this.setState({ status: status.SUCCESSFUL });
-          this.props.handleSuccess();
-      })
-      .catch( (error) => {
-        console.log(error);
-        this.setState({ status: status.FAILURE, error: error.response.data });
-      });
+      if (this.state.video.size <= 2000000) {
+          this.fileUpload(e.target.name.value, this.state.video).then((response) => {
+              console.log(response.data);
+              this.setState({ status: status.SUCCESSFUL });
+              this.props.handleSuccess();
+          })
+          .catch( (error) => {
+            // console.log(error);
+            this.setState({ status: status.FAILURE, error: error.response.data });
+          });
+      } else {
+          this.setState({ status: status.FAILURE, error: 'File size too large. Max file size is 2 MB.' });
+      }
     }
 
     fileUpload(name, file) {
