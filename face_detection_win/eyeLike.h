@@ -3,11 +3,10 @@
 
 #include "constants.h"
 
-Dual_Points findEyes(cv::Mat frame_gray, cv::Mat &source_img, cv::Rect face);
+Dual_Points findEyes(cv::Mat frame_gray, cv::Mat source_img, cv::Rect face, std::pair<cv::Rect, cv::Rect> &eye_regions);
 //cv::Mat findSkin(cv::Mat &frame);
 std::vector<Dual_Points> eye_detection(cv::Mat &frame,
                                        const std::vector<cv::Rect> &faces,
-                                       cv::Rect left_eye,
-                                       cv::Rect right_eye);
+                                       std::vector<std::pair<cv::Rect, cv::Rect>> &eyes_regions);
 
 #endif //FACE_DETECTION_EYELIKE_H

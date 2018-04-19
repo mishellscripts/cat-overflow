@@ -62,7 +62,7 @@ dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.obj: dlib_build\CMakeF
 dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.obj: C:\dlib\dlib\base64\base64_kernel_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\base64\base64_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -70,7 +70,7 @@ dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.obj: C:\dlib\dlib\base
 dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\base64\base64_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -78,7 +78,7 @@ dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.s /c C:\dlib\dlib\base64\base64_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -98,7 +98,7 @@ dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.obj: dlib_build\CMakeF
 dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.obj: C:\dlib\dlib\bigint\bigint_kernel_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\bigint\bigint_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -106,7 +106,7 @@ dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.obj: C:\dlib\dlib\bigi
 dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\bigint\bigint_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -114,7 +114,7 @@ dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.s /c C:\dlib\dlib\bigint\bigint_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -134,7 +134,7 @@ dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.obj: dlib_build\CMakeF
 dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.obj: C:\dlib\dlib\bigint\bigint_kernel_2.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\bigint\bigint_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -142,7 +142,7 @@ dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.obj: C:\dlib\dlib\bigi
 dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\bigint\bigint_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -150,7 +150,7 @@ dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.s /c C:\dlib\dlib\bigint\bigint_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -170,7 +170,7 @@ dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.obj: dlib_buil
 dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.obj: C:\dlib\dlib\bit_stream\bit_stream_kernel_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\bit_stream\bit_stream_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -178,7 +178,7 @@ dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.obj: C:\dlib\d
 dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\bit_stream\bit_stream_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -186,7 +186,7 @@ dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.s /c C:\dlib\dlib\bit_stream\bit_stream_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -206,7 +206,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.obj:
 dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.obj: C:\dlib\dlib\entropy_decoder\entropy_decoder_kernel_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\entropy_decoder\entropy_decoder_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -214,7 +214,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.obj:
 dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\entropy_decoder\entropy_decoder_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -222,7 +222,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.i: c
 dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.s /c C:\dlib\dlib\entropy_decoder\entropy_decoder_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -242,7 +242,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.obj:
 dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.obj: C:\dlib\dlib\entropy_decoder\entropy_decoder_kernel_2.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\entropy_decoder\entropy_decoder_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -250,7 +250,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.obj:
 dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\entropy_decoder\entropy_decoder_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -258,7 +258,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.i: c
 dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.s /c C:\dlib\dlib\entropy_decoder\entropy_decoder_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -278,7 +278,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.obj:
 dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.obj: C:\dlib\dlib\entropy_encoder\entropy_encoder_kernel_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\entropy_encoder\entropy_encoder_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -286,7 +286,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.obj:
 dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\entropy_encoder\entropy_encoder_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -294,7 +294,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.i: c
 dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.s /c C:\dlib\dlib\entropy_encoder\entropy_encoder_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -314,7 +314,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.obj:
 dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.obj: C:\dlib\dlib\entropy_encoder\entropy_encoder_kernel_2.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\entropy_encoder\entropy_encoder_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -322,7 +322,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.obj:
 dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\entropy_encoder\entropy_encoder_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -330,7 +330,7 @@ dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.i: c
 dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.s /c C:\dlib\dlib\entropy_encoder\entropy_encoder_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -350,7 +350,7 @@ dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.obj: dlib_build\CMakeFiles\d
 dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.obj: C:\dlib\dlib\md5\md5_kernel_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\md5\md5_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -358,7 +358,7 @@ dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.obj: C:\dlib\dlib\md5\md5_ke
 dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\md5\md5_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -366,7 +366,7 @@ dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.s /c C:\dlib\dlib\md5\md5_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -386,7 +386,7 @@ dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.obj: dlib_build\
 dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.obj: C:\dlib\dlib\tokenizer\tokenizer_kernel_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\tokenizer\tokenizer_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -394,7 +394,7 @@ dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.obj: C:\dlib\dli
 dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\tokenizer\tokenizer_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -402,7 +402,7 @@ dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.s /c C:\dlib\dlib\tokenizer\tokenizer_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -422,7 +422,7 @@ dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.obj: dlib_build\CMakeFiles\dl
 dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.obj: C:\dlib\dlib\unicode\unicode.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\unicode\unicode.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\unicode\unicode.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -430,7 +430,7 @@ dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.obj: C:\dlib\dlib\unicode\uni
 dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/unicode/unicode.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\unicode\unicode.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\unicode\unicode.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\unicode\unicode.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -438,7 +438,7 @@ dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/unicode/unicode.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\unicode\unicode.cpp.s /c C:\dlib\dlib\unicode\unicode.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -458,7 +458,7 @@ dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.obj: dlib_buil
 dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.obj: C:\dlib\dlib\data_io\image_dataset_metadata.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\data_io\image_dataset_metadata.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -466,7 +466,7 @@ dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.obj: C:\dlib\d
 dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\data_io\image_dataset_metadata.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -474,7 +474,7 @@ dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.s /c C:\dlib\dlib\data_io\image_dataset_metadata.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -494,7 +494,7 @@ dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.obj: dlib_build\CMakeFiles\dlib
 dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.obj: C:\dlib\dlib\data_io\mnist.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\data_io\mnist.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\data_io\mnist.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -502,7 +502,7 @@ dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.obj: C:\dlib\dlib\data_io\mnist
 dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/data_io/mnist.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\data_io\mnist.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\data_io\mnist.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\data_io\mnist.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -510,7 +510,7 @@ dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/data_io/mnist.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\data_io\mnist.cpp.s /c C:\dlib\dlib\data_io\mnist.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -530,7 +530,7 @@ dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.ob
 dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.obj: C:\dlib\dlib\global_optimization\global_function_search.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\global_optimization\global_function_search.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -538,7 +538,7 @@ dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.ob
 dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\global_optimization\global_function_search.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -546,7 +546,7 @@ dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.i:
 dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.s /c C:\dlib\dlib\global_optimization\global_function_search.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -562,11 +562,83 @@ dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.ob
 dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.obj.provides.build: dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.obj
 
 
+dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
+dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj: C:\dlib\dlib\filtering\kalman_filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.obj"
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\filtering\kalman_filter.cpp
+<<
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+
+dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.i"
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\filtering\kalman_filter.cpp
+<<
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+
+dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.s"
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\filtering\kalman_filter.cpp.s /c C:\dlib\dlib\filtering\kalman_filter.cpp
+<<
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+
+dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj.requires:
+
+.PHONY : dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj.requires
+
+dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj.provides: dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj.requires
+	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj.provides.build
+.PHONY : dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj.provides
+
+dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj.provides.build: dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj
+
+
+dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
+dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj: C:\dlib\dlib\test_for_odr_violations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.obj"
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\test_for_odr_violations.cpp
+<<
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+
+dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/test_for_odr_violations.cpp.i"
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\test_for_odr_violations.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\test_for_odr_violations.cpp
+<<
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+
+dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/test_for_odr_violations.cpp.s"
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\test_for_odr_violations.cpp.s /c C:\dlib\dlib\test_for_odr_violations.cpp
+<<
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+
+dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj.requires:
+
+.PHONY : dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj.requires
+
+dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj.provides: dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj.requires
+	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj.provides.build
+.PHONY : dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj.provides
+
+dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj.provides.build: dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj
+
+
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj: C:\dlib\dlib\sockets\sockets_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\sockets\sockets_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -574,7 +646,7 @@ dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj: C:\dlib\dlib\so
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\sockets\sockets_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -582,7 +654,7 @@ dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.s /c C:\dlib\dlib\sockets\sockets_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -600,9 +672,9 @@ dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.obj: C:\dlib\dlib\bsp\bsp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\bsp\bsp.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\bsp\bsp.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -610,7 +682,7 @@ dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.obj: C:\dlib\dlib\bsp\bsp.cpp
 dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bsp/bsp.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\bsp\bsp.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\bsp\bsp.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\bsp\bsp.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -618,7 +690,7 @@ dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bsp/bsp.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\bsp\bsp.cpp.s /c C:\dlib\dlib\bsp\bsp.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -636,9 +708,9 @@ dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.obj.provides.build: dlib_build\CMakeF
 
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj: C:\dlib\dlib\dir_nav\dir_nav_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\dir_nav\dir_nav_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -646,7 +718,7 @@ dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj: C:\dlib\dlib\di
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\dir_nav\dir_nav_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -654,7 +726,7 @@ dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.s /c C:\dlib\dlib\dir_nav\dir_nav_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -672,9 +744,9 @@ dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.obj: C:\dlib\dlib\dir_nav\dir_nav_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\dir_nav\dir_nav_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -682,7 +754,7 @@ dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.obj: C:\dlib\dlib\di
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\dir_nav\dir_nav_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -690,7 +762,7 @@ dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.s /c C:\dlib\dlib\dir_nav\dir_nav_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -708,9 +780,9 @@ dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.obj: C:\dlib\dlib\dir_nav\dir_nav_extensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\dir_nav\dir_nav_extensions.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -718,7 +790,7 @@ dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.obj: C:\dlib\dlib\
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\dir_nav\dir_nav_extensions.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -726,7 +798,7 @@ dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.s /c C:\dlib\dlib\dir_nav\dir_nav_extensions.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -744,9 +816,9 @@ dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.obj.provides.build
 
 dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.obj: C:\dlib\dlib\linker\linker_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\linker\linker_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -754,7 +826,7 @@ dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.obj: C:\dlib\dlib\link
 dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\linker\linker_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -762,7 +834,7 @@ dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.s /c C:\dlib\dlib\linker\linker_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -780,9 +852,9 @@ dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.obj: C:\dlib\dlib\logger\extra_logger_headers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\logger\extra_logger_headers.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -790,7 +862,7 @@ dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.obj: C:\dlib\dlib
 dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\logger\extra_logger_headers.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -798,7 +870,7 @@ dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.s /c C:\dlib\dlib\logger\extra_logger_headers.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -816,9 +888,9 @@ dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.obj.provides.buil
 
 dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.obj: C:\dlib\dlib\logger\logger_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\logger\logger_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -826,7 +898,7 @@ dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.obj: C:\dlib\dlib\logg
 dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\logger\logger_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -834,7 +906,7 @@ dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.s /c C:\dlib\dlib\logger\logger_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -852,9 +924,9 @@ dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.obj: C:\dlib\dlib\logger\logger_config_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\logger\logger_config_file.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\logger\logger_config_file.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -862,7 +934,7 @@ dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.obj: C:\dlib\dlib\l
 dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\logger\logger_config_file.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\logger\logger_config_file.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\logger\logger_config_file.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -870,7 +942,7 @@ dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\logger\logger_config_file.cpp.s /c C:\dlib\dlib\logger\logger_config_file.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -888,9 +960,9 @@ dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.obj: C:\dlib\dlib\misc_api\misc_api_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\misc_api\misc_api_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -898,7 +970,7 @@ dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.obj: C:\dlib\dlib\
 dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\misc_api\misc_api_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -906,7 +978,7 @@ dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.s /c C:\dlib\dlib\misc_api\misc_api_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -924,9 +996,9 @@ dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.obj.provides.build
 
 dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.obj: C:\dlib\dlib\misc_api\misc_api_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\misc_api\misc_api_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -934,7 +1006,7 @@ dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.obj: C:\dlib\dlib\
 dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\misc_api\misc_api_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -942,7 +1014,7 @@ dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.s /c C:\dlib\dlib\misc_api\misc_api_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -960,9 +1032,9 @@ dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.obj.provides.build
 
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.obj: C:\dlib\dlib\sockets\sockets_extensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\sockets\sockets_extensions.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -970,7 +1042,7 @@ dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.obj: C:\dlib\dlib\
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\sockets\sockets_extensions.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -978,7 +1050,7 @@ dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.s /c C:\dlib\dlib\sockets\sockets_extensions.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -996,9 +1068,9 @@ dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.obj.provides.build
 
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.obj: C:\dlib\dlib\sockets\sockets_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\sockets\sockets_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1006,7 +1078,7 @@ dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.obj: C:\dlib\dlib\so
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\sockets\sockets_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1014,7 +1086,7 @@ dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.s /c C:\dlib\dlib\sockets\sockets_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1032,9 +1104,9 @@ dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.obj: C:\dlib\dlib\sockstreambuf\sockstreambuf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\sockstreambuf\sockstreambuf.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1042,7 +1114,7 @@ dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.obj: C:\dlib\dlib
 dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\sockstreambuf\sockstreambuf.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1050,7 +1122,7 @@ dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.s /c C:\dlib\dlib\sockstreambuf\sockstreambuf.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1068,9 +1140,9 @@ dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.obj.provides.buil
 
 dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.obj: C:\dlib\dlib\sockstreambuf\sockstreambuf_unbuffered.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\sockstreambuf\sockstreambuf_unbuffered.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1078,7 +1150,7 @@ dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.obj: C
 dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\sockstreambuf\sockstreambuf_unbuffered.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1086,7 +1158,7 @@ dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.i: cma
 dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.s /c C:\dlib\dlib\sockstreambuf\sockstreambuf_unbuffered.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1104,9 +1176,9 @@ dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.obj.pr
 
 dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.obj: C:\dlib\dlib\server\server_kernel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\server\server_kernel.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\server\server_kernel.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1114,7 +1186,7 @@ dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.obj: C:\dlib\dlib\server
 dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_kernel.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\server\server_kernel.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\server\server_kernel.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\server\server_kernel.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1122,7 +1194,7 @@ dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_kernel.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\server\server_kernel.cpp.s /c C:\dlib\dlib\server\server_kernel.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1140,9 +1212,9 @@ dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.obj: C:\dlib\dlib\server\server_iostream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\server\server_iostream.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\server\server_iostream.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1150,7 +1222,7 @@ dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.obj: C:\dlib\dlib\serv
 dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_iostream.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\server\server_iostream.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\server\server_iostream.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\server\server_iostream.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1158,7 +1230,7 @@ dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_iostream.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\server\server_iostream.cpp.s /c C:\dlib\dlib\server\server_iostream.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1176,9 +1248,9 @@ dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.obj: C:\dlib\dlib\server\server_http.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\server\server_http.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\server\server_http.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1186,7 +1258,7 @@ dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.obj: C:\dlib\dlib\server\s
 dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_http.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\server\server_http.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\server\server_http.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\server\server_http.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1194,7 +1266,7 @@ dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_http.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\server\server_http.cpp.s /c C:\dlib\dlib\server\server_http.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1212,9 +1284,9 @@ dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.obj.provides.build: dlib_b
 
 dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.obj: C:\dlib\dlib\threads\multithreaded_object_extension.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\threads\multithreaded_object_extension.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1222,7 +1294,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.obj: C
 dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\threads\multithreaded_object_extension.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1230,7 +1302,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.i: cma
 dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.s /c C:\dlib\dlib\threads\multithreaded_object_extension.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1248,9 +1320,9 @@ dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.obj.pr
 
 dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.obj: C:\dlib\dlib\threads\threaded_object_extension.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\threads\threaded_object_extension.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1258,7 +1330,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.obj: C:\dli
 dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\threads\threaded_object_extension.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1266,7 +1338,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.i: cmake_fo
 dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.s /c C:\dlib\dlib\threads\threaded_object_extension.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1284,9 +1356,9 @@ dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.obj.provide
 
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.obj: C:\dlib\dlib\threads\threads_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\threads\threads_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1294,7 +1366,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.obj: C:\dlib\dlib\th
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\threads\threads_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1302,7 +1374,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.s /c C:\dlib\dlib\threads\threads_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1320,9 +1392,9 @@ dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.obj: C:\dlib\dlib\threads\threads_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\threads\threads_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1330,7 +1402,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.obj: C:\dlib\dlib\th
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\threads\threads_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1338,7 +1410,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.s /c C:\dlib\dlib\threads\threads_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1356,9 +1428,9 @@ dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.obj: C:\dlib\dlib\threads\threads_kernel_shared.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\threads\threads_kernel_shared.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1366,7 +1438,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.obj: C:\dlib\dl
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\threads\threads_kernel_shared.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1374,7 +1446,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.s /c C:\dlib\dlib\threads\threads_kernel_shared.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1392,9 +1464,9 @@ dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.obj.provides.bu
 
 dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.obj: C:\dlib\dlib\threads\thread_pool_extension.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\threads\thread_pool_extension.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1402,7 +1474,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.obj: C:\dlib\dl
 dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\threads\thread_pool_extension.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1410,7 +1482,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.s /c C:\dlib\dlib\threads\thread_pool_extension.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1428,9 +1500,9 @@ dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.obj.provides.bu
 
 dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.obj: C:\dlib\dlib\threads\async.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\threads\async.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\threads\async.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1438,7 +1510,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.obj: C:\dlib\dlib\threads\async
 dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/async.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\async.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\threads\async.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\threads\async.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1446,7 +1518,7 @@ dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/async.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\threads\async.cpp.s /c C:\dlib\dlib\threads\async.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1464,9 +1536,9 @@ dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.obj.provides.build: dlib_build\
 
 dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.obj: C:\dlib\dlib\timer\timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\timer\timer.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\timer\timer.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1474,7 +1546,7 @@ dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.obj: C:\dlib\dlib\timer\timer.cpp
 dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/timer/timer.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\timer\timer.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\timer\timer.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\timer\timer.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1482,7 +1554,7 @@ dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/timer/timer.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\timer\timer.cpp.s /c C:\dlib\dlib\timer\timer.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1500,9 +1572,9 @@ dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.obj.provides.build: dlib_build\CM
 
 dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.obj: C:\dlib\dlib\stack_trace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\stack_trace.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\stack_trace.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1510,7 +1582,7 @@ dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.obj: C:\dlib\dlib\stack_trace.cpp
 dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/stack_trace.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\stack_trace.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\stack_trace.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\stack_trace.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1518,7 +1590,7 @@ dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/stack_trace.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\stack_trace.cpp.s /c C:\dlib\dlib\stack_trace.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1536,9 +1608,9 @@ dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.obj.provides.build: dlib_build\CM
 
 dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.obj: C:\dlib\dlib\dnn\cpu_dlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\dnn\cpu_dlib.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1546,7 +1618,7 @@ dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.obj: C:\dlib\dlib\dnn\cpu_dlib.c
 dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\dnn\cpu_dlib.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1554,7 +1626,7 @@ dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dnn/cpu_dlib.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.s /c C:\dlib\dlib\dnn\cpu_dlib.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1572,9 +1644,9 @@ dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.obj.provides.build: dlib_build\C
 
 dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.obj: C:\dlib\dlib\dnn\tensor_tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object dlib_build/CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\dnn\tensor_tools.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\dnn\tensor_tools.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1582,7 +1654,7 @@ dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.obj: C:\dlib\dlib\dnn\tensor
 dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\dnn\tensor_tools.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1590,7 +1662,7 @@ dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dnn/tensor_tools.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\dnn\tensor_tools.cpp.s /c C:\dlib\dlib\dnn\tensor_tools.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1608,9 +1680,9 @@ dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.obj.provides.build: dlib_bui
 
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.obj: C:\dlib\dlib\gui_widgets\fonts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\gui_widgets\fonts.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\gui_widgets\fonts.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1618,7 +1690,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.obj: C:\dlib\dlib\gui_widge
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\gui_widgets\fonts.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1626,7 +1698,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\gui_widgets\fonts.cpp.s /c C:\dlib\dlib\gui_widgets\fonts.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1644,9 +1716,9 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.obj.provides.build: dlib_bu
 
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.obj: C:\dlib\dlib\gui_widgets\widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\gui_widgets\widgets.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\gui_widgets\widgets.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1654,7 +1726,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.obj: C:\dlib\dlib\gui_wid
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\gui_widgets\widgets.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1662,7 +1734,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\gui_widgets\widgets.cpp.s /c C:\dlib\dlib\gui_widgets\widgets.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1680,9 +1752,9 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.obj.provides.build: dlib_
 
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.obj: C:\dlib\dlib\gui_widgets\drawable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\gui_widgets\drawable.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\gui_widgets\drawable.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1690,7 +1762,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.obj: C:\dlib\dlib\gui_wi
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\gui_widgets\drawable.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1698,7 +1770,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\gui_widgets\drawable.cpp.s /c C:\dlib\dlib\gui_widgets\drawable.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1716,9 +1788,9 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.obj: C:\dlib\dlib\gui_widgets\canvas_drawing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\gui_widgets\canvas_drawing.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1726,7 +1798,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.obj: C:\dlib\dlib\
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\gui_widgets\canvas_drawing.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1734,7 +1806,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.s /c C:\dlib\dlib\gui_widgets\canvas_drawing.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1752,9 +1824,9 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.obj.provides.build
 
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.obj: C:\dlib\dlib\gui_widgets\style.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\gui_widgets\style.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\gui_widgets\style.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1762,7 +1834,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.obj: C:\dlib\dlib\gui_widge
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/style.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\style.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\style.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\gui_widgets\style.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1770,7 +1842,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/style.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\gui_widgets\style.cpp.s /c C:\dlib\dlib\gui_widgets\style.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1788,9 +1860,9 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.obj.provides.build: dlib_bu
 
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.obj: C:\dlib\dlib\gui_widgets\base_widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\gui_widgets\base_widgets.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1798,7 +1870,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.obj: C:\dlib\dlib\gu
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\gui_widgets\base_widgets.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1806,7 +1878,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.s /c C:\dlib\dlib\gui_widgets\base_widgets.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1824,9 +1896,9 @@ dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.obj: C:\dlib\dlib\gui_core\gui_core_kernel_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\gui_core\gui_core_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1834,7 +1906,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.obj: C:\dlib\dlib\
 dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\gui_core\gui_core_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1842,7 +1914,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.s /c C:\dlib\dlib\gui_core\gui_core_kernel_1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1860,9 +1932,9 @@ dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.obj.provides.build
 
 dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.obj: C:\dlib\dlib\gui_core\gui_core_kernel_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\gui_core\gui_core_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1870,7 +1942,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.obj: C:\dlib\dlib\
 dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\gui_core\gui_core_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1878,7 +1950,7 @@ dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.s /c C:\dlib\dlib\gui_core\gui_core_kernel_2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1896,9 +1968,9 @@ dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.obj.provides.build
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.obj: C:\dlib\dlib\external\libpng\png.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/png.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\png.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\png.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1906,7 +1978,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.obj: C:\dlib\dlib\external\
 dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/png.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\png.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\png.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\png.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1914,7 +1986,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/png.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\png.c.s /c C:\dlib\dlib\external\libpng\png.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1932,9 +2004,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.obj.provides.build: dlib_bu
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.obj: C:\dlib\dlib\external\libpng\pngerror.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngerror.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngerror.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngerror.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1942,7 +2014,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.obj: C:\dlib\dlib\exte
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngerror.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngerror.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngerror.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngerror.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1950,7 +2022,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngerror.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngerror.c.s /c C:\dlib\dlib\external\libpng\pngerror.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1968,9 +2040,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.obj: C:\dlib\dlib\external\libpng\pngget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngget.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngget.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngget.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1978,7 +2050,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.obj: C:\dlib\dlib\extern
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngget.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngget.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngget.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngget.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -1986,7 +2058,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngget.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngget.c.s /c C:\dlib\dlib\external\libpng\pngget.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2004,9 +2076,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.obj: C:\dlib\dlib\external\libpng\pngmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngmem.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngmem.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngmem.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2014,7 +2086,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.obj: C:\dlib\dlib\extern
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngmem.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngmem.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngmem.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngmem.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2022,7 +2094,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngmem.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngmem.c.s /c C:\dlib\dlib\external\libpng\pngmem.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2040,9 +2112,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.obj: C:\dlib\dlib\external\libpng\pngpread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngpread.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngpread.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngpread.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2050,7 +2122,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.obj: C:\dlib\dlib\exte
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngpread.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngpread.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngpread.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngpread.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2058,7 +2130,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngpread.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngpread.c.s /c C:\dlib\dlib\external\libpng\pngpread.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2076,9 +2148,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.obj: C:\dlib\dlib\external\libpng\pngread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngread.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngread.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngread.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2086,7 +2158,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.obj: C:\dlib\dlib\exter
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngread.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngread.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngread.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngread.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2094,7 +2166,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngread.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngread.c.s /c C:\dlib\dlib\external\libpng\pngread.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2112,9 +2184,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.obj.provides.build: dli
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.obj: C:\dlib\dlib\external\libpng\pngrio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrio.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngrio.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngrio.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2122,7 +2194,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.obj: C:\dlib\dlib\extern
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngrio.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngrio.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngrio.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngrio.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2130,7 +2202,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngrio.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngrio.c.s /c C:\dlib\dlib\external\libpng\pngrio.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2148,9 +2220,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.obj: C:\dlib\dlib\external\libpng\pngrtran.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrtran.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngrtran.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngrtran.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2158,7 +2230,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.obj: C:\dlib\dlib\exte
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngrtran.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngrtran.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngrtran.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngrtran.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2166,7 +2238,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngrtran.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngrtran.c.s /c C:\dlib\dlib\external\libpng\pngrtran.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2184,9 +2256,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.obj: C:\dlib\dlib\external\libpng\pngrutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngrutil.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngrutil.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngrutil.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2194,7 +2266,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.obj: C:\dlib\dlib\exte
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngrutil.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngrutil.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngrutil.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngrutil.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2202,7 +2274,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngrutil.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngrutil.c.s /c C:\dlib\dlib\external\libpng\pngrutil.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2220,9 +2292,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.obj: C:\dlib\dlib\external\libpng\pngset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngset.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngset.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngset.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2230,7 +2302,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.obj: C:\dlib\dlib\extern
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngset.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngset.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngset.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngset.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2238,7 +2310,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngset.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngset.c.s /c C:\dlib\dlib\external\libpng\pngset.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2256,9 +2328,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.obj: C:\dlib\dlib\external\libpng\pngtrans.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngtrans.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngtrans.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngtrans.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2266,7 +2338,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.obj: C:\dlib\dlib\exte
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngtrans.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngtrans.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngtrans.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngtrans.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2274,7 +2346,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngtrans.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngtrans.c.s /c C:\dlib\dlib\external\libpng\pngtrans.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2292,9 +2364,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.obj: C:\dlib\dlib\external\libpng\pngwio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwio.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngwio.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngwio.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2302,7 +2374,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.obj: C:\dlib\dlib\extern
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwio.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngwio.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngwio.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngwio.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2310,7 +2382,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwio.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngwio.c.s /c C:\dlib\dlib\external\libpng\pngwio.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2328,9 +2400,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.obj: C:\dlib\dlib\external\libpng\pngwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwrite.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngwrite.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngwrite.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2338,7 +2410,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.obj: C:\dlib\dlib\exte
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwrite.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngwrite.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngwrite.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngwrite.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2346,7 +2418,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwrite.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngwrite.c.s /c C:\dlib\dlib\external\libpng\pngwrite.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2364,9 +2436,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.obj: C:\dlib\dlib\external\libpng\pngwtran.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwtran.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngwtran.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngwtran.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2374,7 +2446,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.obj: C:\dlib\dlib\exte
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwtran.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngwtran.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngwtran.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngwtran.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2382,7 +2454,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwtran.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngwtran.c.s /c C:\dlib\dlib\external\libpng\pngwtran.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2400,9 +2472,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.obj: C:\dlib\dlib\external\libpng\pngwutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object dlib_build/CMakeFiles/dlib.dir/external/libpng/pngwutil.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\libpng\pngwutil.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libpng\pngwutil.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2410,7 +2482,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.obj: C:\dlib\dlib\exte
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/libpng/pngwutil.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngwutil.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libpng\pngwutil.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\libpng\pngwutil.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2418,7 +2490,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/libpng/pngwutil.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libpng\pngwutil.c.s /c C:\dlib\dlib\external\libpng\pngwutil.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2436,9 +2508,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.obj.provides.build: dl
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.obj: C:\dlib\dlib\external\zlib\adler32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/adler32.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\adler32.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\adler32.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2446,7 +2518,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.obj: C:\dlib\dlib\externa
 dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/adler32.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\adler32.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\adler32.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\adler32.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2454,7 +2526,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/adler32.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\adler32.c.s /c C:\dlib\dlib\external\zlib\adler32.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2472,9 +2544,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.obj.provides.build: dlib_
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.obj: C:\dlib\dlib\external\zlib\compress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/compress.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\compress.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\compress.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2482,7 +2554,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.obj: C:\dlib\dlib\extern
 dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/compress.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\compress.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\compress.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\compress.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2490,7 +2562,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/compress.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\compress.c.s /c C:\dlib\dlib\external\zlib\compress.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2508,9 +2580,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.obj: C:\dlib\dlib\external\zlib\crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/crc32.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\crc32.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\crc32.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2518,7 +2590,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.obj: C:\dlib\dlib\external\
 dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/crc32.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\crc32.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\crc32.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\crc32.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2526,7 +2598,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/crc32.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\crc32.c.s /c C:\dlib\dlib\external\zlib\crc32.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2544,9 +2616,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.obj.provides.build: dlib_bu
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.obj: C:\dlib\dlib\external\zlib\deflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/deflate.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\deflate.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\deflate.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2554,7 +2626,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.obj: C:\dlib\dlib\externa
 dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/deflate.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\deflate.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\deflate.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\deflate.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2562,7 +2634,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/deflate.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\deflate.c.s /c C:\dlib\dlib\external\zlib\deflate.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2580,9 +2652,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.obj.provides.build: dlib_
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.obj: C:\dlib\dlib\external\zlib\gzclose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzclose.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\gzclose.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\gzclose.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2590,7 +2662,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.obj: C:\dlib\dlib\externa
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzclose.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\gzclose.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\gzclose.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\gzclose.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2598,7 +2670,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzclose.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\gzclose.c.s /c C:\dlib\dlib\external\zlib\gzclose.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2616,9 +2688,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.obj.provides.build: dlib_
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.obj: C:\dlib\dlib\external\zlib\gzlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzlib.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\gzlib.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\gzlib.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2626,7 +2698,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.obj: C:\dlib\dlib\external\
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzlib.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\gzlib.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\gzlib.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\gzlib.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2634,7 +2706,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzlib.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\gzlib.c.s /c C:\dlib\dlib\external\zlib\gzlib.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2652,9 +2724,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.obj.provides.build: dlib_bu
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.obj: C:\dlib\dlib\external\zlib\gzread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzread.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\gzread.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\gzread.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2662,7 +2734,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.obj: C:\dlib\dlib\external
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzread.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\gzread.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\gzread.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\gzread.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2670,7 +2742,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzread.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\gzread.c.s /c C:\dlib\dlib\external\zlib\gzread.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2688,9 +2760,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.obj.provides.build: dlib_b
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.obj: C:\dlib\dlib\external\zlib\gzwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/gzwrite.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\gzwrite.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\gzwrite.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2698,7 +2770,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.obj: C:\dlib\dlib\externa
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/gzwrite.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\gzwrite.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\gzwrite.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\gzwrite.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2706,7 +2778,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/gzwrite.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\gzwrite.c.s /c C:\dlib\dlib\external\zlib\gzwrite.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2724,9 +2796,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.obj.provides.build: dlib_
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.obj: C:\dlib\dlib\external\zlib\infback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/infback.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\infback.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\infback.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2734,7 +2806,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.obj: C:\dlib\dlib\externa
 dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/infback.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\infback.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\infback.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\infback.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2742,7 +2814,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/infback.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\infback.c.s /c C:\dlib\dlib\external\zlib\infback.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2760,9 +2832,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.obj.provides.build: dlib_
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.obj: C:\dlib\dlib\external\zlib\inffast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inffast.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\inffast.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\inffast.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2770,7 +2842,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.obj: C:\dlib\dlib\externa
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/inffast.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\inffast.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\inffast.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\inffast.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2778,7 +2850,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/inffast.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\inffast.c.s /c C:\dlib\dlib\external\zlib\inffast.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2796,9 +2868,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.obj.provides.build: dlib_
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.obj: C:\dlib\dlib\external\zlib\inflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inflate.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\inflate.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\inflate.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2806,7 +2878,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.obj: C:\dlib\dlib\externa
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/inflate.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\inflate.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\inflate.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\inflate.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2814,7 +2886,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/inflate.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\inflate.c.s /c C:\dlib\dlib\external\zlib\inflate.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2832,9 +2904,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.obj.provides.build: dlib_
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.obj: C:\dlib\dlib\external\zlib\inftrees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/inftrees.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\inftrees.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\inftrees.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2842,7 +2914,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.obj: C:\dlib\dlib\extern
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/inftrees.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\inftrees.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\inftrees.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\inftrees.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2850,7 +2922,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/inftrees.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\inftrees.c.s /c C:\dlib\dlib\external\zlib\inftrees.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2868,9 +2940,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.obj: C:\dlib\dlib\external\zlib\trees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/trees.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\trees.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\trees.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2878,7 +2950,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.obj: C:\dlib\dlib\external\
 dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/trees.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\trees.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\trees.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\trees.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2886,7 +2958,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/trees.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\trees.c.s /c C:\dlib\dlib\external\zlib\trees.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2904,9 +2976,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.obj.provides.build: dlib_bu
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.obj: C:\dlib\dlib\external\zlib\uncompr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/uncompr.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\uncompr.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\uncompr.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2914,7 +2986,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.obj: C:\dlib\dlib\externa
 dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/uncompr.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\uncompr.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\uncompr.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\uncompr.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2922,7 +2994,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/uncompr.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\uncompr.c.s /c C:\dlib\dlib\external\zlib\uncompr.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2940,9 +3012,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.obj.provides.build: dlib_
 
 dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.obj: C:\dlib\dlib\external\zlib\zutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object dlib_build/CMakeFiles/dlib.dir/external/zlib/zutil.c.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\dlib.dir\external\zlib\zutil.c.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\zlib\zutil.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2950,7 +3022,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.obj: C:\dlib\dlib\external\
 dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlib.dir/external/zlib/zutil.c.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\zutil.c.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\zlib\zutil.c.i @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dlib\dlib\external\zlib\zutil.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2958,7 +3030,7 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlib.dir/external/zlib/zutil.c.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\zlib\zutil.c.s /c C:\dlib\dlib\external\zlib\zutil.c
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2976,9 +3048,9 @@ dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.obj.provides.build: dlib_bu
 
 dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.obj: C:\dlib\dlib\image_loader\png_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\image_loader\png_loader.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\image_loader\png_loader.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2986,7 +3058,7 @@ dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.obj: C:\dlib\dlib\ima
 dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\image_loader\png_loader.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\image_loader\png_loader.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\image_loader\png_loader.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -2994,7 +3066,7 @@ dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_loader/png_loader.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\image_loader\png_loader.cpp.s /c C:\dlib\dlib\image_loader\png_loader.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3012,9 +3084,9 @@ dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.obj.provides.build: d
 
 dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.obj: C:\dlib\dlib\image_saver\save_png.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\image_saver\save_png.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\image_saver\save_png.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3022,7 +3094,7 @@ dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.obj: C:\dlib\dlib\image_
 dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_saver/save_png.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\image_saver\save_png.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\image_saver\save_png.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\image_saver\save_png.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3030,7 +3102,7 @@ dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_saver/save_png.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\image_saver\save_png.cpp.s /c C:\dlib\dlib\image_saver\save_png.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3048,9 +3120,9 @@ dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.obj.provides.build: dlib
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.obj: C:\dlib\dlib\external\libjpeg\jcomapi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcomapi.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3058,7 +3130,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcomapi.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3066,7 +3138,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.s /c C:\dlib\dlib\external\libjpeg\jcomapi.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3084,9 +3156,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.obj: C:\dlib\dlib\external\libjpeg\jdapimin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdapimin.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3094,7 +3166,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdapimin.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3102,7 +3174,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.s /c C:\dlib\dlib\external\libjpeg\jdapimin.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3120,9 +3192,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.obj: C:\dlib\dlib\external\libjpeg\jdapistd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdapistd.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3130,7 +3202,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdapistd.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3138,7 +3210,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.s /c C:\dlib\dlib\external\libjpeg\jdapistd.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3156,9 +3228,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.obj: C:\dlib\dlib\external\libjpeg\jdatasrc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdatasrc.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3166,7 +3238,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdatasrc.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3174,7 +3246,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.s /c C:\dlib\dlib\external\libjpeg\jdatasrc.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3192,9 +3264,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.obj: C:\dlib\dlib\external\libjpeg\jdcoefct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdcoefct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3202,7 +3274,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdcoefct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3210,7 +3282,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.s /c C:\dlib\dlib\external\libjpeg\jdcoefct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3228,9 +3300,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.obj: C:\dlib\dlib\external\libjpeg\jdcolor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdcolor.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3238,7 +3310,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdcolor.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3246,7 +3318,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.s /c C:\dlib\dlib\external\libjpeg\jdcolor.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3264,9 +3336,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.obj: C:\dlib\dlib\external\libjpeg\jddctmgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jddctmgr.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3274,7 +3346,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jddctmgr.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3282,7 +3354,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.s /c C:\dlib\dlib\external\libjpeg\jddctmgr.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3300,9 +3372,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.obj: C:\dlib\dlib\external\libjpeg\jdhuff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdhuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3310,7 +3382,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.obj: C:\dlib\dlib\ext
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdhuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3318,7 +3390,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.s /c C:\dlib\dlib\external\libjpeg\jdhuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3336,9 +3408,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.obj.provides.build: d
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.obj: C:\dlib\dlib\external\libjpeg\jdinput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdinput.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3346,7 +3418,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdinput.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3354,7 +3426,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.s /c C:\dlib\dlib\external\libjpeg\jdinput.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3372,9 +3444,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.obj: C:\dlib\dlib\external\libjpeg\jdmainct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdmainct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3382,7 +3454,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdmainct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3390,7 +3462,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.s /c C:\dlib\dlib\external\libjpeg\jdmainct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3408,9 +3480,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.obj: C:\dlib\dlib\external\libjpeg\jdmarker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdmarker.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3418,7 +3490,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdmarker.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3426,7 +3498,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.s /c C:\dlib\dlib\external\libjpeg\jdmarker.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3444,9 +3516,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.obj: C:\dlib\dlib\external\libjpeg\jdmaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdmaster.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3454,7 +3526,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdmaster.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3462,7 +3534,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.s /c C:\dlib\dlib\external\libjpeg\jdmaster.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3480,9 +3552,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.obj: C:\dlib\dlib\external\libjpeg\jdmerge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdmerge.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3490,7 +3562,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdmerge.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3498,7 +3570,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.s /c C:\dlib\dlib\external\libjpeg\jdmerge.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3516,9 +3588,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.obj: C:\dlib\dlib\external\libjpeg\jdphuff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdphuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3526,7 +3598,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdphuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3534,7 +3606,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.s /c C:\dlib\dlib\external\libjpeg\jdphuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3552,9 +3624,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.obj: C:\dlib\dlib\external\libjpeg\jdpostct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdpostct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3562,7 +3634,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdpostct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3570,7 +3642,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.s /c C:\dlib\dlib\external\libjpeg\jdpostct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3588,9 +3660,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.obj: C:\dlib\dlib\external\libjpeg\jdsample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdsample.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3598,7 +3670,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdsample.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3606,7 +3678,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.s /c C:\dlib\dlib\external\libjpeg\jdsample.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3624,9 +3696,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.obj: C:\dlib\dlib\external\libjpeg\jerror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jerror.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3634,7 +3706,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.obj: C:\dlib\dlib\ext
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jerror.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3642,7 +3714,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.s /c C:\dlib\dlib\external\libjpeg\jerror.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3660,9 +3732,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.obj.provides.build: d
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.obj: C:\dlib\dlib\external\libjpeg\jidctflt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jidctflt.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3670,7 +3742,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jidctflt.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3678,7 +3750,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.s /c C:\dlib\dlib\external\libjpeg\jidctflt.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3696,9 +3768,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.obj: C:\dlib\dlib\external\libjpeg\jidctfst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jidctfst.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3706,7 +3778,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jidctfst.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3714,7 +3786,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.s /c C:\dlib\dlib\external\libjpeg\jidctfst.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3732,9 +3804,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.obj: C:\dlib\dlib\external\libjpeg\jidctint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jidctint.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3742,7 +3814,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jidctint.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3750,7 +3822,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.s /c C:\dlib\dlib\external\libjpeg\jidctint.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3768,9 +3840,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.obj: C:\dlib\dlib\external\libjpeg\jidctred.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jidctred.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3778,7 +3850,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jidctred.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3786,7 +3858,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.s /c C:\dlib\dlib\external\libjpeg\jidctred.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3804,9 +3876,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.obj: C:\dlib\dlib\external\libjpeg\jmemmgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jmemmgr.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3814,7 +3886,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jmemmgr.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3822,7 +3894,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.s /c C:\dlib\dlib\external\libjpeg\jmemmgr.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3840,9 +3912,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.obj: C:\dlib\dlib\external\libjpeg\jmemnobs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jmemnobs.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3850,7 +3922,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jmemnobs.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3858,7 +3930,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.s /c C:\dlib\dlib\external\libjpeg\jmemnobs.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3876,9 +3948,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.obj: C:\dlib\dlib\external\libjpeg\jquant1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jquant1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3886,7 +3958,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jquant1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3894,7 +3966,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.s /c C:\dlib\dlib\external\libjpeg\jquant1.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3912,9 +3984,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.obj: C:\dlib\dlib\external\libjpeg\jquant2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jquant2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3922,7 +3994,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jquant2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3930,7 +4002,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.s /c C:\dlib\dlib\external\libjpeg\jquant2.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3948,9 +4020,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.obj: C:\dlib\dlib\external\libjpeg\jutils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jutils.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3958,7 +4030,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.obj: C:\dlib\dlib\ext
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jutils.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3966,7 +4038,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.s /c C:\dlib\dlib\external\libjpeg\jutils.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3984,9 +4056,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.obj.provides.build: d
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.obj: C:\dlib\dlib\external\libjpeg\jcapimin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcapimin.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -3994,7 +4066,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcapimin.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4002,7 +4074,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.s /c C:\dlib\dlib\external\libjpeg\jcapimin.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4020,9 +4092,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.obj: C:\dlib\dlib\external\libjpeg\jdatadst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jdatadst.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4030,7 +4102,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jdatadst.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4038,7 +4110,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.s /c C:\dlib\dlib\external\libjpeg\jdatadst.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4056,9 +4128,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.obj: C:\dlib\dlib\external\libjpeg\jcparam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcparam.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4066,7 +4138,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcparam.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4074,7 +4146,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.s /c C:\dlib\dlib\external\libjpeg\jcparam.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4092,9 +4164,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.obj: C:\dlib\dlib\external\libjpeg\jcapistd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcapistd.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4102,7 +4174,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcapistd.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4110,7 +4182,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.s /c C:\dlib\dlib\external\libjpeg\jcapistd.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4128,9 +4200,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.obj: C:\dlib\dlib\external\libjpeg\jcmarker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcmarker.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4138,7 +4210,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcmarker.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4146,7 +4218,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.s /c C:\dlib\dlib\external\libjpeg\jcmarker.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4164,9 +4236,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.obj: C:\dlib\dlib\external\libjpeg\jcinit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcinit.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4174,7 +4246,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.obj: C:\dlib\dlib\ext
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcinit.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4182,7 +4254,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.s /c C:\dlib\dlib\external\libjpeg\jcinit.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4200,9 +4272,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.obj.provides.build: d
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.obj: C:\dlib\dlib\external\libjpeg\jcmaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcmaster.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4210,7 +4282,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcmaster.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4218,7 +4290,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.s /c C:\dlib\dlib\external\libjpeg\jcmaster.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4236,9 +4308,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.obj: C:\dlib\dlib\external\libjpeg\jcdctmgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcdctmgr.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4246,7 +4318,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcdctmgr.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4254,7 +4326,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.s /c C:\dlib\dlib\external\libjpeg\jcdctmgr.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4272,9 +4344,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.obj: C:\dlib\dlib\external\libjpeg\jccoefct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jccoefct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4282,7 +4354,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jccoefct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4290,7 +4362,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.s /c C:\dlib\dlib\external\libjpeg\jccoefct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4308,9 +4380,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.obj: C:\dlib\dlib\external\libjpeg\jccolor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jccolor.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4318,7 +4390,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jccolor.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4326,7 +4398,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.s /c C:\dlib\dlib\external\libjpeg\jccolor.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4344,9 +4416,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.obj: C:\dlib\dlib\external\libjpeg\jchuff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jchuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4354,7 +4426,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.obj: C:\dlib\dlib\ext
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jchuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4362,7 +4434,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.s /c C:\dlib\dlib\external\libjpeg\jchuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4380,9 +4452,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.obj.provides.build: d
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.obj: C:\dlib\dlib\external\libjpeg\jcmainct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcmainct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4390,7 +4462,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcmainct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4398,7 +4470,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.s /c C:\dlib\dlib\external\libjpeg\jcmainct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4416,9 +4488,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.obj: C:\dlib\dlib\external\libjpeg\jcphuff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcphuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4426,7 +4498,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.obj: C:\dlib\dlib\ex
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcphuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4434,7 +4506,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.s /c C:\dlib\dlib\external\libjpeg\jcphuff.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4452,9 +4524,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.obj: C:\dlib\dlib\external\libjpeg\jcprepct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcprepct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4462,7 +4534,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcprepct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4470,7 +4542,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.s /c C:\dlib\dlib\external\libjpeg\jcprepct.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4488,9 +4560,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.obj: C:\dlib\dlib\external\libjpeg\jcsample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jcsample.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4498,7 +4570,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jcsample.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4506,7 +4578,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.s /c C:\dlib\dlib\external\libjpeg\jcsample.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4524,9 +4596,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.obj: C:\dlib\dlib\external\libjpeg\jfdctint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jfdctint.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4534,7 +4606,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jfdctint.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4542,7 +4614,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.s /c C:\dlib\dlib\external\libjpeg\jfdctint.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4560,9 +4632,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.obj: C:\dlib\dlib\external\libjpeg\jfdctflt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jfdctflt.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4570,7 +4642,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jfdctflt.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4578,7 +4650,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.s /c C:\dlib\dlib\external\libjpeg\jfdctflt.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4596,9 +4668,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.obj: C:\dlib\dlib\external\libjpeg\jfdctfst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\external\libjpeg\jfdctfst.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4606,7 +4678,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.obj: C:\dlib\dlib\e
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\external\libjpeg\jfdctfst.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4614,7 +4686,7 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.s /c C:\dlib\dlib\external\libjpeg\jfdctfst.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4632,9 +4704,9 @@ dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.obj.provides.build:
 
 dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.obj: C:\dlib\dlib\image_loader\jpeg_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\image_loader\jpeg_loader.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4642,7 +4714,7 @@ dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.obj: C:\dlib\dlib\im
 dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\image_loader\jpeg_loader.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4650,7 +4722,7 @@ dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.s /c C:\dlib\dlib\image_loader\jpeg_loader.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4668,9 +4740,9 @@ dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.obj.provides.build: 
 
 dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.obj: dlib_build\CMakeFiles\dlib.dir\flags.make
 dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.obj: C:\dlib\dlib\image_saver\save_jpeg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.obj"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.obj /FdCMakeFiles\dlib.dir\dlib.pdb /FS -c C:\dlib\dlib\image_saver\save_jpeg.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4678,7 +4750,7 @@ dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.obj: C:\dlib\dlib\image
 dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dlib\dlib\image_saver\save_jpeg.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4686,7 +4758,7 @@ dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.i: cmake_force
 dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.s"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.s /c C:\dlib\dlib\image_saver\save_jpeg.cpp
 <<
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
@@ -4718,6 +4790,8 @@ dlib_OBJECTS = \
 "CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.obj" \
 "CMakeFiles\dlib.dir\data_io\mnist.cpp.obj" \
 "CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.obj" \
+"CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj" \
+"CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj" \
 "CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj" \
 "CMakeFiles\dlib.dir\bsp\bsp.cpp.obj" \
 "CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj" \
@@ -4837,147 +4911,149 @@ dlib_OBJECTS = \
 # External object files for target dlib
 dlib_EXTERNAL_OBJECTS =
 
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.obj
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\build.make
-dlib_build\dlib_release_64bit_msvc1911.lib: dlib_build\CMakeFiles\dlib.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Linking CXX static library dlib_release_64bit_msvc1911.lib"
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\base64\base64_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\bigint\bigint_kernel_2.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\bit_stream\bit_stream_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\entropy_decoder\entropy_decoder_kernel_2.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\entropy_encoder\entropy_encoder_kernel_2.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\md5\md5_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\tokenizer\tokenizer_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\unicode\unicode.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_2.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_extensions.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\linker\linker_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\logger\extra_logger_headers.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\logger\logger_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\logger\logger_config_file.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\misc_api\misc_api_kernel_2.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\sockets\sockets_extensions.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_2.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\sockstreambuf\sockstreambuf_unbuffered.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\server\server_kernel.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\server\server_iostream.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\server\server_http.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\threads\multithreaded_object_extension.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\threads\threaded_object_extension.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_2.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\threads\threads_kernel_shared.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\threads\thread_pool_extension.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\threads\async.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\timer\timer.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\stack_trace.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\dnn\cpu_dlib.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\dnn\tensor_tools.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\fonts.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\widgets.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\drawable.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\canvas_drawing.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\style.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\gui_widgets\base_widgets.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\gui_core\gui_core_kernel_2.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\png.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngerror.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngget.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngmem.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngpread.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngread.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrio.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrtran.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngrutil.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngset.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngtrans.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwio.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwrite.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwtran.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libpng\pngwutil.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\adler32.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\compress.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\crc32.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\deflate.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\gzclose.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\gzlib.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\gzread.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\gzwrite.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\infback.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\inffast.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\inflate.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\inftrees.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\trees.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\uncompr.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\zlib\zutil.c.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\image_loader\png_loader.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\image_saver\save_png.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcomapi.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapimin.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdapistd.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatasrc.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcoefct.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdcolor.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jddctmgr.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdhuff.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdinput.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmainct.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmarker.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmaster.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdmerge.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdphuff.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdpostct.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdsample.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jerror.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctflt.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctfst.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctint.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jidctred.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemmgr.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jmemnobs.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant1.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jquant2.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jutils.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapimin.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jdatadst.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcparam.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcapistd.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmarker.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcinit.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmaster.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcdctmgr.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccoefct.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jccolor.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jchuff.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcmainct.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcphuff.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcprepct.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jcsample.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctint.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctflt.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\external\libjpeg\jfdctfst.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\image_loader\jpeg_loader.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\image_saver\save_jpeg.cpp.obj
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\build.make
+dlib_build\dlib19.10.0_release_64bit_msvc1910.lib: dlib_build\CMakeFiles\dlib.dir\objects1.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Linking CXX static library dlib19.10.0_release_64bit_msvc1910.lib"
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 	$(CMAKE_COMMAND) -P CMakeFiles\dlib.dir\cmake_clean_target.cmake
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\link.exe /lib /nologo /machine:x64 /out:dlib_release_64bit_msvc1911.lib @CMakeFiles\dlib.dir\objects1.rsp 
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\link.exe /lib /nologo /machine:x64 /out:dlib19.10.0_release_64bit_msvc1910.lib @CMakeFiles\dlib.dir\objects1.rsp 
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
 
 # Rule to build all files generated by this target.
-dlib_build\CMakeFiles\dlib.dir\build: dlib_build\dlib_release_64bit_msvc1911.lib
+dlib_build\CMakeFiles\dlib.dir\build: dlib_build\dlib19.10.0_release_64bit_msvc1910.lib
 
 .PHONY : dlib_build\CMakeFiles\dlib.dir\build
 
@@ -4995,6 +5071,8 @@ dlib_build\CMakeFiles\dlib.dir\requires: dlib_build\CMakeFiles\dlib.dir\unicode\
 dlib_build\CMakeFiles\dlib.dir\requires: dlib_build\CMakeFiles\dlib.dir\data_io\image_dataset_metadata.cpp.obj.requires
 dlib_build\CMakeFiles\dlib.dir\requires: dlib_build\CMakeFiles\dlib.dir\data_io\mnist.cpp.obj.requires
 dlib_build\CMakeFiles\dlib.dir\requires: dlib_build\CMakeFiles\dlib.dir\global_optimization\global_function_search.cpp.obj.requires
+dlib_build\CMakeFiles\dlib.dir\requires: dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj.requires
+dlib_build\CMakeFiles\dlib.dir\requires: dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj.requires
 dlib_build\CMakeFiles\dlib.dir\requires: dlib_build\CMakeFiles\dlib.dir\sockets\sockets_kernel_1.cpp.obj.requires
 dlib_build\CMakeFiles\dlib.dir\requires: dlib_build\CMakeFiles\dlib.dir\bsp\bsp.cpp.obj.requires
 dlib_build\CMakeFiles\dlib.dir\requires: dlib_build\CMakeFiles\dlib.dir\dir_nav\dir_nav_kernel_1.cpp.obj.requires

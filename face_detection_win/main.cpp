@@ -14,28 +14,27 @@
 #include <dlib/opencv.h>
 #include <time.h>
 #include <algorithm>
-//#include <dirent.h>
 
 #include "eyeLike.h"
 #include "constants.h"
 
+// include different header files base on different OS
 #if defined _MSC_VER
 #include <direct.h>
-
 
 #define file file
 #elif defined __GNUC__
 #include <sys/types.h>
 #include <sys/stat.h>
-
 #endif
+
 
 using namespace dlib;
 using namespace cv;
 using namespace std;
 
-
-
+//------------------------------------------------------------------------------------------------
+// function prototypes
 void make_directory(const string &output_dir);
 std::vector<Mat> load_imgs(const string &input_dir, const string &file_type);
 void write_imgs(const std::vector<Mat> &images,
@@ -52,20 +51,21 @@ void draw_delaunay_triangles(std::vector<full_object_detection> &shapes, Mat &im
 void draw_delaunay(Mat &img, Subdiv2D &subdiv);
 string get_image_name(string name);
 
-void eye_pupils(std::vector<Dual_Points> eyes,
-                Mat image, std::vector<cv::Rect> faces,
-                std::vector<full_object_detection> shapes)
+std::vector<Dual_Points> eye_pupils(
+        Mat &image,
+        const std::vector<cv::Rect> &faces,
+        const std::vector<full_object_detection> &shapes);
 
 void draw_eye_center(Mat &img, const std::vector<Dual_Points> &p);
 void draw_head_posting(Mat &img, const std::vector<Dual_Points> &p);
 
 //Head Pose Estimation
 std::vector<Dual_Points> head_pose_estimation(std::vector<full_object_detection> &shapes, Mat &img);
-
+//------------------------------------------------------------------------------------------------
 
 int main(int argc, char **argv)
 {
-    //unsigned double start = time(0);
+    // check the command line argument
     if (argc != 4)
     {
         cout << "Call this program like this:" << endl;
@@ -76,34 +76,38 @@ int main(int argc, char **argv)
         return 0;
     }
 
-    make_directory(argv[2]);
+    make_directory(argv[2]);    // make the output dir
 
+    // load images to memory, if on images are read exit the program
     std::vector<Mat> images = load_imgs(argv[1], ".png");
-
     if (images.size() == 0)
     {
         return 1;
     }
+
+    // start processing
     run(images, "shape_predictor_68_face_landmarks.dat");
 
+    // store images to disk
     write_imgs(images, argv[2], argv[3], ".png");
 
     return 0;
 }
 
-void make_directry(const string &output_dir)
+//create a folder to store processed images
+void make_directory(const string &output_dir)
 {
-    try {
 #if defined _MSC_VER
         _mkdir(output_dir.c_str());
 #elif defind __GNUC__
         mkdir(output_dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 #endif
-    } catch (Exception &e) {
-        cout << e.what() << endl;
-    }
 }
 
+//input_dir: folder that stores all original images
+//file_type: image format, ".png" is used
+//return: vector of Mat (original images)
+//uses dlib's get_files_in_directory_tree to get all the images files and load into a vector<Mat>
 std::vector<Mat> load_imgs(const string &input_dir, const string &file_type)
 {
     std::vector<dlib::file> files = get_files_in_directory_tree(input_dir, match_ending(".png"), 0);
@@ -125,6 +129,8 @@ std::vector<Mat> load_imgs(const string &input_dir, const string &file_type)
 
 }
 
+// images: processed images
+// stores all the process images into the ourput_dir
 void write_imgs(const std::vector<Mat> &images,
                 const string &output_dir,
                 const string &video_id,
@@ -141,27 +147,32 @@ void write_imgs(const std::vector<Mat> &images,
 
 }
 
-
+// imgs: original images as input, and will be modify after processing
+// predictor: pretrain data from dlib that gets 68 face landmarks
+// this function processes original images
 void run(std::vector<Mat> &imgs, char *predictor)
-{
-    time_t start = time(nullptr);
+{   
+    time_t start = time(nullptr);   // get the initial time for calculate the time for processing
 
+    // get face detector
     frontal_face_detector detector = get_frontal_face_detector();
+
+    // load dlib's shape_predictor
     shape_predictor sp;
+    deserialize(predictor) >> sp;
 
-    try {
-        deserialize(predictor) >> sp;
-    } catch (Exception &e) {
-        cout << e.what() << endl;
-        return;
-    }
-
+    // main loop
+    // loop through all the images in the memory and process it one by one in order
     for (unsigned int i = 0; i < imgs.size(); i++)
     {
+        // conver opencv's Mat (data type for image) to dlib's image type
         cv_image<bgr_pixel> cimg(imgs[i]);
 
+        // uses dlib's face detection find the faces in an image
+        // stores the faces areas in a vector of rectangle
         std::vector<dlib::rectangle> dets = detector(cimg);     //faces
 
+        // shapes stores 68 face landmarks for each face in an image
         std::vector<full_object_detection> shapes;
         for (unsigned int j = 0; j < dets.size(); j++)
         {
@@ -169,28 +180,41 @@ void run(std::vector<Mat> &imgs, char *predictor)
             shapes.push_back(shape);
         }
 
+        // conver the dlib rectangle of faces' area to opencv rectangle for eye_detection
         std::vector<cv::Rect> cv_faces;
         for (int k = 0; k < dets.size(); k++)
         {
             cv_faces.push_back(dlib_rect_to_opencv_rect(dets[k]));
         }
+        // calling eye_detection to detect they eyes in image
+        // Dual_Points contains left eye (point1) and right eye (point2)
         std::vector<Dual_Points> eyes = eye_detection(imgs[i], cv_faces);
+        // detect head posting
+        // gets two points for the facing direction
+        // may change to use openface later
         std::vector<Dual_Points> heads = head_pose_estimation(shapes, imgs[i]);
 
+        // draw to the image
         draw_delaunay_triangles(shapes, imgs[i]);
         draw_eye_center(imgs[i], eyes);
         draw_head_posting(imgs[i], heads);
     }
-
+    // output the total time usage
     cout << "time: " << time(nullptr) - start << endl;
 }
 
-void eye_pupils(std::vector<Dual_Points> eyes,
-                Mat image, std::vector<cv::Rect> faces,
-                std::vector<full_object_detection> shapes)
+// return: Dual_Points -- left eye and right eye's location for each face in an image
+// find eye pupils
+// get the eye's region by using 68 face landmarks
+std::vector<Dual_Points> eye_pupils(
+                Mat &image,
+                const std::vector<cv::Rect> &faces,
+                const std::vector<full_object_detection> &shapes)
 {
+    std::vector<pair<Rect, Rect>> eyes_regions;
     for (const auto& shape : shapes)
     {
+        pair<Rect, Rect> region;
         //left eye region
         int l_tlx = shape.part(36).x();
         int l_tly = shape.part(37).y() < shape.part(38).y() ? shape.part(37).y() : shape.part(38).y();
@@ -206,14 +230,20 @@ void eye_pupils(std::vector<Dual_Points> eyes,
         int r_bry = shape.part(47).y() > shape.part(46).y() ? shape.part(47).y() : shape.part(46).y();
 
         Rect right_eye(cv::Point2i(r_tlx, r_tly), cv::Point2i(r_brx, r_bry));
+
+        region = make_pair(left_eye, right_eye);
+        eyes_regions.push_back(region);
     }
+    return eye_detection(image, faces, eyes_regions);
 }
 
+// conver dlib rectangle to opencv Rect
 cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect)
 {
     return cv::Rect(cv::Point2i(rect.left(), rect.top()), cv::Point2i(rect.right() + 1, rect.bottom() + 1));
 }
 
+// calculate delaunay triangle by using opencv::Subdiv2D
 void draw_delaunay_triangles(std::vector<full_object_detection> &shapes, Mat &img)
 {
 
@@ -232,6 +262,7 @@ void draw_delaunay_triangles(std::vector<full_object_detection> &shapes, Mat &im
     }
 }
 
+// draw the blue line triangles onto the image
 void draw_delaunay(Mat &img, Subdiv2D &subdiv)
 {
     Scalar delaunay_color(255, 0, 0);
@@ -258,6 +289,7 @@ void draw_delaunay(Mat &img, Subdiv2D &subdiv)
     }
 }
 
+// calculate head posting
 std::vector<Dual_Points> head_pose_estimation(std::vector<full_object_detection> &shapes, Mat &img)
 {
     std::vector<std::vector<cv::Point2d>> faces;
@@ -316,6 +348,7 @@ std::vector<Dual_Points> head_pose_estimation(std::vector<full_object_detection>
     return points;
 }
 
+// draw small circle on eye pupils
 void draw_eye_center(Mat &img, const std::vector<Dual_Points> &p)
 {
     for (int i = 0; i < p.size(); i++)
@@ -325,6 +358,7 @@ void draw_eye_center(Mat &img, const std::vector<Dual_Points> &p)
     }
 }
 
+// draw a line indicates the head posting
 void draw_head_posting(Mat &img, const std::vector<Dual_Points> &p)
 {
     for (int i = 0; i < p.size(); i++)
