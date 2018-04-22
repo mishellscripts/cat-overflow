@@ -1,3 +1,5 @@
+
+
 #include <dlib/image_processing/frontal_face_detector.h>
 #include <dlib/image_processing/render_face_detections.h>
 #include <dlib/image_processing.h>
@@ -14,6 +16,7 @@
 #include <dlib/opencv.h>
 #include <time.h>
 #include <algorithm>
+
 
 #include "eyeLike.h"
 #include "constants.h"
@@ -49,7 +52,7 @@ cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect);
 //functions for draw delaunay_triangles
 void draw_delaunay_triangles(std::vector<full_object_detection> &shapes, Mat &img);
 void draw_delaunay(Mat &img, Subdiv2D &subdiv);
-string get_image_name(string name);
+//string get_image_name(string name);
 
 std::vector<Dual_Points> eye_pupils(
         Mat &image,
@@ -87,7 +90,7 @@ int main(int argc, char **argv)
 
     // start processing
     run(images, "shape_predictor_68_face_landmarks.dat");
-
+    cout << "debug 1" << endl;
     // store images to disk
     write_imgs(images, argv[2], argv[3], ".png");
 
@@ -123,7 +126,7 @@ std::vector<Mat> load_imgs(const string &input_dir, const string &file_type)
     for (int i = 0; i < files.size(); i++)
     {
         imgs.push_back(imread(files[i].full_name()));
-        cout << files[i].full_name() << endl;
+        //cout << files[i].full_name() << endl;
     }
     return imgs;
 
@@ -165,13 +168,14 @@ void run(std::vector<Mat> &imgs, char *predictor)
     // loop through all the images in the memory and process it one by one in order
     for (unsigned int i = 0; i < imgs.size(); i++)
     {
+        cout << "debug 171" << endl;
         // conver opencv's Mat (data type for image) to dlib's image type
         cv_image<bgr_pixel> cimg(imgs[i]);
 
         // uses dlib's face detection find the faces in an image
         // stores the faces areas in a vector of rectangle
         std::vector<dlib::rectangle> dets = detector(cimg);     //faces
-
+        cout << "debug 178" << endl;
         // shapes stores 68 face landmarks for each face in an image
         std::vector<full_object_detection> shapes;
         for (unsigned int j = 0; j < dets.size(); j++)
@@ -188,7 +192,9 @@ void run(std::vector<Mat> &imgs, char *predictor)
         }
         // calling eye_detection to detect they eyes in image
         // Dual_Points contains left eye (point1) and right eye (point2)
-        std::vector<Dual_Points> eyes = eye_detection(imgs[i], cv_faces);
+        cout << "debug 195" << endl;
+        std::vector<Dual_Points> eyes = eye_pupils(imgs[i], cv_faces, shapes);
+        cout << "debug 197" << endl;
         // detect head posting
         // gets two points for the facing direction
         // may change to use openface later

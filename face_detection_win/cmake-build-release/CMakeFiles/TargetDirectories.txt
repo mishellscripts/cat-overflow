@@ -1,6 +1,0 @@
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/edit_cache.dir
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/face_detection.dir
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/rebuild_cache.dir
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build/CMakeFiles/dlib.dir
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build/CMakeFiles/edit_cache.dir
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/dlib_build/CMakeFiles/rebuild_cache.dir

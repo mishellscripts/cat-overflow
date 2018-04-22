@@ -27,16 +27,16 @@ cv::Mat debugImage;
 cv::Mat skinCrCbHist = cv::Mat::zeros(cv::Size(256, 256), CV_8UC1);
 */
 
-Dual_Points findEyes(cv::Mat frame_gray, cv::Mat source_img, cv::Rect face, std::pair<cv::Rect, cv::Rect> &eye_regions)
+Dual_Points findEyes(cv::Mat frame_gray, cv::Rect face, std::pair<cv::Rect, cv::Rect> &eye_regions)
 {
-    cv::Mat faceROI = frame_gray(face);
-    cv::Mat debugFace = faceROI;
+    //cv::Mat faceROI = frame_gray(face);
+    //cv::Mat debugFace = faceROI;
 
-    if (kSmoothFaceImage)
-    {
-        double sigma = kSmoothFaceFactor * face.width;
-        GaussianBlur(faceROI, faceROI, cv::Size(0, 0), sigma);
-    }
+    //if (kSmoothFaceImage)
+    //{
+    //    double sigma = kSmoothFaceFactor * face.width;
+    //    GaussianBlur(faceROI, faceROI, cv::Size(0, 0), sigma);
+    //}
     //-- Find eye regions and draw them
     /*
     int eye_region_width = face.width * (kEyePercentWidth / 100.0);
@@ -51,8 +51,8 @@ Dual_Points findEyes(cv::Mat frame_gray, cv::Mat source_img, cv::Rect face, std:
     cv::Rect rightEyeRegion = eye_regions.second;
 
     //-- Find Eye Centers
-    cv::Point leftPupil = findEyeCenter(faceROI, leftEyeRegion);
-    cv::Point rightPupil = findEyeCenter(faceROI, rightEyeRegion);
+    cv::Point leftPupil = findEyeCenter(frame_gray, leftEyeRegion);
+    cv::Point rightPupil = findEyeCenter(frame_gray, rightEyeRegion);
     /*
     // get corner regions
     cv::Rect leftRightCornerRegion(leftEyeRegion);
@@ -90,10 +90,12 @@ Dual_Points findEyes(cv::Mat frame_gray, cv::Mat source_img, cv::Rect face, std:
     circle(debugFace, rightPupil, 3, 1234);
     circle(debugFace, leftPupil, 3, 1234);
 */
+/*
     rightPupil.x += face.x;
     rightPupil.y += face.y;
     leftPupil.x += face.x;
     leftPupil.y += face.y;
+*/
 
     //circle(source_img, leftPupil, 3, cv::Scalar(255, 255, 255));
     //circle(source_img, rightPupil, 3, cv::Scalar(255, 255, 255));
@@ -116,7 +118,7 @@ std::vector<Dual_Points> eye_detection(cv::Mat &frame,
 
     for (int i = 0; i < faces.size(); i++)
     {
-        p.push_back(findEyes(frame_gray, frame, faces[i], eyes_regions[i]));
+        p.push_back(findEyes(frame_gray, faces[i], eyes_regions[i]));
     }
     return p;
 }
