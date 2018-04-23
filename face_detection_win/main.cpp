@@ -162,7 +162,11 @@ void run(std::vector<Mat> &imgs)
     for (int i = 0; i < NUM_THREAD; i++)
     {
         f_detectors[i] = get_frontal_face_detector();
-        deserialize(FACE_LANDMARKS) >> f_sp[i];
+        try {
+            deserialize(FACE_LANDMARKS) >> f_sp[i];
+        } catch (Exception &e) {
+            cout << e.what() << endl;
+        }
     }
 
     // pack images into future objects for multithreading
