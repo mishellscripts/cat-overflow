@@ -29,7 +29,7 @@ endif()
 
 #set(CMAKE_CXX_STANDARD 11)
 
-add_executable(face_detection main.cpp eyeLike.cpp findEyeCenter.h findEyeCenter.cpp findEyeCorner.h findEyeCorner.cpp constants.h helpers.cpp helpers.h eyeLike.h)
+add_executable(face_detection main.cpp eyeLike.cpp findEyeCenter.h findEyeCenter.cpp constants.h helpers.cpp helpers.h eyeLike.h head_yaw_pitch_row.h head_yaw_pitch_row.cpp delaunay_triangle.h delaunay_triangle.cpp)
 
 #set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
 target_link_libraries(face_detection ${OpenCV_LIBS})

@@ -137,6 +137,33 @@ dlib\fast:
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\build
 .PHONY : dlib\fast
 
+delaunay_triangle.obj: delaunay_triangle.cpp.obj
+
+.PHONY : delaunay_triangle.obj
+
+# target to build an object file
+delaunay_triangle.cpp.obj:
+	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\delaunay_triangle.cpp.obj
+.PHONY : delaunay_triangle.cpp.obj
+
+delaunay_triangle.i: delaunay_triangle.cpp.i
+
+.PHONY : delaunay_triangle.i
+
+# target to preprocess a source file
+delaunay_triangle.cpp.i:
+	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\delaunay_triangle.cpp.i
+.PHONY : delaunay_triangle.cpp.i
+
+delaunay_triangle.s: delaunay_triangle.cpp.s
+
+.PHONY : delaunay_triangle.s
+
+# target to generate assembly for a file
+delaunay_triangle.cpp.s:
+	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\delaunay_triangle.cpp.s
+.PHONY : delaunay_triangle.cpp.s
+
 eyeLike.obj: eyeLike.cpp.obj
 
 .PHONY : eyeLike.obj
@@ -191,32 +218,32 @@ findEyeCenter.cpp.s:
 	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\findEyeCenter.cpp.s
 .PHONY : findEyeCenter.cpp.s
 
-findEyeCorner.obj: findEyeCorner.cpp.obj
+head_yaw_pitch_row.obj: head_yaw_pitch_row.cpp.obj
 
-.PHONY : findEyeCorner.obj
+.PHONY : head_yaw_pitch_row.obj
 
 # target to build an object file
-findEyeCorner.cpp.obj:
-	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\findEyeCorner.cpp.obj
-.PHONY : findEyeCorner.cpp.obj
+head_yaw_pitch_row.cpp.obj:
+	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.obj
+.PHONY : head_yaw_pitch_row.cpp.obj
 
-findEyeCorner.i: findEyeCorner.cpp.i
+head_yaw_pitch_row.i: head_yaw_pitch_row.cpp.i
 
-.PHONY : findEyeCorner.i
+.PHONY : head_yaw_pitch_row.i
 
 # target to preprocess a source file
-findEyeCorner.cpp.i:
-	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\findEyeCorner.cpp.i
-.PHONY : findEyeCorner.cpp.i
+head_yaw_pitch_row.cpp.i:
+	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.i
+.PHONY : head_yaw_pitch_row.cpp.i
 
-findEyeCorner.s: findEyeCorner.cpp.s
+head_yaw_pitch_row.s: head_yaw_pitch_row.cpp.s
 
-.PHONY : findEyeCorner.s
+.PHONY : head_yaw_pitch_row.s
 
 # target to generate assembly for a file
-findEyeCorner.cpp.s:
-	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\findEyeCorner.cpp.s
-.PHONY : findEyeCorner.cpp.s
+head_yaw_pitch_row.cpp.s:
+	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.s
+.PHONY : head_yaw_pitch_row.cpp.s
 
 helpers.obj: helpers.cpp.obj
 
@@ -282,15 +309,18 @@ help:
 	@echo ... face_detection
 	@echo ... rebuild_cache
 	@echo ... dlib
+	@echo ... delaunay_triangle.obj
+	@echo ... delaunay_triangle.i
+	@echo ... delaunay_triangle.s
 	@echo ... eyeLike.obj
 	@echo ... eyeLike.i
 	@echo ... eyeLike.s
 	@echo ... findEyeCenter.obj
 	@echo ... findEyeCenter.i
 	@echo ... findEyeCenter.s
-	@echo ... findEyeCorner.obj
-	@echo ... findEyeCorner.i
-	@echo ... findEyeCorner.s
+	@echo ... head_yaw_pitch_row.obj
+	@echo ... head_yaw_pitch_row.i
+	@echo ... head_yaw_pitch_row.s
 	@echo ... helpers.obj
 	@echo ... helpers.i
 	@echo ... helpers.s

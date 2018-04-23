@@ -68,7 +68,8 @@ class VideoProcess {
     }
 }
 
-$video = new VideoProcess('../build/demo_in/zihang.mp4', '../build/demo_in/', 101);
+//$video = new VideoProcess('../build/demo_in/zihang.mp4', '../build/demo_in/', 101);
+$vidio = new VideoProcess("./video/test.avi", "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/in", 100);
 
 print($video->get_num_frames()."\n");
 print($video->get_frame_rate()."\n");

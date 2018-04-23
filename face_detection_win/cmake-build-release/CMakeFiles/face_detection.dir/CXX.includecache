@@ -7096,6 +7096,34 @@ C:/dlib/dlib/../dlib/threads/windows.h
 posix.h
 C:/dlib/dlib/../dlib/threads/posix.h
 
+C:/dlib/dlib/../dlib/threads/threads_kernel_1.cpp
+../platform.h
+C:/dlib/dlib/../dlib/platform.h
+threads_kernel_1.h
+C:/dlib/dlib/../dlib/threads/threads_kernel_1.h
+process.h
+-
+
+C:/dlib/dlib/../dlib/threads/threads_kernel_1.h
+threads_kernel_abstract.h
+C:/dlib/dlib/../dlib/threads/threads_kernel_abstract.h
+../windows_magic.h
+C:/dlib/dlib/../dlib/windows_magic.h
+windows.h
+-
+../algs.h
+C:/dlib/dlib/../dlib/algs.h
+condition_variable
+-
+mutex
+-
+chrono
+-
+threads_kernel_shared.h
+C:/dlib/dlib/../dlib/threads/threads_kernel_shared.h
+threads_kernel_1.cpp
+C:/dlib/dlib/../dlib/threads/threads_kernel_1.cpp
+
 C:/dlib/dlib/../dlib/threads/threads_kernel_2.cpp
 ../platform.h
 C:/dlib/dlib/../dlib/platform.h
@@ -7145,6 +7173,10 @@ C:/dlib/dlib/../dlib/queue.h
 C:/dlib/dlib/../dlib/set.h
 threads_kernel_shared.cpp
 C:/dlib/dlib/../dlib/threads/threads_kernel_shared.cpp
+
+C:/dlib/dlib/../dlib/threads/windows.h
+threads_kernel_1.h
+C:/dlib/dlib/../dlib/threads/threads_kernel_1.h
 
 C:/dlib/dlib/../dlib/timer.h
 timer/timer.h
@@ -8680,12 +8712,34 @@ C:/opencv/build/include/opencv2/videostab/opencv2/videostab/log.hpp
 
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/constants.h
 
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/delaunay_triangle.cpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/opencv.hpp
+-
+dlib/image_processing/frontal_face_detector.h
+-
+dlib/image_processing/render_face_detections.h
+-
+vector
+-
+delaunay_triangle.h
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/delaunay_triangle.h
+
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/delaunay_triangle.h
+
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/eyeLike.cpp
 opencv2/objdetect/objdetect.hpp
 -
 opencv2/highgui/highgui.hpp
 -
 opencv2/imgproc/imgproc.hpp
+-
+dlib/image_processing/frontal_face_detector.h
+-
+dlib/image_processing/render_face_detections.h
 -
 iostream
 -
@@ -8701,8 +8755,6 @@ constants.h
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/constants.h
 findEyeCenter.h
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCenter.h
-findEyeCorner.h
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCorner.h
 
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/eyeLike.h
 constants.h
@@ -8730,29 +8782,25 @@ D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCenter.h
 opencv2/imgproc/imgproc.hpp
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv2/imgproc/imgproc.hpp
 
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCorner.cpp
-opencv2/objdetect/objdetect.hpp
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv2/objdetect/objdetect.hpp
-opencv2/highgui/highgui.hpp
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv2/highgui/highgui.hpp
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/head_yaw_pitch_row.cpp
+vector
+-
 opencv2/imgproc/imgproc.hpp
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv2/imgproc/imgproc.hpp
-iostream
 -
-queue
+opencv2/highgui/highgui.hpp
 -
-stdio.h
+opencv2/opencv.hpp
+-
+dlib/image_processing/frontal_face_detector.h
+-
+dlib/image_processing/render_face_detections.h
 -
 constants.h
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/constants.h
-helpers.h
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/helpers.h
-findEyeCorner.h
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCorner.h
+head_yaw_pitch_row.h
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/head_yaw_pitch_row.h
 
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCorner.h
-opencv2/imgproc/imgproc.hpp
-D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/opencv2/imgproc/imgproc.hpp
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/head_yaw_pitch_row.h
 
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/helpers.cpp
 opencv2/objdetect/objdetect.hpp
@@ -8773,6 +8821,8 @@ D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/constants.h
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/helpers.h
 
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/main.cpp
+dlib/threads.h
+-
 dlib/image_processing/frontal_face_detector.h
 -
 dlib/image_processing/render_face_detections.h
@@ -8809,7 +8859,13 @@ eyeLike.h
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/eyeLike.h
 constants.h
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/constants.h
+head_yaw_pitch_row.h
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/head_yaw_pitch_row.h
+delaunay_triangle.h
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/delaunay_triangle.h
 direct.h
+-
+CommCtrl.h
 -
 sys/types.h
 -

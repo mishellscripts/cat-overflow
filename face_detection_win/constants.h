@@ -7,6 +7,15 @@ typedef struct Dual_Points
     cv::Point2d point2;
 } Dual_Points;
 
+// Multithreading
+const size_t NUM_THREAD = 4;
+
+// Image file type
+#define IMAGE_TYPE ".png"
+
+// Shape predictor data file
+#define FACE_LANDMARKS "shape_predictor_68_face_landmarks.dat"
+
 // Debugging
 const bool kPlotVectorField = false;
 

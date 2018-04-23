@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/delaunay_triangle.cpp" "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/face_detection.dir/delaunay_triangle.cpp.obj"
   "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/eyeLike.cpp" "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/face_detection.dir/eyeLike.cpp.obj"
   "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCenter.cpp" "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/face_detection.dir/findEyeCenter.cpp.obj"
-  "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/findEyeCorner.cpp" "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/face_detection.dir/findEyeCorner.cpp.obj"
+  "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/head_yaw_pitch_row.cpp" "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/face_detection.dir/head_yaw_pitch_row.cpp.obj"
   "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/helpers.cpp" "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/face_detection.dir/helpers.cpp.obj"
   "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/main.cpp" "D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/cmake-build-release/CMakeFiles/face_detection.dir/main.cpp.obj"
   )
