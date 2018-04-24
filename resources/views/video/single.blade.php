@@ -9,7 +9,7 @@
 
                 <div class="card-body">
                     <video width="100%" height="auto" style="background-color:#000" controls> 
-                        <source src="{{ asset("storage/original_videos/$video->id.mp4") }}" type="video/mp4">
+                        <source src="{{ asset("storage/processed_videos/$video->id.mp4") }}" type="video/mp4">
                         Your browser does not support the video.
                     </video>
                 </div>

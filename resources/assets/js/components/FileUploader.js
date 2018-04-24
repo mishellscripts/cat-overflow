@@ -58,6 +58,18 @@ export default class FileUploader extends Component {
     render() {
         return (
           <div className="col-md-8 mb-5">
+              <div
+                className="alert alert-success mt-2"
+                hidden={this.state.status !== status.SUCCESSFUL}
+              >
+                  <strong>Success!</strong> Video uploaded
+              </div>
+              <div
+                className="alert alert-danger mt-2"
+                hidden={this.state.status !== status.FAILURE}
+              >
+                  <strong>Error!</strong> <span dangerouslySetInnerHTML={ {__html: this.state.error} } />
+              </div>
               <div className="card">
                   <div className="card-header">Upload Your Videos</div>
                   <div className="card-body">
@@ -101,18 +113,6 @@ export default class FileUploader extends Component {
                         </div>
                       </div>
                     </form>
-                    <div
-                      className="alert alert-success mt-2"
-                      hidden={this.state.status !== status.SUCCESSFUL}
-                    >
-                        <strong>Success!</strong> Video uploaded
-                    </div>
-                    <div
-                      className="alert alert-danger mt-2"
-                      hidden={this.state.status !== status.FAILURE}
-                    >
-                        <strong>Error!</strong> <span dangerouslySetInnerHTML={ {__html: this.state.error} } />
-                    </div>
                   </div>
               </div>
           </div>

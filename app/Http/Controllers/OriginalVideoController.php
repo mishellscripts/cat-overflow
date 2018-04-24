@@ -119,9 +119,9 @@ class OriginalVideoController extends Controller
                 ->file('file')
                 ->storeAs('public/original_videos', $video->id.'.mp4');
             //TODO choose a better frame rate
-            $this->extractImages($request->file, $video->id, $fps);
+            $this->extractImages($request->file, $video->id, 20);
             $this->processImages($video->id);
-            $this->createVideo($video->id);
+            $this->createVideo($video->id, 20);
             return new OriginalVideoResource($video);
         } else {
             Log::warning('failed to save video');
@@ -151,7 +151,7 @@ class OriginalVideoController extends Controller
         // $ffmpeg_video
         //     ->save(new FFMpeg\Format\Video\X264(), "$path/output_%d.png");
 
-        exec("ffmpeg -i $video_path -vf fps=$frame_rate $path/%d.png");
+        exec("ffmpeg -i $video_path -vf fps=$frame_rate $path/%05d.png");
     }
 
     private function processImages($id) {
@@ -162,14 +162,16 @@ class OriginalVideoController extends Controller
         $cwd = getcwd();
         chdir("$cwd/../face_detection_win/cmake-build-release");
         exec("face_detection.exe ../../storage/app/public/original_images/$id ../../storage/app/public/processed_images/$id $id");
+        chdir($cwd);
     }
 
-    private function createVideo($id) {
-        $path = "storage/processed_videos/$id";
+    private function createVideo($id, $frame_rate) {
+        $images_path = "storage/processed_images/$id";
+        $path = "storage/processed_videos";
         if (!file_exists($path)) {
             mkdir($path, 0777, true);
         }
-        // TODO use exec to recreate video
+        exec("ffmpeg -r $frame_rate -i $images_path/$id.%d.png -c:v libx264 -vf \"fps=$frame_rate,format=yuv420p\" $path/$id.mp4");
     }
 
     /**
@@ -219,7 +221,9 @@ class OriginalVideoController extends Controller
 
         if ($video->delete()) {
           Storage::disk('local')->delete('public/original_videos/'.$id.'.mp4');
+          Storage::disk('local')->delete('public/processed_videos/'.$id.'.mp4');
           Storage::deleteDirectory('public/original_images/'.$id);
+          Storage::deleteDirectory('public/processed_images/'.$id);
           return response('Video removed successfully.', 200);
         }
         return response('Failed to remove video', 400);
