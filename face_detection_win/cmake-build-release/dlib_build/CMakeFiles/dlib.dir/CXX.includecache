@@ -1736,6 +1736,28 @@ time.h
 
 C:/dlib/dlib/external/libpng/pnglibconf.h
 
+C:/dlib/dlib/filtering/kalman_filter.cpp
+kalman_filter.h
+C:/dlib/dlib/filtering/kalman_filter.h
+../global_optimization.h
+C:/dlib/dlib/global_optimization.h
+../statistics.h
+C:/dlib/dlib/statistics.h
+
+C:/dlib/dlib/filtering/kalman_filter.h
+kalman_filter_abstract.h
+C:/dlib/dlib/filtering/kalman_filter_abstract.h
+../matrix.h
+C:/dlib/dlib/matrix.h
+../geometry.h
+C:/dlib/dlib/geometry.h
+
+C:/dlib/dlib/filtering/kalman_filter_abstract.h
+../serialize.h
+C:/dlib/dlib/serialize.h
+../matrix.h
+C:/dlib/dlib/matrix.h
+
 C:/dlib/dlib/float_details.h
 cmath
 -
@@ -1919,6 +1941,40 @@ iostream
 -
 ../matrix/matrix_abstract.h
 C:/dlib/dlib/matrix/matrix_abstract.h
+
+C:/dlib/dlib/global_optimization.h
+global_optimization/upper_bound_function.h
+C:/dlib/dlib/global_optimization/upper_bound_function.h
+global_optimization/global_function_search.h
+C:/dlib/dlib/global_optimization/global_function_search.h
+global_optimization/find_max_global.h
+C:/dlib/dlib/global_optimization/find_max_global.h
+
+C:/dlib/dlib/global_optimization/find_max_global.h
+find_max_global_abstract.h
+C:/dlib/dlib/global_optimization/find_max_global_abstract.h
+global_function_search.h
+C:/dlib/dlib/global_optimization/global_function_search.h
+../metaprogramming.h
+C:/dlib/dlib/metaprogramming.h
+utility
+-
+chrono
+-
+
+C:/dlib/dlib/global_optimization/find_max_global_abstract.h
+upper_bound_function_abstract.h
+C:/dlib/dlib/global_optimization/upper_bound_function_abstract.h
+global_function_search_abstract.h
+C:/dlib/dlib/global_optimization/global_function_search_abstract.h
+../metaprogramming.h
+C:/dlib/dlib/metaprogramming.h
+../matrix.h
+C:/dlib/dlib/matrix.h
+utility
+-
+chrono
+-
 
 C:/dlib/dlib/global_optimization/global_function_search.cpp
 global_function_search.h
@@ -3792,6 +3848,8 @@ C:/dlib/dlib/memory_manager_stateless/memory_manager_stateless_kernel_abstract.h
 ../algs.h
 C:/dlib/dlib/algs.h
 
+C:/dlib/dlib/metaprogramming.h
+
 C:/dlib/dlib/misc_api.h
 platform.h
 C:/dlib/dlib/platform.h
@@ -5633,6 +5691,16 @@ C:/dlib/dlib/threads/rmutex_extension_abstract.h
 C:/dlib/dlib/threads/rsignaler_extension_abstract.h
 ../algs.h
 C:/dlib/dlib/algs.h
+
+C:/dlib/dlib/test_for_odr_violations.cpp
+test_for_odr_violations.h
+C:/dlib/dlib/test_for_odr_violations.h
+
+C:/dlib/dlib/test_for_odr_violations.h
+assert.h
+C:/dlib/dlib/assert.h
+config.h
+C:/dlib/dlib/config.h
 
 C:/dlib/dlib/threads.h
 dlib_basic_cpp_build_tutorial.txt

@@ -9,19 +9,22 @@
 #include <dlib/dir_nav.h>
 #include <iostream>
 #include <vector>
-#include <sstream>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/opencv.hpp>
 #include <dlib/opencv.h>
 #include <time.h>
 #include <algorithm>
+#include <nlohmann/json.hpp>
+#include <fstream>
 
 
 #include "eyeLike.h"
 #include "constants.h"
 #include "head_yaw_pitch_row.h"
 #include "delaunay_triangle.h"
+#include "data_output.h"
+
 
 // include different header files base on different OS
 #if defined _MSC_VER
@@ -49,16 +52,23 @@ void write_imgs(const std::vector<Mat> &images,
                 const string &output_dir,
                 const string &video_id);
 
+void write_json(const string &output_dir);
+
 void run(std::vector<Mat> &imgs);
 
-void process_image(cv::Mat &img, dlib::frontal_face_detector &detector, dlib::shape_predictor &sp);
+void load_detectors(dlib::frontal_face_detector &detector, dlib::shape_predictor &sp);
+
+void process_image(cv::Mat &img, dlib::frontal_face_detector &detector, dlib::shape_predictor &sp, nlohmann::json &json);
 
 cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect);
 //------------------------------------------------------------------------------------------------
 
 //================================================================================================
 // Global Valuable
+thread_pool tp(NUM_THREAD);
 std::vector<dlib::file> files;
+std::vector<dlib::future<nlohmann::json>> output_json;
+//================================================================================================
 
 
 int main(int argc, char **argv)
@@ -76,6 +86,7 @@ int main(int argc, char **argv)
 
     make_directory(argv[2]);    // make the output dir
 
+    cout << "start loading images" << endl;
     // load images to memory, if on images are read exit the program
     std::vector<Mat> images = load_imgs(argv[1]);
     if (images.size() == 0)
@@ -83,11 +94,16 @@ int main(int argc, char **argv)
         return 1;
     }
 
+    cout << "prepare processing images" << endl;
     // start processing
     run(images);
 
+    cout << "storing images" << endl;
     // store images to disk
     write_imgs(images, argv[2], argv[3]);
+
+    cout << "storing json" << endl;
+    write_json(argv[2]);
 
     return 0;
 }
@@ -120,7 +136,6 @@ std::vector<Mat> load_imgs(const string &input_dir)
     for (int i = 0; i < files.size(); i++)
     {
         imgs.push_back(imread(files[i].full_name()));
-        //cout << files[i].full_name() << endl;
     }
     return imgs;
 
@@ -135,12 +150,25 @@ void write_imgs(const std::vector<Mat> &images,
     try {
         for (int i = 0; i < images.size(); i++)
         {
-            imwrite(output_dir + "/" + video_id + "." + to_string(i) + IMAGE_TYPE, images[i]);
+            imwrite(output_dir + "/" + files[i].name(), images[i]);
         }
     } catch (Exception &e) {
         cout << e.what() << endl;
     }
+}
 
+void write_json(const string &output_dir)
+{
+    ofstream out;
+    for (int i = 0; i < output_json.size(); i++)
+    {
+        out.open(output_dir + "/" + files[i].name() + ".json");
+        if (out.is_open())
+        {
+            out << output_json[i].get().dump(4);
+            out.close();
+        }
+    }
 }
 
 // imgs: original images as input, and will be modify after processing
@@ -151,22 +179,19 @@ void run(std::vector<Mat> &imgs)
     //unsigned long num_thread_test = 1;
     //cout << "enter number of threads: ";
     //cin >> num_thread_test;
-    thread_pool tp(NUM_THREAD);
+
     //thread_pool tp(num_thread_test);
 
     time_t start = time(nullptr);   // get the initial time for calculate the time for processing
+
+    output_json = std::vector<dlib::future<nlohmann::json>>(imgs.size());
 
     // create face detector and shape detector for each thread
     std::vector<dlib::future<frontal_face_detector>> f_detectors(NUM_THREAD);
     std::vector<dlib::future<shape_predictor>> f_sp(NUM_THREAD);
     for (int i = 0; i < NUM_THREAD; i++)
     {
-        f_detectors[i] = get_frontal_face_detector();
-        try {
-            deserialize(FACE_LANDMARKS) >> f_sp[i];
-        } catch (Exception &e) {
-            cout << e.what() << endl;
-        }
+        tp.add_task(&load_detectors, f_detectors[i], f_sp[i]);
     }
 
     // pack images into future objects for multithreading
@@ -180,7 +205,7 @@ void run(std::vector<Mat> &imgs)
     for (int i = 0; i < f_imgs.size(); i++)
     {
         unsigned int index = (i + NUM_THREAD) % NUM_THREAD;
-        tp.add_task(&process_image, f_imgs[i], f_detectors[index], f_sp[index]);
+        tp.add_task(&process_image, f_imgs[i], f_detectors[index], f_sp[index], output_json[i]);
         cout << "start frame: " << i << endl;
     }
     tp.wait_for_all_tasks();
@@ -188,13 +213,19 @@ void run(std::vector<Mat> &imgs)
     cout << "time: " << time(nullptr) - start << endl;
 }
 
-
-void process_image(Mat &img, frontal_face_detector &detector, shape_predictor &sp)
+void load_detectors(dlib::frontal_face_detector &detector, dlib::shape_predictor &sp)
 {
-    //frontal_face_detector detector = get_frontal_face_detector();
-    //shape_predictor sp;
-    //deserialize("shape_predictor_68_face_landmarks.dat") >> sp;
+    detector = get_frontal_face_detector();
+    try {
+        deserialize(FACE_LANDMARKS) >> sp;
+    } catch (Exception &e) {
+        cout << e.what() << endl;
+    }
+}
 
+
+void process_image(Mat &img, frontal_face_detector &detector, shape_predictor &sp, nlohmann::json &json)
+{
     // conver opencv's Mat (data type for image) to dlib's image type
     cv_image<bgr_pixel> cimg(img);
 
@@ -221,12 +252,15 @@ void process_image(Mat &img, frontal_face_detector &detector, shape_predictor &s
     // detect head posting
     // gets two points for the facing direction
     /***may change to use OpenFace later***/
-    std::vector<Dual_Points> heads = head_pose_estimation(shapes, img);
+    Vec3d ypr;
+    std::vector<Dual_Points> heads = head_pose_estimation(shapes, img, ypr);
 
     // draw to the image
     draw_delaunay_triangles(shapes, img);
     draw_eye_center(img, eyes);
     draw_head_posting(img, heads);
+
+    output_face_landmarks(shapes, eyes, ypr, json);
 }
 
 // convert dlib rectangle to opencv Rect
@@ -234,8 +268,3 @@ cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect)
 {
     return cv::Rect(cv::Point2i(rect.left(), rect.top()), cv::Point2i(rect.right() + 1, rect.bottom() + 1));
 }
-
-
-
-
-

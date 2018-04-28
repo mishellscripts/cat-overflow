@@ -596,6 +596,32 @@ string
 vector
 -
 
+C:/dlib/dlib/../dlib/data_io/image_dataset_metadata.cpp
+image_dataset_metadata.h
+C:/dlib/dlib/../dlib/data_io/image_dataset_metadata.h
+fstream
+-
+sstream
+-
+../compress_stream.h
+C:/dlib/dlib/../dlib/compress_stream.h
+../base64.h
+C:/dlib/dlib/../dlib/base64.h
+../xml_parser.h
+C:/dlib/dlib/../dlib/xml_parser.h
+../string.h
+C:/dlib/dlib/../dlib/string.h
+
+C:/dlib/dlib/../dlib/data_io/image_dataset_metadata.h
+string
+-
+vector
+-
+../geometry.h
+C:/dlib/dlib/../dlib/geometry.h
+image_dataset_metadata.cpp
+C:/dlib/dlib/../dlib/data_io/image_dataset_metadata.cpp
+
 C:/dlib/dlib/../dlib/dir_nav.h
 platform.h
 C:/dlib/dlib/../dlib/platform.h
@@ -2167,6 +2193,8 @@ C:/dlib/dlib/../dlib/image_loader/image_loader.h
 C:/dlib/dlib/../dlib/pixel.h
 ../dir_nav.h
 C:/dlib/dlib/../dlib/dir_nav.h
+../test_for_odr_violations.h
+C:/dlib/dlib/../dlib/test_for_odr_violations.h
 jpeg_loader.cpp
 C:/dlib/dlib/../dlib/image_loader/jpeg_loader.cpp
 
@@ -2235,6 +2263,8 @@ C:/dlib/dlib/../dlib/image_loader/image_loader.h
 C:/dlib/dlib/../dlib/pixel.h
 ../dir_nav.h
 C:/dlib/dlib/../dlib/dir_nav.h
+../test_for_odr_violations.h
+C:/dlib/dlib/../dlib/test_for_odr_violations.h
 png_loader.cpp
 C:/dlib/dlib/../dlib/image_loader/png_loader.cpp
 
@@ -2667,10 +2697,16 @@ C:/dlib/dlib/../dlib/image_processing/shape_predictor.h
 C:/dlib/dlib/../dlib/console_progress_indicator.h
 ../threads.h
 C:/dlib/dlib/../dlib/threads.h
+../data_io/image_dataset_metadata.h
+C:/dlib/dlib/../dlib/data_io/image_dataset_metadata.h
+box_overlap_testing.h
+C:/dlib/dlib/../dlib/image_processing/box_overlap_testing.h
 
 C:/dlib/dlib/../dlib/image_processing/shape_predictor_trainer_abstract.h
 shape_predictor_abstract.h
 C:/dlib/dlib/../dlib/image_processing/shape_predictor_abstract.h
+../data_io/image_dataset_metadata.h
+C:/dlib/dlib/../dlib/data_io/image_dataset_metadata.h
 
 C:/dlib/dlib/../dlib/image_saver/dng_shared.h
 ../pixel.h
@@ -3709,6 +3745,8 @@ matrix_conv_abstract.h
 C:/dlib/dlib/../dlib/matrix/matrix_conv_abstract.h
 matrix.h
 C:/dlib/dlib/../dlib/matrix/matrix.h
+matrix_fft.h
+C:/dlib/dlib/../dlib/matrix/matrix_fft.h
 
 C:/dlib/dlib/../dlib/matrix/matrix_conv_abstract.h
 matrix_abstract.h
@@ -4263,6 +4301,8 @@ optimization/find_max_factor_graph_viterbi.h
 C:/dlib/dlib/../dlib/optimization/find_max_factor_graph_viterbi.h
 optimization/find_max_parse_cky.h
 C:/dlib/dlib/../dlib/optimization/find_max_parse_cky.h
+optimization/isotonic_regression.h
+C:/dlib/dlib/../dlib/optimization/isotonic_regression.h
 
 C:/dlib/dlib/../dlib/optimization/find_max_factor_graph_nmplp.h
 find_max_factor_graph_nmplp_abstract.h
@@ -4319,6 +4359,20 @@ string
 C:/dlib/dlib/../dlib/algs.h
 ../serialize.h
 C:/dlib/dlib/../dlib/serialize.h
+
+C:/dlib/dlib/../dlib/optimization/isotonic_regression.h
+isotonic_regression_abstract.h
+C:/dlib/dlib/../dlib/optimization/isotonic_regression_abstract.h
+vector
+-
+utility
+-
+
+C:/dlib/dlib/../dlib/optimization/isotonic_regression_abstract.h
+vector
+-
+utility
+-
 
 C:/dlib/dlib/../dlib/optimization/max_cost_assignment.h
 max_cost_assignment_abstract.h
@@ -4823,6 +4877,10 @@ set
 -
 limits
 -
+type_traits
+-
+utility
+-
 uintn.h
 C:/dlib/dlib/../dlib/uintn.h
 interfaces/enumerable.h
@@ -5049,6 +5107,44 @@ functional
 C:/dlib/dlib/../dlib/sparse_vector.h
 svm/sparse_vector.h
 C:/dlib/dlib/../dlib/svm/sparse_vector.h
+
+C:/dlib/dlib/../dlib/stack.h
+stack/stack_kernel_1.h
+C:/dlib/dlib/../dlib/stack/stack_kernel_1.h
+stack/stack_kernel_c.h
+C:/dlib/dlib/../dlib/stack/stack_kernel_c.h
+algs.h
+C:/dlib/dlib/../dlib/algs.h
+
+C:/dlib/dlib/../dlib/stack/stack_kernel_1.h
+stack_kernel_abstract.h
+C:/dlib/dlib/../dlib/stack/stack_kernel_abstract.h
+../algs.h
+C:/dlib/dlib/../dlib/algs.h
+../interfaces/enumerable.h
+C:/dlib/dlib/../dlib/interfaces/enumerable.h
+../interfaces/remover.h
+C:/dlib/dlib/../dlib/interfaces/remover.h
+../serialize.h
+C:/dlib/dlib/../dlib/serialize.h
+
+C:/dlib/dlib/../dlib/stack/stack_kernel_abstract.h
+../interfaces/enumerable.h
+C:/dlib/dlib/../dlib/interfaces/enumerable.h
+../interfaces/remover.h
+C:/dlib/dlib/../dlib/interfaces/remover.h
+../serialize.h
+C:/dlib/dlib/../dlib/serialize.h
+../algs.h
+C:/dlib/dlib/../dlib/algs.h
+
+C:/dlib/dlib/../dlib/stack/stack_kernel_c.h
+stack_kernel_abstract.h
+C:/dlib/dlib/../dlib/stack/stack_kernel_abstract.h
+../algs.h
+C:/dlib/dlib/../dlib/algs.h
+../assert.h
+C:/dlib/dlib/../dlib/assert.h
 
 C:/dlib/dlib/../dlib/stack_trace.h
 iostream
@@ -6802,6 +6898,12 @@ C:/dlib/dlib/../dlib/threads/rsignaler_extension_abstract.h
 ../algs.h
 C:/dlib/dlib/../dlib/algs.h
 
+C:/dlib/dlib/../dlib/test_for_odr_violations.h
+assert.h
+C:/dlib/dlib/../dlib/assert.h
+config.h
+C:/dlib/dlib/../dlib/config.h
+
 C:/dlib/dlib/../dlib/threads.h
 dlib_basic_cpp_build_tutorial.txt
 C:/dlib/dlib/../dlib/dlib_basic_cpp_build_tutorial.txt
@@ -7171,6 +7273,8 @@ C:/dlib/dlib/../dlib/memory_manager.h
 C:/dlib/dlib/../dlib/queue.h
 ../set.h
 C:/dlib/dlib/../dlib/set.h
+../test_for_odr_violations.h
+C:/dlib/dlib/../dlib/test_for_odr_violations.h
 threads_kernel_shared.cpp
 C:/dlib/dlib/../dlib/threads/threads_kernel_shared.cpp
 
@@ -7385,6 +7489,58 @@ vector
 C:/dlib/dlib/../dlib/windows_magic.h
 platform.h
 C:/dlib/dlib/../dlib/platform.h
+
+C:/dlib/dlib/../dlib/xml_parser.h
+string
+-
+xml_parser/xml_parser_kernel_interfaces.h
+C:/dlib/dlib/../dlib/xml_parser/xml_parser_kernel_interfaces.h
+xml_parser/xml_parser_kernel_1.h
+C:/dlib/dlib/../dlib/xml_parser/xml_parser_kernel_1.h
+
+C:/dlib/dlib/../dlib/xml_parser/xml_parser_kernel_1.h
+xml_parser_kernel_abstract.h
+C:/dlib/dlib/../dlib/xml_parser/xml_parser_kernel_abstract.h
+sstream
+-
+string
+-
+fstream
+-
+iostream
+-
+xml_parser_kernel_interfaces.h
+C:/dlib/dlib/../dlib/xml_parser/xml_parser_kernel_interfaces.h
+../algs.h
+C:/dlib/dlib/../dlib/algs.h
+cstdio
+-
+../map.h
+C:/dlib/dlib/../dlib/map.h
+../stack.h
+C:/dlib/dlib/../dlib/stack.h
+../sequence.h
+C:/dlib/dlib/../dlib/sequence.h
+../memory_manager.h
+C:/dlib/dlib/../dlib/memory_manager.h
+
+C:/dlib/dlib/../dlib/xml_parser/xml_parser_kernel_abstract.h
+string
+-
+iosfwd
+-
+xml_parser_kernel_interfaces.h
+C:/dlib/dlib/../dlib/xml_parser/xml_parser_kernel_interfaces.h
+
+C:/dlib/dlib/../dlib/xml_parser/xml_parser_kernel_interfaces.h
+string
+-
+../interfaces/enumerable.h
+C:/dlib/dlib/../dlib/interfaces/enumerable.h
+../interfaces/map_pair.h
+C:/dlib/dlib/../dlib/interfaces/map_pair.h
+../error.h
+C:/dlib/dlib/../dlib/error.h
 
 C:/opencv/build/include/opencv/cxcore.h
 opencv2/core/core_c.h
@@ -8711,6 +8867,22 @@ opencv2/videostab/log.hpp
 C:/opencv/build/include/opencv2/videostab/opencv2/videostab/log.hpp
 
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/constants.h
+opencv2/core/types.hpp
+-
+
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/data_output.cpp
+data_output.h
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/data_output.h
+
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/data_output.h
+dlib/image_processing/full_object_detection.h
+-
+opencv2/core/matx.hpp
+-
+nlohmann/json.hpp
+-
+constants.h
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/constants.h
 
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/delaunay_triangle.cpp
 opencv2/imgproc/imgproc.hpp
@@ -8841,8 +9013,6 @@ iostream
 -
 vector
 -
-sstream
--
 opencv2/imgproc/imgproc.hpp
 -
 opencv2/highgui/highgui.hpp
@@ -8855,6 +9025,10 @@ time.h
 -
 algorithm
 -
+nlohmann/json.hpp
+-
+fstream
+-
 eyeLike.h
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/eyeLike.h
 constants.h
@@ -8863,6 +9037,8 @@ head_yaw_pitch_row.h
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/head_yaw_pitch_row.h
 delaunay_triangle.h
 D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/delaunay_triangle.h
+data_output.h
+D:/OneDrive/CS/CS160/cs160_stackoverflow/face_detection_win/data_output.h
 direct.h
 -
 CommCtrl.h
