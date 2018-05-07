@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/face_detection.dir/helpers.cpp.obj"
   "CMakeFiles/face_detection.dir/head_yaw_pitch_row.cpp.obj"
   "CMakeFiles/face_detection.dir/delaunay_triangle.cpp.obj"
+  "CMakeFiles/face_detection.dir/data_output.cpp.obj"
   "face_detection.pdb"
   "face_detection.exe"
   "face_detection.exe.manifest"

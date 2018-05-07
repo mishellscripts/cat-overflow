@@ -16,7 +16,7 @@ using namespace dlib;
 using namespace cv;
 
 // calculate head posting
-std::vector<Dual_Points> head_pose_estimation(std::vector<full_object_detection> &shapes, Mat &img)
+std::vector<Dual_Points> head_pose_estimation(std::vector<full_object_detection> &shapes, Mat &img, Vec3d &ypr)
 {
     std::vector<std::vector<cv::Point2d>> faces;
     // create a 3d model in world coordinate for the head
@@ -58,6 +58,10 @@ std::vector<Dual_Points> head_pose_estimation(std::vector<full_object_detection>
 
         projectPoints(nose_end_point3D, rotation_vector, translation_vector, camera_matrix, dist_coeffs, nose_end_point2D);
 
+        cv::Mat rtv;
+        Rodrigues(rotation_vector, rtv);
+        get_euler_angles(rtv, ypr);
+
         //cv::line(img, faces[i][0], nose_end_point2D[0], cv::Scalar(0, 255, 0), 2);
         Dual_Points p;
         p.point1 = faces[i][0];
@@ -74,6 +78,23 @@ std::vector<Dual_Points> head_pose_estimation(std::vector<full_object_detection>
     return points;
 }
 
+void get_euler_angles(Mat &rotCamerMatrix, Vec3d &eulerAngles)
+{
+    Mat cameraMatrix, rotMatrix, transVect, rotMatrixX, rotMatrixY, rotMatrixZ;
+    double* _r = rotCamerMatrix.ptr<double>();
+    double projMatrix[12] = {_r[0], _r[1], _r[2], 0,
+                             _r[3], _r[4], _r[5], 0,
+                             _r[6], _r[7], _r[8], 0};
+
+    decomposeProjectionMatrix( Mat(3, 4, CV_64FC1, projMatrix),
+                               cameraMatrix,
+                               rotMatrix,
+                               transVect,
+                               rotMatrixX,
+                               rotMatrixY,
+                               rotMatrixZ,
+                               eulerAngles);
+}
 
 // draw a line indicates the head posting
 void draw_head_posting(Mat &img, const std::vector<Dual_Points> &p)

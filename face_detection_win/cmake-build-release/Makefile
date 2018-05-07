@@ -137,6 +137,33 @@ dlib\fast:
 	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\build
 .PHONY : dlib\fast
 
+data_output.obj: data_output.cpp.obj
+
+.PHONY : data_output.obj
+
+# target to build an object file
+data_output.cpp.obj:
+	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\data_output.cpp.obj
+.PHONY : data_output.cpp.obj
+
+data_output.i: data_output.cpp.i
+
+.PHONY : data_output.i
+
+# target to preprocess a source file
+data_output.cpp.i:
+	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\data_output.cpp.i
+.PHONY : data_output.cpp.i
+
+data_output.s: data_output.cpp.s
+
+.PHONY : data_output.s
+
+# target to generate assembly for a file
+data_output.cpp.s:
+	$(MAKE) -f CMakeFiles\face_detection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\face_detection.dir\data_output.cpp.s
+.PHONY : data_output.cpp.s
+
 delaunay_triangle.obj: delaunay_triangle.cpp.obj
 
 .PHONY : delaunay_triangle.obj
@@ -309,6 +336,9 @@ help:
 	@echo ... face_detection
 	@echo ... rebuild_cache
 	@echo ... dlib
+	@echo ... data_output.obj
+	@echo ... data_output.i
+	@echo ... data_output.s
 	@echo ... delaunay_triangle.obj
 	@echo ... delaunay_triangle.i
 	@echo ... delaunay_triangle.s

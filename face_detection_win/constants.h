@@ -1,6 +1,8 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 
+#include <opencv2/core/types.hpp>
+
 typedef struct Dual_Points
 {
     cv::Point2d point1;

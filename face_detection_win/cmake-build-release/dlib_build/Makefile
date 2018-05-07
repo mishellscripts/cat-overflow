@@ -3110,6 +3110,39 @@ external\zlib\zutil.c.s:
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : external\zlib\zutil.c.s
 
+filtering\kalman_filter.obj: filtering\kalman_filter.cpp.obj
+
+.PHONY : filtering\kalman_filter.obj
+
+# target to build an object file
+filtering\kalman_filter.cpp.obj:
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.obj
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+.PHONY : filtering\kalman_filter.cpp.obj
+
+filtering\kalman_filter.i: filtering\kalman_filter.cpp.i
+
+.PHONY : filtering\kalman_filter.i
+
+# target to preprocess a source file
+filtering\kalman_filter.cpp.i:
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.i
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+.PHONY : filtering\kalman_filter.cpp.i
+
+filtering\kalman_filter.s: filtering\kalman_filter.cpp.s
+
+.PHONY : filtering\kalman_filter.s
+
+# target to generate assembly for a file
+filtering\kalman_filter.cpp.s:
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\filtering\kalman_filter.cpp.s
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+.PHONY : filtering\kalman_filter.cpp.s
+
 global_optimization\global_function_search.obj: global_optimization\global_function_search.cpp.obj
 
 .PHONY : global_optimization\global_function_search.obj
@@ -4067,6 +4100,39 @@ stack_trace.cpp.s:
 	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
 .PHONY : stack_trace.cpp.s
 
+test_for_odr_violations.obj: test_for_odr_violations.cpp.obj
+
+.PHONY : test_for_odr_violations.obj
+
+# target to build an object file
+test_for_odr_violations.cpp.obj:
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.obj
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+.PHONY : test_for_odr_violations.cpp.obj
+
+test_for_odr_violations.i: test_for_odr_violations.cpp.i
+
+.PHONY : test_for_odr_violations.i
+
+# target to preprocess a source file
+test_for_odr_violations.cpp.i:
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.i
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+.PHONY : test_for_odr_violations.cpp.i
+
+test_for_odr_violations.s: test_for_odr_violations.cpp.s
+
+.PHONY : test_for_odr_violations.s
+
+# target to generate assembly for a file
+test_for_odr_violations.cpp.s:
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release
+	$(MAKE) -f dlib_build\CMakeFiles\dlib.dir\build.make /nologo -$(MAKEFLAGS) dlib_build\CMakeFiles\dlib.dir\test_for_odr_violations.cpp.s
+	cd D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\dlib_build
+.PHONY : test_for_odr_violations.cpp.s
+
 threads\async.obj: threads\async.cpp.obj
 
 .PHONY : threads\async.obj
@@ -4676,6 +4742,9 @@ help:
 	@echo ... external/zlib/zutil.obj
 	@echo ... external/zlib/zutil.i
 	@echo ... external/zlib/zutil.s
+	@echo ... filtering/kalman_filter.obj
+	@echo ... filtering/kalman_filter.i
+	@echo ... filtering/kalman_filter.s
 	@echo ... global_optimization/global_function_search.obj
 	@echo ... global_optimization/global_function_search.i
 	@echo ... global_optimization/global_function_search.s
@@ -4763,6 +4832,9 @@ help:
 	@echo ... stack_trace.obj
 	@echo ... stack_trace.i
 	@echo ... stack_trace.s
+	@echo ... test_for_odr_violations.obj
+	@echo ... test_for_odr_violations.i
+	@echo ... test_for_odr_violations.s
 	@echo ... threads/async.obj
 	@echo ... threads/async.i
 	@echo ... threads/async.s

@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "dlib_release_64bit_msvc1911.lib"
+  "dlib19.10.0_release_64bit_msvc1911.lib"
 )
