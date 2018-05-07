@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -13,8 +14,7 @@ class LoginController extends Controller
     |--------------------------------------------------------------------------
     |
     | This controller handles authenticating users for the application and
-    | redirecting them to your home screen. The controller uses a trait
-    | to conveniently provide its functionality to your applications.
+    | redirecting them to your home screen.
     |
     */
 
@@ -45,5 +45,19 @@ class LoginController extends Controller
     public function username()
     {
         return 'username';
+    }
+
+    /**
+     * Update last login date and ip in the database on login event.
+     *
+     * @return void
+     */
+    public function authenticated(Request $request, $user)
+    {
+        $user->last_login_date = date('Y-m-d H:i:s');
+
+        $user->last_login_ip = $request->ip();
+
+        $user->save();
     }
 }

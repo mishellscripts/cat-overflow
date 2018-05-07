@@ -234,8 +234,3 @@ cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect)
 {
     return cv::Rect(cv::Point2i(rect.left(), rect.top()), cv::Point2i(rect.right() + 1, rect.bottom() + 1));
 }
-
-
-
-
-
