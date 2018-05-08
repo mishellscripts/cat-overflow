@@ -124,7 +124,7 @@ class OriginalVideoController extends Controller
                 ->storeAs('public/original_videos', $video->id.'.mp4');
             $this->extractImages($request->file, $video->id, $fps);
             $this->processImages($video->id);
-            $this->createVideo($video->id, $fps);
+            // $this->createVideo($video->id, $fps);
             return new OriginalVideoResource($video);
         } else {
             Log::warning('Failed to save video.');
@@ -151,6 +151,29 @@ class OriginalVideoController extends Controller
         chdir("$cwd/../face_detection_win/cmake-build-release");
         exec("face_detection.exe ../../storage/app/public/original_images/$id ../../storage/app/public/processed_images/$id $id");
         chdir($cwd);
+        $this->storeImageData($id);
+    }
+
+    private function storeImageData($id) {
+        $video = OriginalVideo::findOrFail($id);
+        if ($video) {
+            for ($frameNum = 1; $frameNum <= 2; $frameNum++) {
+                $name = str_pad($frameNum, 5, '0', STR_PAD_LEFT);
+                $file = file_get_contents("storage/processed_images/$id/$name.png-eyes-ypr.json");
+                $data = json_decode($file);
+
+                return Image::create([
+                    'video_id'        => $id,
+                    'data_points'     => file_get_contents("storage/processed_images/$id/$name.png-face.json"),
+                    'yaw'             => $data['face_0']['yaw'],
+                    'pitch'           => $data['face_0']['pitch'],
+                    'roll'            => $data['face_0']['roll'],
+                    'left_pupil'      => $data['face_0']['left_eye'],
+                    'right_pupil'     => $data['face_0']['right_eye'],
+                ]);
+            }
+        }
+        return response('Failed to process video', 400);
     }
 
     private function createVideo($id, $frame_rate) {

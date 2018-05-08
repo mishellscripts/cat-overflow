@@ -16,16 +16,15 @@ class CreateImagesTable extends Migration
         Schema::create('images', function (Blueprint $table) {
             $table->timestamps();
             $table->integer('frame_num');
-            $table->string('file_path');
             $table->float('yaw');
             $table->float('pitch');
             $table->float('roll');
+            $table->point('left_pupil');
+            $table->point('right_pupil');
             $table->json('data_points');
             $table->integer('video_id')->unsigned();
             $table->foreign('video_id')->references('id')->on('original_videos');
         });
-        DB::statement('ALTER TABLE images ADD left_pupil POINT' );
-        DB::statement('ALTER TABLE images ADD right_pupil POINT' );
         DB::statement('ALTER TABLE images ADD PRIMARY KEY (  video_id ,  frame_num )');        
     }
 
