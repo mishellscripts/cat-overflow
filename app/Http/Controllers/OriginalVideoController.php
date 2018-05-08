@@ -126,7 +126,7 @@ class OriginalVideoController extends Controller
                 ->storeAs('public/original_videos', $video->id.'.mp4');
             $this->extractImages($request->file, $video->id, $fps);
             $this->processImages($video->id);
-            // $this->createVideo($video->id, $fps);
+            $this->createVideo($video->id, $fps);
             return new OriginalVideoResource($video);
         } else {
             Log::warning('Failed to save video.');
