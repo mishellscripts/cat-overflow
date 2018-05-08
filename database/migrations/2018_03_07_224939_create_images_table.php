@@ -14,6 +14,7 @@ class CreateImagesTable extends Migration
     public function up()
     {
         Schema::create('images', function (Blueprint $table) {
+            $table->increments('id');
             $table->timestamps();
             $table->integer('frame_num');
             $table->float('yaw');
@@ -25,7 +26,6 @@ class CreateImagesTable extends Migration
             $table->integer('video_id')->unsigned();
             $table->foreign('video_id')->references('id')->on('original_videos');
         });
-        DB::statement('ALTER TABLE images ADD PRIMARY KEY (  video_id ,  frame_num )');        
     }
 
     /**

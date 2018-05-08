@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\OriginalVideo;
+use App\Image;
 use App\User;
 use App\Http\Resources\OriginalVideo as OriginalVideoResource;
 use Illuminate\Support\Facades\Log;
@@ -167,18 +168,22 @@ class OriginalVideoController extends Controller
             for ($frameNum = 1; $frameNum <= 2; $frameNum++) {
                 $name = str_pad($frameNum, 5, '0', STR_PAD_LEFT);
                 $file = file_get_contents("storage/processed_images/$id/$name.png-eyes-ypr.json");
-                $data = json_decode($file);
+                $data = json_decode($file, true);
 
-                return Image::create([
-                    'video_id'      => $id,
-                    'data_points'   => file_get_contents("storage/processed_images/$id/$name.png-face.json"),
-                    'yaw'           => $data['face_0']['yaw'],
-                    'pitch'         => $data['face_0']['pitch'],
-                    'roll'          => $data['face_0']['roll'],
-                    'left_pupil'    => new Point($data['face_0']['left_eye'][0], $data['face_0']['left_eye'][1]),
-                    'right_pupil'   => new Point($data['face_0']['right_eye'][0], $data['face_0']['right_eye'][1]),
-                ]);
+                if ($data) {
+                    Image::create([
+                        'video_id'      => $id,
+                        'frame_num'     => $frameNum,
+                        'data_points'   => file_get_contents("storage/processed_images/$id/$name.png-face.json"),
+                        'yaw'           => $data['face_0']['yaw'],
+                        'pitch'         => $data['face_0']['pitch'],
+                        'roll'          => $data['face_0']['roll'],
+                        'left_pupil'    => new Point($data['face_0']['left_eye']['x_coord'], $data['face_0']['left_eye']['y_coord']),
+                        'right_pupil'   => new Point($data['face_0']['right_eye']['x_coord'], $data['face_0']['right_eye']['y_coord']),
+                    ]);
+                }
             }
+            return;
         }
 
         return response('Failed to process video', 400);

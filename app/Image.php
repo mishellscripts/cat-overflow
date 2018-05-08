@@ -16,7 +16,7 @@ class Image extends Model
      * @var array
      */
     protected $fillable = [
-        'frame_num', 'yaw', 'pitch', 'roll', 'left_pupil', 'data_points', 'video_id',
+        'frame_num', 'yaw', 'pitch', 'roll', 'left_pupil', 'right_pupil', 'data_points', 'video_id',
     ];
 
     /**
@@ -25,4 +25,9 @@ class Image extends Model
      * @var array
      */
     protected $hidden = [];
+
+    protected $postgisFields = [
+        'left_pupil',
+        'right_pupil',
+    ];
 }
