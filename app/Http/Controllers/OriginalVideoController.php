@@ -9,6 +9,7 @@ use App\Http\Resources\OriginalVideo as OriginalVideoResource;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
+use Phaza\LaravelPostgis\Geometries\Point;
 use FFMpeg;
 
 class OriginalVideoController extends Controller
@@ -136,26 +137,32 @@ class OriginalVideoController extends Controller
     {
         $video_path = "storage/original_videos/$id.mp4";
         $path = "storage/original_images/$id";
+
         if (!file_exists($path)) {
             mkdir($path, 0777, true);
         }
+
         exec("ffmpeg -i $video_path -vf fps=$frame_rate $path/%05d.png");
     }
 
     private function processImages($id) {
         $path = "storage/processed_images/$id";
+
         if (!file_exists($path)) {
             mkdir($path, 0777, true);
         }
+
         $cwd = getcwd();
         chdir("$cwd/../face_detection_win/cmake-build-release");
         exec("face_detection.exe ../../storage/app/public/original_images/$id ../../storage/app/public/processed_images/$id $id");
         chdir($cwd);
+
         $this->storeImageData($id);
     }
 
     private function storeImageData($id) {
         $video = OriginalVideo::findOrFail($id);
+
         if ($video) {
             for ($frameNum = 1; $frameNum <= 2; $frameNum++) {
                 $name = str_pad($frameNum, 5, '0', STR_PAD_LEFT);
@@ -163,25 +170,28 @@ class OriginalVideoController extends Controller
                 $data = json_decode($file);
 
                 return Image::create([
-                    'video_id'        => $id,
-                    'data_points'     => file_get_contents("storage/processed_images/$id/$name.png-face.json"),
-                    'yaw'             => $data['face_0']['yaw'],
-                    'pitch'           => $data['face_0']['pitch'],
-                    'roll'            => $data['face_0']['roll'],
-                    'left_pupil'      => $data['face_0']['left_eye'],
-                    'right_pupil'     => $data['face_0']['right_eye'],
+                    'video_id'      => $id,
+                    'data_points'   => file_get_contents("storage/processed_images/$id/$name.png-face.json"),
+                    'yaw'           => $data['face_0']['yaw'],
+                    'pitch'         => $data['face_0']['pitch'],
+                    'roll'          => $data['face_0']['roll'],
+                    'left_pupil'    => new Point($data['face_0']['left_eye'][0], $data['face_0']['left_eye'][1]),
+                    'right_pupil'   => new Point($data['face_0']['right_eye'][0], $data['face_0']['right_eye'][1]),
                 ]);
             }
         }
+
         return response('Failed to process video', 400);
     }
 
     private function createVideo($id, $frame_rate) {
         $images_path = "storage/processed_images/$id";
         $path = "storage/processed_videos";
+
         if (!file_exists($path)) {
             mkdir($path, 0777, true);
         }
+
         exec("ffmpeg -r $frame_rate -i $images_path/$id.%d.png -c:v libx264 -vf \"fps=$frame_rate,format=yuv420p\" $path/$id.mp4");
     }
 
@@ -214,6 +224,7 @@ class OriginalVideoController extends Controller
           Storage::deleteDirectory('public/processed_images/'.$id);
           return response('Video removed successfully.', 200);
         }
+
         return response('Failed to remove video', 400);
     }
 
