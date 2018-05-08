@@ -197,7 +197,7 @@ class OriginalVideoController extends Controller
             mkdir($path, 0777, true);
         }
 
-        exec("ffmpeg -r $frame_rate -i $images_path/$id.%d.png -c:v libx264 -vf \"fps=$frame_rate,format=yuv420p\" $path/$id.mp4");
+        exec("ffmpeg -r $frame_rate -i $images_path/%05d.png -c:v libx264 -vf \"fps=$frame_rate,format=yuv420p\" $path/$id.mp4");
     }
 
     /**
