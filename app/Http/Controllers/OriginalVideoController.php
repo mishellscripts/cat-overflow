@@ -165,7 +165,7 @@ class OriginalVideoController extends Controller
         $video = OriginalVideo::findOrFail($id);
 
         if ($video) {
-            for ($frameNum = 1; $frameNum <= 2; $frameNum++) {
+            for ($frameNum = 1; $frameNum <= $video->num_frames; $frameNum++) {
                 $name = str_pad($frameNum, 5, '0', STR_PAD_LEFT);
                 $file = file_get_contents("storage/processed_images/$id/$name.png-eyes-ypr.json");
                 $data = json_decode($file, true);
