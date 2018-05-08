@@ -11,8 +11,10 @@
 #include "constants.h"
 
 void output_face_landmarks(std::vector<dlib::full_object_detection> shapes,
-                           std::vector<Dual_Points> &eyes,
-                           cv::Vec3d yaw_pitch_row,
                            nlohmann::json &json);
+
+void output_eyes_ypr(std::vector<Dual_Points> &eyes,
+                     cv::Vec3d ypr,
+                     nlohmann::json &json);
 
 #endif //FACE_DETECTION_DATA_OUTPUT_H

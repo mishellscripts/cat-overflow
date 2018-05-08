@@ -32,7 +32,7 @@
 #include <CommCtrl.h>
 
 #define file file
-#elif defined __GNUC__
+#else
 #include <sys/types.h>
 #include <sys/stat.h>
 #endif
@@ -58,7 +58,7 @@ void run(std::vector<Mat> &imgs);
 
 void load_detectors(dlib::frontal_face_detector &detector, dlib::shape_predictor &sp);
 
-void process_image(cv::Mat &img, dlib::frontal_face_detector &detector, dlib::shape_predictor &sp, nlohmann::json &json);
+void process_image(cv::Mat &img, dlib::frontal_face_detector &detector, dlib::shape_predictor &sp, pair<nlohmann::json, nlohmann::json> &json);
 
 cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect);
 //------------------------------------------------------------------------------------------------
@@ -67,12 +67,15 @@ cv::Rect dlib_rect_to_opencv_rect(const dlib::rectangle &rect);
 // Global Valuable
 thread_pool tp(NUM_THREAD);
 std::vector<dlib::file> files;
-std::vector<dlib::future<nlohmann::json>> output_json;
+std::vector<dlib::future<pair<nlohmann::json, nlohmann::json>>> output_json;
+std::vector<dlib::future<nlohmann::json>> output_face_json;
+std::vector<dlib::future<nlohmann::json>> output_eyes_ypr_json;
 //================================================================================================
 
 
 int main(int argc, char **argv)
 {
+    time_t start = time(nullptr);
     // check the command line argument
     if (argc != 4)
     {
@@ -104,7 +107,7 @@ int main(int argc, char **argv)
 
     cout << "storing json" << endl;
     write_json(argv[2]);
-
+    cout << "total processing time: " << time(nullptr) - start << endl;
     return 0;
 }
 
@@ -113,7 +116,7 @@ void make_directory(const string &output_dir)
 {
 #if defined _MSC_VER
         _mkdir(output_dir.c_str());
-#elif defind __GNUC__
+#else
         mkdir(output_dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 #endif
 }
@@ -162,10 +165,16 @@ void write_json(const string &output_dir)
     ofstream out;
     for (int i = 0; i < output_json.size(); i++)
     {
-        out.open(output_dir + "/" + files[i].name() + ".json");
+        out.open(output_dir + "/" + files[i].name() + "-face.json");
         if (out.is_open())
         {
-            out << output_json[i].get().dump(4);
+            out << output_json[i].get().first.dump(4);
+            out.close();
+        }
+        out.open(output_dir + "/" + files[i].name() + "-eyes-ypr.json");
+        if (out.is_open())
+        {
+            out << output_json[i].get().second.dump(4);
             out.close();
         }
     }
@@ -176,15 +185,11 @@ void write_json(const string &output_dir)
 // this function processes original images
 void run(std::vector<Mat> &imgs)
 {
-    //unsigned long num_thread_test = 1;
-    //cout << "enter number of threads: ";
-    //cin >> num_thread_test;
-
-    //thread_pool tp(num_thread_test);
-
     time_t start = time(nullptr);   // get the initial time for calculate the time for processing
 
-    output_json = std::vector<dlib::future<nlohmann::json>>(imgs.size());
+    //output_face_json = std::vector<dlib::future<nlohmann::json>>(imgs.size());
+    //output_eyes_ypr_json = std::vector<dlib::future<nlohmann::json>>(imgs.size());
+    output_json = std::vector<dlib::future<pair<nlohmann::json, nlohmann::json>>>(imgs.size());
 
     // create face detector and shape detector for each thread
     std::vector<dlib::future<frontal_face_detector>> f_detectors(NUM_THREAD);
@@ -224,7 +229,7 @@ void load_detectors(dlib::frontal_face_detector &detector, dlib::shape_predictor
 }
 
 
-void process_image(Mat &img, frontal_face_detector &detector, shape_predictor &sp, nlohmann::json &json)
+void process_image(Mat &img, frontal_face_detector &detector, shape_predictor &sp, pair<nlohmann::json, nlohmann::json> &json)
 {
     // conver opencv's Mat (data type for image) to dlib's image type
     cv_image<bgr_pixel> cimg(img);
@@ -251,7 +256,6 @@ void process_image(Mat &img, frontal_face_detector &detector, shape_predictor &s
 
     // detect head posting
     // gets two points for the facing direction
-    /***may change to use OpenFace later***/
     Vec3d ypr;
     std::vector<Dual_Points> heads = head_pose_estimation(shapes, img, ypr);
 
@@ -260,7 +264,8 @@ void process_image(Mat &img, frontal_face_detector &detector, shape_predictor &s
     draw_eye_center(img, eyes);
     draw_head_posting(img, heads);
 
-    output_face_landmarks(shapes, eyes, ypr, json);
+    output_face_landmarks(shapes, json.first);
+    output_eyes_ypr(eyes, ypr, json.second);
 }
 
 // convert dlib rectangle to opencv Rect

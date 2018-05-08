@@ -61,19 +61,19 @@ include CMakeFiles\face_detection.dir\flags.make
 CMakeFiles\face_detection.dir\main.cpp.obj: CMakeFiles\face_detection.dir\flags.make
 CMakeFiles\face_detection.dir\main.cpp.obj: ..\main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/face_detection.dir/main.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\face_detection.dir\main.cpp.obj /FdCMakeFiles\face_detection.dir\ /FS -c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\main.cpp
 <<
 
 CMakeFiles\face_detection.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/face_detection.dir/main.cpp.i"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\main.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\main.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\main.cpp
 <<
 
 CMakeFiles\face_detection.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/face_detection.dir/main.cpp.s"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\face_detection.dir\main.cpp.s /c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\main.cpp
 <<
 
@@ -91,19 +91,19 @@ CMakeFiles\face_detection.dir\main.cpp.obj.provides.build: CMakeFiles\face_detec
 CMakeFiles\face_detection.dir\eyeLike.cpp.obj: CMakeFiles\face_detection.dir\flags.make
 CMakeFiles\face_detection.dir\eyeLike.cpp.obj: ..\eyeLike.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/face_detection.dir/eyeLike.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\face_detection.dir\eyeLike.cpp.obj /FdCMakeFiles\face_detection.dir\ /FS -c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\eyeLike.cpp
 <<
 
 CMakeFiles\face_detection.dir\eyeLike.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/face_detection.dir/eyeLike.cpp.i"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\eyeLike.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\eyeLike.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\eyeLike.cpp
 <<
 
 CMakeFiles\face_detection.dir\eyeLike.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/face_detection.dir/eyeLike.cpp.s"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\face_detection.dir\eyeLike.cpp.s /c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\eyeLike.cpp
 <<
 
@@ -121,19 +121,19 @@ CMakeFiles\face_detection.dir\eyeLike.cpp.obj.provides.build: CMakeFiles\face_de
 CMakeFiles\face_detection.dir\findEyeCenter.cpp.obj: CMakeFiles\face_detection.dir\flags.make
 CMakeFiles\face_detection.dir\findEyeCenter.cpp.obj: ..\findEyeCenter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/face_detection.dir/findEyeCenter.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\face_detection.dir\findEyeCenter.cpp.obj /FdCMakeFiles\face_detection.dir\ /FS -c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\findEyeCenter.cpp
 <<
 
 CMakeFiles\face_detection.dir\findEyeCenter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/face_detection.dir/findEyeCenter.cpp.i"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\findEyeCenter.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\findEyeCenter.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\findEyeCenter.cpp
 <<
 
 CMakeFiles\face_detection.dir\findEyeCenter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/face_detection.dir/findEyeCenter.cpp.s"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\face_detection.dir\findEyeCenter.cpp.s /c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\findEyeCenter.cpp
 <<
 
@@ -151,19 +151,19 @@ CMakeFiles\face_detection.dir\findEyeCenter.cpp.obj.provides.build: CMakeFiles\f
 CMakeFiles\face_detection.dir\helpers.cpp.obj: CMakeFiles\face_detection.dir\flags.make
 CMakeFiles\face_detection.dir\helpers.cpp.obj: ..\helpers.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/face_detection.dir/helpers.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\face_detection.dir\helpers.cpp.obj /FdCMakeFiles\face_detection.dir\ /FS -c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\helpers.cpp
 <<
 
 CMakeFiles\face_detection.dir\helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/face_detection.dir/helpers.cpp.i"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\helpers.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\helpers.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\helpers.cpp
 <<
 
 CMakeFiles\face_detection.dir\helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/face_detection.dir/helpers.cpp.s"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\face_detection.dir\helpers.cpp.s /c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\helpers.cpp
 <<
 
@@ -181,19 +181,19 @@ CMakeFiles\face_detection.dir\helpers.cpp.obj.provides.build: CMakeFiles\face_de
 CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.obj: CMakeFiles\face_detection.dir\flags.make
 CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.obj: ..\head_yaw_pitch_row.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/face_detection.dir/head_yaw_pitch_row.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.obj /FdCMakeFiles\face_detection.dir\ /FS -c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\head_yaw_pitch_row.cpp
 <<
 
 CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/face_detection.dir/head_yaw_pitch_row.cpp.i"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\head_yaw_pitch_row.cpp
 <<
 
 CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/face_detection.dir/head_yaw_pitch_row.cpp.s"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.s /c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\head_yaw_pitch_row.cpp
 <<
 
@@ -211,19 +211,19 @@ CMakeFiles\face_detection.dir\head_yaw_pitch_row.cpp.obj.provides.build: CMakeFi
 CMakeFiles\face_detection.dir\delaunay_triangle.cpp.obj: CMakeFiles\face_detection.dir\flags.make
 CMakeFiles\face_detection.dir\delaunay_triangle.cpp.obj: ..\delaunay_triangle.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/face_detection.dir/delaunay_triangle.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\face_detection.dir\delaunay_triangle.cpp.obj /FdCMakeFiles\face_detection.dir\ /FS -c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\delaunay_triangle.cpp
 <<
 
 CMakeFiles\face_detection.dir\delaunay_triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/face_detection.dir/delaunay_triangle.cpp.i"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\delaunay_triangle.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\delaunay_triangle.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\delaunay_triangle.cpp
 <<
 
 CMakeFiles\face_detection.dir\delaunay_triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/face_detection.dir/delaunay_triangle.cpp.s"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\face_detection.dir\delaunay_triangle.cpp.s /c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\delaunay_triangle.cpp
 <<
 
@@ -241,19 +241,19 @@ CMakeFiles\face_detection.dir\delaunay_triangle.cpp.obj.provides.build: CMakeFil
 CMakeFiles\face_detection.dir\data_output.cpp.obj: CMakeFiles\face_detection.dir\flags.make
 CMakeFiles\face_detection.dir\data_output.cpp.obj: ..\data_output.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/face_detection.dir/data_output.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\face_detection.dir\data_output.cpp.obj /FdCMakeFiles\face_detection.dir\ /FS -c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\data_output.cpp
 <<
 
 CMakeFiles\face_detection.dir\data_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/face_detection.dir/data_output.cpp.i"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\data_output.cpp.i @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe > CMakeFiles\face_detection.dir\data_output.cpp.i @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\data_output.cpp
 <<
 
 CMakeFiles\face_detection.dir\data_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/face_detection.dir/data_output.cpp.s"
-	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\cl.exe @<<
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\face_detection.dir\data_output.cpp.s /c D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\data_output.cpp
 <<
 
@@ -307,11 +307,11 @@ face_detection.exe: C:\opencv\build\x64\vc15\lib\opencv_world341.lib
 face_detection.exe: C:\opencv\build\x64\vc15\lib\opencv_world341.lib
 face_detection.exe: C:\opencv\build\x64\vc15\lib\opencv_world341.lib
 face_detection.exe: C:\opencv\build\x64\vc15\lib\opencv_world341.lib
-face_detection.exe: dlib_build\dlib19.10.0_release_64bit_msvc1911.lib
+face_detection.exe: dlib_build\dlib19.10.0_release_64bit_msvc1910.lib
 face_detection.exe: CMakeFiles\face_detection.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable face_detection.exe"
-	"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\face_detection.dir --manifests  -- C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x64\link.exe /nologo @CMakeFiles\face_detection.dir\objects1.rsp @<<
- /out:face_detection.exe /implib:face_detection.lib /pdb:D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\face_detection.pdb /version:0.0  /machine:x64 /INCREMENTAL:NO /subsystem:console C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib dlib_build\dlib19.10.0_release_64bit_msvc1911.lib ws2_32.lib winmm.lib comctl32.lib gdi32.lib imm32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\face_detection.dir --manifests  -- C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1410~1.250\bin\HostX86\x64\link.exe /nologo @CMakeFiles\face_detection.dir\objects1.rsp @<<
+ /out:face_detection.exe /implib:face_detection.lib /pdb:D:\OneDrive\CS\CS160\cs160_stackoverflow\face_detection_win\cmake-build-release\face_detection.pdb /version:0.0  /machine:x64 /INCREMENTAL:NO /subsystem:console C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib C:\opencv\build\x64\vc15\lib\opencv_world341.lib dlib_build\dlib19.10.0_release_64bit_msvc1910.lib ws2_32.lib winmm.lib comctl32.lib gdi32.lib imm32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.

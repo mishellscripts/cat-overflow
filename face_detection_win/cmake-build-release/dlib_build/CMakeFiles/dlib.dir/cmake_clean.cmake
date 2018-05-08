@@ -130,8 +130,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.obj"
   "CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.obj"
   "CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.obj"
-  "dlib19.10.0_release_64bit_msvc1911.pdb"
-  "dlib19.10.0_release_64bit_msvc1911.lib"
+  "dlib19.10.0_release_64bit_msvc1910.pdb"
+  "dlib19.10.0_release_64bit_msvc1910.lib"
 )
 
 # Per-language clean rules from dependency scanning.
