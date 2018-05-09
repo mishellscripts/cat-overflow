@@ -22,7 +22,7 @@ $ npm install
 ```bash
 $ php artisan storage:link
 ```
-> **Note:** If getting error message "The public/storage" directory already exists at this step, simply remove the public/storage directory.
+> **Note:** If getting error message "The public/storage directory already exists" at this step, simply remove the public/storage directory to proceed.
 4. Start the server
 ```bash
 $ php artisan serve
@@ -34,9 +34,9 @@ $ php artisan serve
   ```bash
   $ npm run watch
   ```
-* Sessions would be stored in storage/framework/sessions with the session id as the file name. The URL with the encrypted session identifier token to maintain state is included in the file but invisible to the user.
+* Sessions would be stored in storage/framework/sessions with the session id as the file name. The URL with the encrypted session identifier token to maintain state is included in the file but invisible to the user (not appended to the URL).
 * Image extraction not working? Try the following:
-    * Check the following configuration in the constructor of OriginalVideoController.php and make sure the FFmpeg is configured correctly according to where you've installed it.
+    * Check the following configuration in the constructor of OriginalVideoController.php and make sure the FFmpeg is configured correctly according to where it is installed.
       
       ```
       public $ffmpeg_path;
@@ -54,4 +54,4 @@ $ php artisan serve
             }
       }
       ```
-    * Make sure that opencv binary path '<DOWNLOAD_PATH>\opencv\build\x64\vc15\bin' is in your PATH environment variable.
+    * Check that theh OpenCV binary path '<DOWNLOAD_PATH>\opencv\build\x64\vc15\bin' is in your PATH environment variable.
