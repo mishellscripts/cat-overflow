@@ -11,7 +11,7 @@ std::vector<Dual_Points> eye_detection(cv::Mat &frame,
                                        std::vector<std::pair<cv::Rect, cv::Rect>> &eyes_regions);
 
 // draw small circle on eye pupils
-void draw_eye_center(cv::Mat &img, const std::vector<Dual_Points> &p);
+void draw_eye_center(cv::Mat &img, const std::vector<Dual_Points> &p, const std::vector<dlib::full_object_detection> &shapes);
 
 // return: Dual_Points -- left eye and right eye's location for each face in an image
 // find eye pupils

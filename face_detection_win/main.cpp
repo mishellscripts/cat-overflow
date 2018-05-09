@@ -261,7 +261,7 @@ void process_image(Mat &img, frontal_face_detector &detector, shape_predictor &s
 
     // draw to the image
     draw_delaunay_triangles(shapes, img);
-    draw_eye_center(img, eyes);
+    draw_eye_center(img, eyes, shapes);
     draw_head_posting(img, heads);
 
     output_face_landmarks(shapes, json.first);

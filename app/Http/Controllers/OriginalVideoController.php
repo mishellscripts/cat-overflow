@@ -155,8 +155,14 @@ class OriginalVideoController extends Controller
         }
 
         $cwd = getcwd();
-        chdir("$cwd/../face_detection_win/cmake-build-release");
-        exec("face_detection.exe ../../storage/app/public/original_images/$id ../../storage/app/public/processed_images/$id $id");
+        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+          chdir("$cwd/../face_detection_win/cmake-build-release");
+          exec("face_detection.exe ../../storage/app/public/original_images/$id ../../storage/app/public/processed_images/$id $id");
+        } else {
+          chdir("$cwd/../face_detection_win/build");
+          exec("./face_detection ../../storage/app/public/original_images/$id ../../storage/app/public/processed_images/$id $id");
+        }
+
         chdir($cwd);
 
         $this->storeImageData($id);

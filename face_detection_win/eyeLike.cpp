@@ -9,6 +9,7 @@
 #include <queue>
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 #include "eyeLike.h"
 #include "constants.h"
@@ -17,6 +18,8 @@
 using namespace std;
 using namespace cv;
 using namespace dlib;
+
+#define PI 3.14159265
 
 
 
@@ -60,13 +63,55 @@ std::vector<Dual_Points> eye_detection(cv::Mat &frame,
 }
 
 // draw small circle on eye pupils
-void draw_eye_center(cv::Mat &img, const std::vector<Dual_Points> &p)
+void draw_eye_center(cv::Mat &img, const std::vector<Dual_Points> &p, const std::vector<full_object_detection> &shapes)
 {
     for (int i = 0; i < p.size(); i++)
     {
         cv::circle(img, p[i].point1, 3, cv::Scalar(255, 255, 255));
         cv::circle(img, p[i].point2, 3, cv::Scalar(255, 255, 255));
-    }
+
+        int mouthX = shapes[i].part(9).x();
+        int mouthY = shapes[i].part(9).y();
+        int length = abs(p[i].point2.y - mouthY) * 0.6;
+
+        int leftEarX =  mouthX - 2 * abs(p[i].point1.x - mouthX);
+        int rightEarX = mouthX + 2 * abs(p[i].point2.x - mouthX);
+        int leftEarY =  mouthY - 2 * abs(p[i].point1.y - mouthY);
+        int rightEarY = mouthY - 2 * abs(p[i].point2.y - mouthY);
+
+        double lAngle = atan(1.0 * abs(p[i].point1.x - mouthX) / abs(p[i].point1.y - mouthY));
+        int left1dx = length * sin(lAngle  - 15 * PI / 180);
+        int left1dy = length * cos(lAngle  - 15 * PI / 180);
+        int left2dx = length * sin(lAngle  + 15 * PI / 180);
+        int left2dy = length * cos(lAngle  + 15 * PI / 180);
+
+        double rAngle = atan(1.0 * abs(p[i].point2.x - mouthX) / abs(p[i].point2.y - mouthY));
+        int right1dx = length * sin(rAngle  - 15 * PI / 180);
+        int right1dy = length * cos(rAngle  - 15 * PI / 180);
+        int right2dx = length * sin(rAngle  + 15 * PI / 180);
+        int right2dy = length * cos(rAngle  + 15 * PI / 180);
+
+        int wlength = abs(p[i].point2.y - mouthY) * 0.1;
+
+        int thickness = 5;
+        cv::Scalar color = cv::Scalar(255, 255, 0);
+
+        // draw ears
+        cv::line(img, cv::Point2i(leftEarX + left1dx, leftEarY + left1dy), cv::Point2i(leftEarX, leftEarY), color, thickness);
+        cv::line(img, cv::Point2i(leftEarX + left2dx, leftEarY + left2dy), cv::Point2i(leftEarX, leftEarY), color, thickness);
+        cv::line(img, cv::Point2i(rightEarX - right1dx, rightEarY + right1dy), cv::Point2i(rightEarX, leftEarY), color, thickness);
+        cv::line(img, cv::Point2i(rightEarX - right2dx, rightEarY + right2dy), cv::Point2i(rightEarX, leftEarY), color, thickness);
+
+        //draw whiskers
+        cv::line(img, cv::Point2i(shapes[i].part(48).x() - 0.5 * wlength, shapes[i].part(48).y() - wlength), cv::Point2i(shapes[i].part(2).x(), shapes[i].part(2).y()), color, thickness);
+        cv::line(img, cv::Point2i(shapes[i].part(48).x() - 0.5 * wlength, shapes[i].part(48).y()), cv::Point2i(shapes[i].part(3).x(), shapes[i].part(3).y()), color, thickness);
+        cv::line(img, cv::Point2i(shapes[i].part(48).x() - 0.5 * wlength, shapes[i].part(48).y() + wlength), cv::Point2i(shapes[i].part(4).x(), shapes[i].part(4).y()), color, thickness);
+
+        cv::line(img, cv::Point2i(shapes[i].part(54).x() + 0.5 * wlength, shapes[i].part(54).y() - wlength), cv::Point2i(shapes[i].part(14).x(), shapes[i].part(14).y()), color, thickness);
+        cv::line(img, cv::Point2i(shapes[i].part(54).x() + 0.5 * wlength, shapes[i].part(54).y()), cv::Point2i(shapes[i].part(13).x(), shapes[i].part(13).y()), color, thickness);
+        cv::line(img, cv::Point2i(shapes[i].part(54).x() + 0.5 * wlength, shapes[i].part(54).y() + wlength), cv::Point2i(shapes[i].part(12).x(), shapes[i].part(12).y()), color, thickness);
+
+  }
 }
 
 // return: Dual_Points -- left eye and right eye's location for each face in an image
