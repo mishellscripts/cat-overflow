@@ -18,7 +18,7 @@ $ composer install
 ```bash
 $ npm install
 ```
-3. **Important!** Run this command to create symbolic link between public/storage and storage/app/public. This is needed for FFmpeg image extraction command.
+3. **Important!** Run this command to create symbolic link between public/storage and storage/app/public. This is needed for all steps of the video processing pipeline.
 ```bash
 $ php artisan storage:link
 ```
