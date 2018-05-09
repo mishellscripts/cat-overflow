@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 use Phaza\LaravelPostgis\Geometries\Point;
 use FFMpeg;
+use DB;
 
 class OriginalVideoController extends Controller
 {
@@ -222,12 +223,16 @@ class OriginalVideoController extends Controller
     {
         $video = OriginalVideo::findOrFail($id);
 
-        if ($video->delete()) {
-          Storage::disk('local')->delete('public/original_videos/'.$id.'.mp4');
-          Storage::disk('local')->delete('public/processed_videos/'.$id.'.mp4');
-          Storage::deleteDirectory('public/original_images/'.$id);
-          Storage::deleteDirectory('public/processed_images/'.$id);
-          return response('Video removed successfully.', 200);
+        if ($video) {
+            DB::table('images')
+            ->where(['video_id'=>$id])
+            ->delete();
+            $video->delete();
+            Storage::disk('local')->delete('public/original_videos/'.$id.'.mp4');
+            Storage::disk('local')->delete('public/processed_videos/'.$id.'.mp4');
+            Storage::deleteDirectory('public/original_images/'.$id);
+            Storage::deleteDirectory('public/processed_images/'.$id);
+            return response('Video removed successfully.', 200);
         }
 
         return response('Failed to remove video', 400);
