@@ -69954,12 +69954,14 @@ var FileUploader = function (_Component) {
       this.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FETCHING });
       if (this.state.video.size <= 2000000) {
         this.fileUpload(e.target.name.value, this.state.video).then(function (response) {
-          console.log(response.data);
           _this2.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].SUCCESSFUL });
           _this2.props.handleSuccess();
         }).catch(function (error) {
-          // console.log(error);
-          _this2.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FAILURE, error: error.response.data });
+          var message = error.response.data;
+          _this2.setState({
+            status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FAILURE,
+            error: typeof message === 'string' ? message : "Time out."
+          });
         });
       } else {
         this.setState({ status: __WEBPACK_IMPORTED_MODULE_3__util_status__["a" /* status */].FAILURE, error: 'File size too large. Max file size is 2 MB.' });
