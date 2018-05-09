@@ -1,5 +1,5 @@
 # Cat Overflow
-Team Stack Overflow
+Team Stack Overflow \
 Rui Li, Zihang Ruan, Rakesh Konda, Michelle Song
 
 ## Prerequisites
